@@ -1,4 +1,4 @@
-# finditguide
+# finditguide.com
 The Find-It Guide WordPress repo
 
 # version
