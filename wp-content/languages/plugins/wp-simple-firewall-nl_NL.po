@@ -1,0 +1,72 @@
+# Translation of Plugins - Shield Security - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Shield Security - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-05-08 09:28:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Shield Security - Stable (latest release)\n"
+
+#: src/features/base.php:988
+msgid "Watch Help Video"
+msgstr "Bekijk de hulpvideo"
+
+#. Plugin Name of the plugin/theme
+msgid "Shield Security"
+msgstr "Schildbeveiliging"
+
+#. Description of the plugin/theme
+msgid "Powerful, Easy-To-Use #1 Rated WordPress Security System"
+msgstr "Krachtig, makkelijk te gebruiken #1 gekozen WordPress beveiligingssysteem"
+
+#: src/features/base.php:987
+msgid "Save All Settings"
+msgstr "Sla alle instellingen op"
+
+#: src/features/base.php:986
+msgid "Plugin Activated Features Summary:"
+msgstr "Samenvatting van geactiveerde kenmerken van de plugin:"
+
+#: src/features/base.php:985
+msgid "Blog"
+msgstr "Site"
+
+#: src/features/base.php:984
+msgid "More Info"
+msgstr "Meer Informatie"
+
+#: src/features/base.php:983
+msgid "Off"
+msgstr "Uit"
+
+#: src/features/base.php:982
+msgid "On"
+msgstr "Aan"
+
+#: src/features/base.php:981
+msgid "Settings"
+msgstr "Configuratie"
+
+#. Author URI of the plugin/theme
+msgid "http://icwp.io/2e"
+msgstr "http://icwp.io/2e"
+
+#. Author of the plugin/theme
+msgid "iControlWP"
+msgstr "iControlWP"
+
+#. Plugin URI of the plugin/theme
+msgid "http://icwp.io/2f"
+msgstr "http://icwp.io/2f"
+
+#: src/processors/loginprotect_wplogin.php:61
+msgid "Permalinks"
+msgstr "Permalinks"
+
+#: src/processors/base_plugin.php:59 src/processors/base_plugin.php:87
+msgid "Support Forums"
+msgstr "Support Forums"

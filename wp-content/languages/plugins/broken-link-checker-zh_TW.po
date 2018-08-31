@@ -1,0 +1,1745 @@
+# Translation of Plugins - Broken Link Checker - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Broken Link Checker - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-20 04:07:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Broken Link Checker - Stable (latest release)\n"
+
+#: core/core.php:111
+msgid "Every 10 minutes"
+msgstr "每 10 分鐘"
+
+#: core/core.php:1431
+msgid "Enter the keys of acf fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_586a3eaa4091b</code>."
+msgstr "輸入需要檢查的 ACF 自訂欄位索引碼 (每行一個)。如果欄位內容包含 HTML 程式碼，請在欄位索引碼前加上前置詞 <code>html:</code>。舉例來說，如果自訂欄位索引碼為 field_586a3eaa4091b，且該欄位內容包含 HTML 程式碼，則應輸入 <code>html:field_586a3eaa4091b</code>。"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/broken-link-checker/"
+msgstr "https://wordpress.org/plugins/broken-link-checker/"
+
+#. Author of the plugin/theme
+msgid "Janis Elsts, Vladimir Prelovac"
+msgstr "Janis Elsts 和 Vladimir Prelovac"
+
+#: includes/any-post.php:614 modules/containers/acf_field.php:341
+#: modules/containers/custom_field.php:336
+msgid "Can't move post \"%s\" (%d) to the trash because the trash feature is disabled"
+msgstr "由於停用了 [回收桶] 功能，所以無法將文章《%s》(%d) 移至回收桶"
+
+#: includes/any-post.php:634 modules/containers/acf_field.php:353
+#: modules/containers/custom_field.php:355
+msgid "Failed to move post \"%s\" (%d) to the trash"
+msgstr "無法將文章《%s》(%d) 移至回收桶"
+
+#: includes/any-post.php:742
+msgid "%d post deleted."
+msgid_plural "%d posts deleted."
+msgstr[0] "已刪除 %d 篇文章。"
+
+#: includes/any-post.php:744
+msgid "%d page deleted."
+msgid_plural "%d pages deleted."
+msgstr[0] "已刪除 %d 個頁面。"
+
+#: includes/any-post.php:746
+msgid "%d \"%s\" deleted."
+msgid_plural "%d \"%s\" deleted."
+msgstr[0] "已刪除 %d 個「%s」。"
+
+#: includes/any-post.php:765
+msgid "%d post moved to the Trash."
+msgid_plural "%d posts moved to the Trash."
+msgstr[0] "已將 %d 篇文章移至回收桶。"
+
+#: includes/any-post.php:767
+msgid "%d page moved to the Trash."
+msgid_plural "%d pages moved to the Trash."
+msgstr[0] "已將 %d 個頁面移至回收桶。"
+
+#: includes/any-post.php:769
+msgid "%d \"%s\" moved to the Trash."
+msgid_plural "%d \"%s\" moved to the Trash."
+msgstr[0] "已將 %d 個「%s」移至回收桶。"
+
+#: includes/containers.php:122
+msgid "%d '%s' has been deleted"
+msgid_plural "%d '%s' have been deleted"
+msgstr[0] "已刪除 %d 個「%s」"
+
+#: includes/containers.php:888 includes/containers.php:906
+msgid "Container type '%s' not recognized"
+msgstr "容器類型 %s 無法識別"
+
+#: includes/extra-strings.php:2
+msgctxt "module name"
+msgid "Basic HTTP"
+msgstr "基本 HTTP"
+
+#: includes/extra-strings.php:3
+msgctxt "module name"
+msgid "Blogroll items"
+msgstr "Blogroll 項目"
+
+#: includes/extra-strings.php:4
+msgctxt "module name"
+msgid "Comments"
+msgstr "留言"
+
+#: includes/extra-strings.php:5
+msgctxt "module name"
+msgid "Custom fields"
+msgstr "自訂欄位"
+
+#: includes/extra-strings.php:6
+msgctxt "module name"
+msgid "Embedded DailyMotion videos"
+msgstr "嵌入的 DailyMotion 影片"
+
+#: includes/extra-strings.php:7
+msgctxt "module name"
+msgid "Embedded GoogleVideo videos"
+msgstr "嵌入的 Google Video 影片"
+
+#: includes/extra-strings.php:8
+msgctxt "module name"
+msgid "Embedded Vimeo videos"
+msgstr "嵌入的 Vimeo 影片"
+
+#: includes/extra-strings.php:9
+msgctxt "module name"
+msgid "Embedded YouTube playlists (old embed code)"
+msgstr "嵌入的 YouTube 播放清單 (舊版嵌入碼)"
+
+#: includes/extra-strings.php:10
+msgctxt "module name"
+msgid "Embedded YouTube videos"
+msgstr "嵌入的 YouTube 影片"
+
+#: includes/extra-strings.php:11
+msgctxt "module name"
+msgid "Embedded YouTube videos (old embed code)"
+msgstr "嵌入的 YouTube 影片  (舊版嵌入碼)"
+
+#: includes/extra-strings.php:12
+msgctxt "module name"
+msgid "HTML images"
+msgstr "HTML 圖片"
+
+#: includes/extra-strings.php:13
+msgctxt "module name"
+msgid "HTML links"
+msgstr "HTML 連結"
+
+#: includes/extra-strings.php:14
+msgctxt "module name"
+msgid "MediaFire API"
+msgstr "MediaFire API"
+
+#: includes/extra-strings.php:15
+msgctxt "module name"
+msgid "Plaintext URLs"
+msgstr "純文字網址"
+
+#: includes/extra-strings.php:16
+msgctxt "module name"
+msgid "RapidShare API"
+msgstr "RapidShare API"
+
+#: includes/extra-strings.php:17
+msgctxt "module name"
+msgid "Smart YouTube httpv:// URLs"
+msgstr "智慧型 YouTube (通訊協定為 httpv 的網址)"
+
+#: includes/extra-strings.php:18
+msgctxt "module name"
+msgid "YouTube API"
+msgstr "YouTube API"
+
+#: includes/extra-strings.php:19
+msgctxt "module name"
+msgid "Posts"
+msgstr "文章"
+
+#: includes/extra-strings.php:20
+msgctxt "module name"
+msgid "Pages"
+msgstr "頁面"
+
+#: includes/instances.php:105 includes/instances.php:161
+msgid "Container %s[%d] not found"
+msgstr "找不到 %s [%d] 容器"
+
+#: includes/instances.php:114 includes/instances.php:170
+msgid "Parser '%s' not found."
+msgstr "找不到 %s 剖析器"
+
+#: includes/link-query.php:25
+msgid "All"
+msgstr "所有"
+
+#: includes/link-query.php:26
+msgid "Detected Links"
+msgstr "檢測到的連結"
+
+#: includes/link-query.php:27
+msgid "No links found (yet)"
+msgstr "找不到任何連結"
+
+#: includes/link-query.php:36
+msgid "Broken"
+msgstr "中斷"
+
+#: includes/link-query.php:38
+msgid "No broken links found"
+msgstr "找不到中斷的連結"
+
+#: includes/link-query.php:46
+msgctxt "filter name"
+msgid "Warnings"
+msgstr "警示"
+
+#: includes/link-query.php:47
+msgid "Warnings"
+msgstr "警示"
+
+#: includes/link-query.php:48
+msgid "No warnings found"
+msgstr "找不到任何警示"
+
+#: includes/link-query.php:56
+msgid "Redirects"
+msgstr "重新導向"
+
+#: includes/link-query.php:57
+msgid "Redirected Links"
+msgstr "重新導向的連結"
+
+#: includes/link-query.php:58
+msgid "No redirects found"
+msgstr "找不到重新導向"
+
+#: includes/link-query.php:66
+msgid "Dismissed"
+msgstr "已屏蔽"
+
+#: includes/link-query.php:67
+msgid "Dismissed Links"
+msgstr "已屏蔽的連結"
+
+#: includes/link-query.php:68
+msgid "No dismissed links found"
+msgstr "找不到已屏蔽的連結"
+
+#: includes/link-query.php:82
+msgid "Search Results"
+msgstr "搜尋結果"
+
+#: includes/link-query.php:83 includes/link-query.php:130
+msgid "No links found for your query"
+msgstr "找不到使用者查詢的連結"
+
+#: includes/links.php:224
+msgid "The plugin script was terminated while trying to check the link."
+msgstr "嘗試檢查該連結時，外掛指令碼意外終止。"
+
+#: includes/links.php:271
+msgid "The plugin doesn't know how to check this type of link."
+msgstr "此外掛無法檢查這種類型的連結。"
+
+#: includes/links.php:502
+msgid "Link is broken."
+msgstr "連結中斷。"
+
+#: includes/links.php:504
+msgid "Link is valid."
+msgstr "連結有效。"
+
+#: includes/links.php:733 includes/links.php:835 includes/links.php:869
+msgid "Link is not valid"
+msgstr "連結失效"
+
+#: includes/links.php:750
+msgid "This link can not be edited because it is not used anywhere on this site."
+msgstr "此連結並未在本網站使用，所以無法進行編輯。"
+
+#: includes/links.php:776
+msgid "Failed to create a DB entry for the new URL."
+msgstr "無法在資料庫中為新網址建立資料。"
+
+#: includes/links.php:842
+msgid "This link is not a redirect"
+msgstr "這個連結不是重新導向"
+
+#: includes/links.php:896 includes/links.php:933
+msgid "Couldn't delete the link's database record"
+msgstr "無法刪除該連結在資料庫中的記錄"
+
+#: includes/links.php:1007
+msgctxt "link status"
+msgid "Unknown"
+msgstr "未知"
+
+#: includes/links.php:1020 modules/checkers/http.php:316
+#: modules/extras/mediafire.php:115 modules/extras/youtube.php:132
+#: modules/extras/youtube.php:229
+msgid "Unknown Error"
+msgstr "未知的錯誤"
+
+#: includes/links.php:1044
+msgid "Not checked"
+msgstr "不檢查"
+
+#: includes/links.php:1047
+msgid "False positive"
+msgstr "誤判"
+
+#: includes/links.php:1050 modules/extras/rapidshare.php:145
+#: modules/extras/rapidshare.php:151 modules/extras/rapidshare.php:178
+#: modules/extras/youtube.php:138 modules/extras/youtube.php:215
+msgctxt "link status"
+msgid "OK"
+msgstr "確定"
+
+#: includes/parsers.php:117
+msgid "Editing is not implemented in the '%s' parser"
+msgstr "無法在 '%s' 剖析器中進行編輯"
+
+#: includes/parsers.php:132
+msgid "Unlinking is not implemented in the '%s' parser"
+msgstr "無法在 '%s' 剖析器中解除連結"
+
+#: includes/utility-class.php:246
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d 秒"
+
+#: includes/utility-class.php:247
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "%d 秒前"
+
+#: includes/utility-class.php:250
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d 分鐘"
+
+#: includes/utility-class.php:251
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d 分鐘前"
+
+#: includes/utility-class.php:254
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d 個小時"
+
+#: includes/utility-class.php:255
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d 個小時前"
+
+#: includes/utility-class.php:258
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d 天"
+
+#: includes/utility-class.php:259
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d 天前"
+
+#: includes/utility-class.php:262
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "%d 個月"
+
+#: includes/utility-class.php:263
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d 個月前"
+
+#: modules/checkers/http.php:293
+msgid "Server Not Found"
+msgstr "找不到伺服器"
+
+#: modules/checkers/http.php:309
+msgid "Connection Failed"
+msgstr "連線失敗"
+
+#: modules/checkers/http.php:357 modules/checkers/http.php:439
+msgid "HTTP code : %d"
+msgstr "HTTP 狀態碼: %d"
+
+#: modules/checkers/http.php:359 modules/checkers/http.php:441
+msgid "(No response)"
+msgstr "(無回應)"
+
+#: modules/checkers/http.php:377
+msgid "Most likely the connection timed out or the domain doesn't exist."
+msgstr "最有可能的原因是是連線逾時或該網域不存在。"
+
+#: modules/checkers/http.php:448
+msgid "Request timed out."
+msgstr "要求逾時。"
+
+#: modules/checkers/http.php:466
+msgid "Using Snoopy"
+msgstr "使用 Snoopy"
+
+#: modules/containers/blogroll.php:21
+msgid "Bookmark"
+msgstr "書籤"
+
+#: modules/containers/blogroll.php:27 modules/containers/blogroll.php:46
+msgid "Edit this bookmark"
+msgstr "編輯此書籤"
+
+#: modules/containers/blogroll.php:47
+msgid ""
+"You are about to delete this link '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"即將刪除連結 %s。\n"
+"點擊 [取消] 停止刪除程序，點擊 [確定] 進行刪除。"
+
+#: modules/containers/blogroll.php:97
+msgid "Updating bookmark %d failed"
+msgstr "無法更新書籤 %d"
+
+#: modules/containers/blogroll.php:128
+msgid "Failed to delete blogroll link \"%s\" (%d)"
+msgstr "無法刪除《%s》(%d) 這個友站連結"
+
+#: modules/containers/blogroll.php:298
+msgid "%d blogroll link deleted."
+msgid_plural "%d blogroll links deleted."
+msgstr[0] "已刪除 %d 個友站連結。"
+
+#: modules/containers/comment.php:53
+msgid "Updating comment %d failed"
+msgstr "無法更新留言 %d"
+
+#: modules/containers/comment.php:74
+msgid "Failed to delete comment %d"
+msgstr "無法刪除留言 %d"
+
+#: modules/containers/comment.php:95
+msgid "Can't move comment %d to the trash"
+msgstr "無法將留言 %d 移至回收桶"
+
+#: modules/containers/comment.php:159 modules/containers/comment.php:201
+msgid "Edit comment"
+msgstr "編輯留言"
+
+#: modules/containers/comment.php:166
+msgid "Delete Permanently"
+msgstr "永久刪除"
+
+#: modules/containers/comment.php:168
+msgid "Move this comment to the trash"
+msgstr "將這篇留言移至回收桶"
+
+#: modules/containers/comment.php:168
+msgctxt "verb"
+msgid "Trash"
+msgstr "移至回收桶"
+
+#: modules/containers/comment.php:172
+msgid "View comment"
+msgstr "檢視留言"
+
+#: modules/containers/comment.php:189
+msgid "Comment"
+msgstr "留言"
+
+#: modules/containers/comment.php:364
+msgid "%d comment has been deleted."
+msgid_plural "%d comments have been deleted."
+msgstr[0] "已刪除 %d 則留言。"
+
+#: modules/containers/comment.php:383
+msgid "%d comment moved to the Trash."
+msgid_plural "%d comments moved to the Trash."
+msgstr[0] "已將 %d 則留言移至回收桶。"
+
+#: modules/containers/acf_field.php:102 modules/containers/custom_field.php:85
+msgid "Failed to update the meta field '%s' on %s [%d]"
+msgstr "無法更新中繼資料欄位「%s」(%s [%d])"
+
+#: modules/containers/acf_field.php:132 modules/containers/custom_field.php:115
+msgid "Failed to delete the meta field '%s' on %s [%d]"
+msgstr "無法刪除中繼資料欄位「%s」(%s [%d])"
+
+#: modules/containers/acf_field.php:234 modules/containers/custom_field.php:216
+msgid "Edit this post"
+msgstr "編輯這篇文章"
+
+#: modules/containers/acf_field.php:258 modules/containers/custom_field.php:250
+msgid "View \"%s\""
+msgstr "檢視《%s》"
+
+#: modules/containers/dummy.php:34 modules/containers/dummy.php:45
+msgid "I don't know how to edit a '%s' [%d]."
+msgstr "無法編輯 %s [%d]。"
+
+#: modules/extras/dailymotion-embed.php:23
+msgid "DailyMotion Video"
+msgstr "DailyMotion 影片"
+
+#: modules/extras/dailymotion-embed.php:24
+msgid "Embedded DailyMotion video"
+msgstr "嵌入的 DailyMotion 影片"
+
+#: modules/extras/embed-parser-base.php:197
+msgid "Embedded videos can't be edited using Broken Link Checker. Please edit or replace the video in question manually."
+msgstr "嵌入的影片無法透過 Broken Link Checker 進行編輯。請手動編輯或更換有問題的影片。"
+
+#: modules/extras/googlevideo-embed.php:24
+msgid "GoogleVideo Video"
+msgstr "Vimeo 影片"
+
+#: modules/extras/googlevideo-embed.php:25
+msgid "Embedded GoogleVideo video"
+msgstr "嵌入的 Google Video 影片"
+
+#: modules/extras/mediafire.php:97 modules/extras/mediafire.php:103
+#: modules/extras/rapidshare.php:139
+msgid "Not Found"
+msgstr "找不到"
+
+#: modules/extras/mediafire.php:109
+msgid "Permission Denied"
+msgstr "沒有使用權限"
+
+#: modules/extras/rapidshare.php:51
+msgid "Using RapidShare API"
+msgstr "使用 RapidShare API"
+
+#: modules/extras/rapidshare.php:158
+msgid "RS Server Down"
+msgstr "RapidShare 伺服器已離線"
+
+#: modules/extras/rapidshare.php:165
+msgid "File Blocked"
+msgstr "檔案遭到封鎖"
+
+#: modules/extras/rapidshare.php:172
+msgid "File Locked"
+msgstr "檔案遭到鎖定"
+
+#: modules/extras/rapidshare.php:183
+msgid "RapidShare : %s"
+msgstr "RapidShare: %s"
+
+#: modules/extras/rapidshare.php:189
+msgid "RapidShare API error: %s"
+msgstr "RapidShare API 錯誤: %s"
+
+#: modules/extras/vimeo-embed.php:24
+msgid "Vimeo Video"
+msgstr "Vimeo 影片"
+
+#: modules/extras/vimeo-embed.php:25
+msgid "Embedded Vimeo video"
+msgstr "嵌入的 Vimeo 影片"
+
+#: modules/extras/youtube-embed.php:24 modules/extras/youtube-iframe.php:25
+msgid "YouTube Video"
+msgstr "YouTube 影片"
+
+#: modules/extras/youtube-embed.php:25 modules/extras/youtube-iframe.php:26
+msgid "Embedded YouTube video"
+msgstr "嵌入的 YouTube 影片"
+
+#: modules/extras/youtube-playlist-embed.php:24
+msgid "YouTube Playlist"
+msgstr "YouTube 播放清單"
+
+#: modules/extras/youtube-playlist-embed.php:25
+msgid "Embedded YouTube playlist"
+msgstr "嵌入的 YouTube 播放清單"
+
+#: modules/extras/youtube.php:137
+msgid "Video OK"
+msgstr "影片正常"
+
+#: modules/extras/youtube.php:149 modules/extras/youtube.php:152
+msgid "Video Not Found"
+msgstr "找不到影片"
+
+#: modules/extras/youtube.php:171 modules/extras/youtube.php:174
+msgid "Playlist Not Found"
+msgstr "找不到播放清單"
+
+#: modules/extras/youtube.php:181
+msgid "Playlist Restricted"
+msgstr "限制的播放清單"
+
+#: modules/extras/youtube.php:188
+msgid "This playlist has no entries or all entries have been deleted."
+msgstr "這份播放清單內沒有項目可供播放，也可能是播放項目全部遭到刪除。"
+
+#: modules/extras/youtube.php:189
+msgctxt "link status"
+msgid "Empty Playlist"
+msgstr "清空播放清單"
+
+#: modules/extras/youtube.php:199
+msgid "Video status : %s%s"
+msgstr "影片狀態: %s%s"
+
+#: modules/extras/youtube.php:205
+msgid "Video Restricted"
+msgstr "限制的影片"
+
+#: modules/extras/youtube.php:214
+msgid "Playlist OK"
+msgstr "播放清單正常"
+
+#: modules/extras/youtube.php:263
+msgid "Unknown YouTube API response received."
+msgstr "收到未知的 YouTube API 回應。"
+
+#: modules/parsers/image.php:186
+msgid "Image"
+msgstr "圖片"
+
+#: modules/parsers/acf_field.php:120 modules/parsers/metadata.php:119
+msgid "Custom field"
+msgstr "自訂欄位"
+
+#. Description of the plugin/theme
+msgid "Checks your blog for broken links and missing images and notifies you on the dashboard if any are found."
+msgstr "這個外掛會檢查網站中是否含有中斷連結及遺失的圖片，一有結果便會在控制台通知網站管理員。"
+
+#: core/core.php:172 includes/admin/links-page-js.php:45
+msgid "Loading..."
+msgstr "載入中..."
+
+#: core/core.php:196 includes/admin/options-page-js.php:18
+msgid "[ Network error ]"
+msgstr "[網路錯誤]"
+
+#: core/core.php:223
+msgid "Automatically expand the widget if broken links have been detected"
+msgstr "如果檢測到中斷的連結，就自動展開小工具"
+
+#: core/core.php:314
+msgid "Link Checker Settings"
+msgstr "連結檢查程式設定"
+
+#: core/core.php:315
+msgid "Link Checker"
+msgstr "連結檢查程式"
+
+#: core/core.php:320 includes/link-query.php:37
+msgid "Broken Links"
+msgstr "中斷的連結"
+
+#: core/core.php:336
+msgid "View Broken Links"
+msgstr "檢視中斷的連結"
+
+#: core/core.php:351
+msgid "Go to Broken Links"
+msgstr "前往中斷的連結"
+
+#: core/core.php:369
+msgid "Settings"
+msgstr "設定"
+
+#: core/core.php:398 includes/admin/table-printer.php:288
+#: includes/admin/table-printer.php:685
+msgid "Edit URL"
+msgstr "編輯網址"
+
+#: core/core.php:399 includes/admin/links-page-js.php:713
+#: includes/admin/table-printer.php:293 includes/admin/table-printer.php:688
+msgid "Unlink"
+msgstr "取消連結"
+
+#: core/core.php:400 includes/admin/links-page-js.php:111
+#: includes/admin/table-printer.php:694
+msgid "Not broken"
+msgstr "並未中斷"
+
+#: core/core.php:401 includes/admin/table-printer.php:292
+#: includes/admin/table-printer.php:702
+msgid "Dismiss"
+msgstr "屏蔽"
+
+#: core/core.php:402 includes/admin/table-printer.php:289
+#: includes/admin/table-printer.php:714
+msgid "Recheck"
+msgstr "重新檢查"
+
+#: core/core.php:403 includes/admin/table-printer.php:722
+msgctxt "link action; replace one redirect with a direct link"
+msgid "Fix redirect"
+msgstr "修正重新導向"
+
+#: core/core.php:644
+msgid "Settings saved."
+msgstr "設定已儲存。"
+
+#: core/core.php:650
+msgid "Thank you for your donation!"
+msgstr "感謝贊助外掛的開發！"
+
+#: core/core.php:658
+msgid "Complete site recheck started."
+msgstr "已開始重新檢查整個網站的連結。"
+
+#: core/core.php:680
+msgid "General"
+msgstr "一般"
+
+#: core/core.php:681
+msgid "Look For Links In"
+msgstr "連結檢查範圍"
+
+#: core/core.php:682
+msgid "Which Links To Check"
+msgstr "連結檢查類型"
+
+#: core/core.php:683
+msgid "Protocols & APIs"
+msgstr "通訊協定及 API"
+
+#: core/core.php:684
+msgid "Advanced"
+msgstr "進階設定"
+
+#: core/core.php:699
+msgid "Broken Link Checker Options"
+msgstr "Broken Link Checker 選項"
+
+#: core/core.php:741 includes/admin/table-printer.php:211
+msgid "Status"
+msgstr "狀態"
+
+#: core/core.php:743 includes/admin/options-page-js.php:56
+msgid "Show debug info"
+msgstr "顯示除錯資訊"
+
+#: core/core.php:771
+msgid "Check each link"
+msgstr "檢查所有連結"
+
+#: core/core.php:776
+msgid "Every %s hours"
+msgstr "每 %s 個小時"
+
+#: core/core.php:785
+msgid "Existing links will be checked this often. New links will usually be checked ASAP."
+msgstr "現有的連結將以這個頻率檢查，新的連結將會儘快進行檢查。"
+
+#: core/core.php:792
+msgid "E-mail notifications"
+msgstr "電子郵件通知"
+
+#: core/core.php:798
+msgid "Send me e-mail notifications about newly detected broken links"
+msgstr "發現中斷的連結時，傳送電子郵件通知網站管理員"
+
+#: core/core.php:806
+msgid "Send authors e-mail notifications about broken links in their posts"
+msgstr "發現中斷的連結時，傳送電子郵件通知原文作者"
+
+#: core/core.php:813
+msgid "Notification e-mail address"
+msgstr "用於通知的電子郵件地址"
+
+#: core/core.php:825
+msgid "Leave empty to use the e-mail address specified in Settings &rarr; General."
+msgstr "欄位留空代表使用 [設定] &rarr; [一般] 設定頁中的所指定的電子郵件地址。"
+
+#: core/core.php:832
+msgid "Link tweaks"
+msgstr "連結調整"
+
+#: core/core.php:838
+msgid "Apply custom formatting to broken links"
+msgstr "套用自訂樣式至中斷的連結"
+
+#: core/core.php:842 core/core.php:873
+msgid "Edit CSS"
+msgstr "編輯 CSS"
+
+#: core/core.php:858
+msgid "Example : Lorem ipsum <a %s>broken link</a>, dolor sit amet."
+msgstr "範例: 這是<a %s>中斷的連結</a>，請予以刪除。"
+
+#: core/core.php:861 core/core.php:892
+msgid "Click \"Save Changes\" to update example output."
+msgstr "點擊 [儲存變更] 以更新連結樣式。"
+
+#: core/core.php:869
+msgid "Apply custom formatting to removed links"
+msgstr "套用自訂樣式至移除的連結"
+
+#: core/core.php:889
+msgid "Example : Lorem ipsum <span %s>removed link</span>, dolor sit amet."
+msgstr "範例: 這是<span %s>移除的連結</span>，請予以移除。"
+
+#: core/core.php:902
+msgid "Stop search engines from following broken links"
+msgstr "要求搜尋引擎停止追蹤中斷的連結"
+
+#: core/core.php:908
+msgctxt "\"Link tweaks\" settings"
+msgid "These settings only apply to the content of posts, not comments or custom fields."
+msgstr "以上設定僅能套用至文章內容，無法套用至留言或自訂欄位。"
+
+#: core/core.php:919
+msgctxt "settings page"
+msgid "Suggestions"
+msgstr "建議"
+
+#: core/core.php:924
+msgid "Suggest alternatives to broken links"
+msgstr "為中斷的連結建議替代連結"
+
+#: core/core.php:930
+msgctxt "settings page"
+msgid "Warnings"
+msgstr "警示"
+
+#: core/core.php:935
+msgid "Show uncertain or minor problems as \"warnings\" instead of \"broken\""
+msgstr "有點小問題的連結會標示為 [警示] 而非 [中斷]"
+
+#: core/core.php:938
+msgid "Turning off this option will make the plugin report all problems as broken links."
+msgstr "停用這項設定後，外掛會將所有有問題的連結列為<strong>中斷的連結</strong>。"
+
+#: core/core.php:953
+msgid "Look for links in"
+msgstr "需要檢查連結的項目"
+
+#: core/core.php:964
+msgid "Post statuses"
+msgstr "文章狀態"
+
+#: core/core.php:997
+msgid "Link types"
+msgstr "連結類型"
+
+#: core/core.php:1003
+msgid "Error : All link parsers missing!"
+msgstr "錯誤: 遺失所有連結剖析器！"
+
+#: core/core.php:1010
+msgid "Exclusion list"
+msgstr "排除清單"
+
+#: core/core.php:1011
+msgid "Don't check links where the URL contains any of these words (one per line) :"
+msgstr "包含以下字詞的網址，無須進行檢查 (每行一個):"
+
+#: core/core.php:1029
+msgid "Check links using"
+msgstr "選取檢查連結的方式"
+
+#: core/core.php:1048 includes/links.php:1024
+msgid "Timeout"
+msgstr "逾時"
+
+#: core/core.php:1054 core/core.php:1141 core/core.php:3463
+msgid "%s seconds"
+msgstr "%s 秒"
+
+#: core/core.php:1063
+msgid "Links that take longer than this to load will be marked as broken."
+msgstr "超過上述設定時間才能載入的連結，將會標示為中斷的連結。"
+
+#: core/core.php:1070
+msgid "Link monitor"
+msgstr "連結監測"
+
+#: core/core.php:1078
+msgid "Run continuously while the Dashboard is open"
+msgstr "開啟控制台時持續執行"
+
+#: core/core.php:1086
+msgid "Run hourly in the background"
+msgstr "在背景每小時執行一次"
+
+#: core/core.php:1094
+msgid "Show the dashboard widget for"
+msgstr "設定可查看控制台小工具的使用者"
+
+#: core/core.php:1099
+msgctxt "dashboard widget visibility"
+msgid "Administrator"
+msgstr "網站管理員"
+
+#: core/core.php:1100
+msgctxt "dashboard widget visibility"
+msgid "Editor and above"
+msgstr "編輯或更高權限的使用者"
+
+#: core/core.php:1101
+msgctxt "dashboard widget visibility"
+msgid "Nobody (disables the widget)"
+msgstr "不提供查看 (亦即關閉這項小工具)"
+
+#: core/core.php:1117
+msgctxt "settings page"
+msgid "Show link actions"
+msgstr "顯示可進行的連結操作"
+
+#: core/core.php:1135
+msgid "Max. execution time"
+msgstr "最長執行時間"
+
+#: core/core.php:1152
+msgid "The plugin works by periodically launching a background job that parses your posts for links, checks the discovered URLs, and performs other time-consuming tasks. Here you can set for how long, at most, the link monitor may run each time before stopping."
+msgstr "這個外掛會定期在背景工作中執行，不但能剖析文章中的連結、檢查新發現的網址，還會執行其他耗時的工作。網站管理員可以設定每次連結監測工作在執行最長多久後就結束。"
+
+#: core/core.php:1161
+msgid "Server load limit"
+msgstr "伺服器負載限制"
+
+#: core/core.php:1176
+msgid "Current load : %s"
+msgstr "當前負載: %s"
+
+#: core/core.php:1181
+msgid "Link checking will be suspended if the average <a href=\"%s\">server load</a> rises above this number. Leave this field blank to disable load limiting."
+msgstr "檢查連結時，一旦<a href=\"%s\" target=\"_blank\">伺服器負載</a>超過設定值便會逕行終止。欄位留空代表停用負載限制。"
+
+#: core/core.php:1190
+msgid "Not available"
+msgstr "無法使用"
+
+#: core/core.php:1192
+msgid "Load limiting only works on Linux-like systems where <code>/proc/loadavg</code> is present and accessible."
+msgstr "負載限制僅能運作於路徑 <code>/proc/loadavg</code> 存在且可供存取的類 Linux 作業系統。"
+
+#: core/core.php:1200
+msgid "Target resource usage"
+msgstr "目標資源使用狀況"
+
+#: core/core.php:1218
+msgid "Logging"
+msgstr "記錄"
+
+#: core/core.php:1224
+msgid "Enable logging"
+msgstr "啟用記錄"
+
+#: core/core.php:1231
+msgid "Log file location"
+msgstr "記錄檔位置"
+
+#: core/core.php:1240
+msgctxt "log file location"
+msgid "Default"
+msgstr "預設"
+
+#: core/core.php:1254
+msgctxt "log file location"
+msgid "Custom"
+msgstr "自訂"
+
+#: core/core.php:1266
+msgid "Forced recheck"
+msgstr "強制重新檢查"
+
+#: core/core.php:1269
+msgid "Re-check all pages"
+msgstr "重新檢查所有頁面"
+
+#: core/core.php:1273
+msgid "The \"Nuclear Option\". Click this button to make the plugin empty its link database and recheck the entire site from scratch."
+msgstr "此為<strong>高耗能設定</strong>。點擊這個按鈕可讓外掛清空所有的關聯資料表，並重新檢查整個網站的所有連結。"
+
+#: core/core.php:1284
+msgid "Save Changes"
+msgstr "儲存更改"
+
+#: core/core.php:1335
+msgid "Configure"
+msgstr "設定"
+
+#: core/core.php:1417
+msgid "Enter the names of custom fields you want to check (one per line). If a field contains HTML code, prefix its name with <code>html:</code>. For example, <code>html:field_name</code>."
+msgstr "輸入需要檢查的自訂欄位名稱 (每行一個)。如果欄位內容包含 HTML 程式碼，請在欄位名稱前加上前置詞 <code>html:</code>。舉例來說，如果自訂欄位名稱為 iron_man，且該欄位內容包含 HTML 程式碼，則應輸入<code>html:iron_man</code>。"
+
+#: core/core.php:1562 core/core.php:1646 core/core.php:1678
+msgid "Database error : %s"
+msgstr "資料庫錯誤: %s"
+
+#: core/core.php:1627
+msgid "You must enter a filter name!"
+msgstr "必須輸入篩選器名稱！"
+
+#: core/core.php:1631
+msgid "Invalid search query."
+msgstr "無效的搜尋查詢。"
+
+#: core/core.php:1641
+msgid "Filter \"%s\" created"
+msgstr "已建立篩選器「%s」"
+
+#: core/core.php:1668
+msgid "Filter ID not specified."
+msgstr "未指定篩選器 ID"
+
+#: core/core.php:1675
+msgid "Filter deleted"
+msgstr "已刪除篩選器"
+
+#: core/core.php:1722
+msgid "Replaced %d redirect with a direct link"
+msgid_plural "Replaced %d redirects with direct links"
+msgstr[0] "已使用直接連結取代 %d 個重新導向"
+
+#: core/core.php:1733
+msgid "Failed to fix %d redirect"
+msgid_plural "Failed to fix %d redirects"
+msgstr[0] "無法修正 %d 個重新導向"
+
+#: core/core.php:1744
+msgid "None of the selected links are redirects!"
+msgstr "選取的連結中沒有重新導向。"
+
+#: core/core.php:1822
+msgid "%d link updated."
+msgid_plural "%d links updated."
+msgstr[0] "已更新 %d 個連結。"
+
+#: core/core.php:1833
+msgid "Failed to update %d link."
+msgid_plural "Failed to update %d links."
+msgstr[0] "無法更新 %d 個連結。"
+
+#: core/core.php:1922
+msgid "%d link removed"
+msgid_plural "%d links removed"
+msgstr[0] "已移除 %d 個連結"
+
+#: core/core.php:1933
+msgid "Failed to remove %d link"
+msgid_plural "Failed to remove %d links"
+msgstr[0] "無法移除 %d 個連結"
+
+#: core/core.php:2042
+msgid "%d item was skipped because it can't be moved to the Trash. You need to delete it manually."
+msgid_plural "%d items were skipped because they can't be moved to the Trash. You need to delete them manually."
+msgstr[0] "由於無法將 %d 個項目移至回收桶，因此予以略過，必須進行手動刪除。"
+
+#: core/core.php:2064
+msgid "Didn't find anything to delete!"
+msgstr "沒有任何需要刪除的項目！"
+
+#: core/core.php:2094
+msgid "%d link scheduled for rechecking"
+msgid_plural "%d links scheduled for rechecking"
+msgstr[0] "已排定重新檢查 %d 個連結"
+
+#: core/core.php:2141 core/core.php:2961
+msgid "This link was manually marked as working by the user."
+msgstr "這個連結由使用者手動標示為正常。"
+
+#: core/core.php:2149 core/core.php:2208
+msgid "Couldn't modify link %d"
+msgstr "無法修改連結 %d"
+
+#: core/core.php:2159
+msgid "%d link marked as not broken"
+msgid_plural "%d links marked as not broken"
+msgstr[0] "已標示 %d 個連結為未中斷"
+
+#: core/core.php:2218
+msgid "%d link dismissed"
+msgid_plural "%d links dismissed"
+msgstr[0] "已屏蔽 %d 個連結"
+
+#: core/core.php:2275
+msgid "The \"Warnings\" page lists problems that are probably temporary or suspected to be false positives.<br> Warnings that persist for a long time will usually be reclassified as broken links."
+msgstr "[警示] 頁面會列出發生暫時無法連上或有可能發生錯誤的連結。<br>長期持續列在 [警示] 頁面內的連結，會將之重新分類為中斷的連結。"
+
+#: core/core.php:2280
+msgctxt "admin notice under Tools - Broken links - Warnings"
+msgid "Hide notice"
+msgstr "隱藏通知"
+
+#: core/core.php:2286
+msgctxt "a link from the admin notice under Tools - Broken links - Warnings"
+msgid "Change warning settings"
+msgstr "變更警示設定"
+
+#: core/core.php:2311
+msgid "Table columns"
+msgstr "資料表欄位"
+
+#: core/core.php:2330
+msgid "Show on screen"
+msgstr "在螢幕上顯示"
+
+#: core/core.php:2337
+msgid "links"
+msgstr "連結"
+
+#: core/core.php:2338 includes/admin/table-printer.php:171
+msgid "Apply"
+msgstr "套用"
+
+#: core/core.php:2342
+msgid "Misc"
+msgstr "雜項"
+
+#: core/core.php:2357
+msgid "Highlight links broken for at least %s days"
+msgstr "為中斷的連結標示為期 %s 天的醒目提示"
+
+#: core/core.php:2366
+msgid "Color-code status codes"
+msgstr "狀態碼的顏色代碼"
+
+#: core/core.php:2383 core/core.php:2945 core/core.php:2987 core/core.php:3021
+#: core/core.php:3122 core/core.php:3166 core/core.php:3228
+msgid "You're not allowed to do that!"
+msgstr "你沒有足夠的權限進行這項操作。"
+
+#: core/core.php:2814
+msgid "View broken links"
+msgstr "檢視中斷的連結"
+
+#: core/core.php:2815
+msgid "Found %d broken link"
+msgid_plural "Found %d broken links"
+msgstr[0] "找到 %d 個中斷的連結"
+
+#: core/core.php:2821
+msgid "No broken links found."
+msgstr "沒有找到中斷的連結。"
+
+#: core/core.php:2828
+msgid "%d URL in the work queue"
+msgid_plural "%d URLs in the work queue"
+msgstr[0] "工作佇列中有 %d 個網址"
+
+#: core/core.php:2831
+msgid "No URLs in the work queue."
+msgstr "工作佇列中沒有任何網址。"
+
+#: core/core.php:2837
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d unique URL"
+msgid_plural "%d unique URLs"
+msgstr[0] "%d 個唯一網址"
+
+#: core/core.php:2841
+msgctxt "for the \"Detected X unique URLs in Y links\" message"
+msgid "%d link"
+msgid_plural "%d links"
+msgstr[0] "%d 個連結"
+
+#: core/core.php:2847
+msgid "Detected %1$s in %2$s and still searching..."
+msgstr "在 %2$s中檢測到 %1$s，並繼續搜尋..."
+
+#: core/core.php:2853
+msgid "Detected %1$s in %2$s."
+msgstr "在 %2$s中檢測到 %1$s。"
+
+#: core/core.php:2860
+msgid "Searching your blog for links..."
+msgstr "在這個網站中搜尋連結..."
+
+#: core/core.php:2862
+msgid "No links detected."
+msgstr "並未檢測到連結。"
+
+#: core/core.php:2888
+msgctxt "current load"
+msgid "Unknown"
+msgstr "未知"
+
+#: core/core.php:2953 core/core.php:2995 core/core.php:3036 core/core.php:3132
+#: core/core.php:3181 core/core.php:3243
+msgid "Oops, I can't find the link %d"
+msgstr "很抱歉，找不到連結 %d"
+
+#: core/core.php:2968 core/core.php:3006
+msgid "Oops, couldn't modify the link!"
+msgstr "很抱歉，無法修改這個連結！"
+
+#: core/core.php:2971 core/core.php:3009 core/core.php:3158 core/core.php:3172
+#: core/core.php:3234
+msgid "Error : link_id not specified"
+msgstr "錯誤: 未指定 link_id"
+
+#: core/core.php:3027
+msgid "Error : link_id or new_url not specified"
+msgstr "錯誤: 未指定 link_id 或 new_url"
+
+#: core/core.php:3045 core/core.php:3055
+msgid "Oops, the new URL is invalid!"
+msgstr "很抱歉，新網址失效！"
+
+#: core/core.php:3071
+msgid "An unexpected error occurred!"
+msgstr "發生未預期的錯誤！"
+
+#: core/core.php:3141
+msgid "An unexpected error occured!"
+msgstr "發生未預期的錯誤！"
+
+#: core/core.php:3271
+msgid "You don't have sufficient privileges to access this information!"
+msgstr "你沒有存取這些資訊的權限！"
+
+#: core/core.php:3284
+msgid "Error : link ID not specified"
+msgstr "錯誤: 尚未指定連結 ID"
+
+#: core/core.php:3298
+msgid "Failed to load link details (%s)"
+msgstr "無法載入連結的詳細資料 (%s)"
+
+#. #-#-#-#-#  broken-link-checker-code.pot (Broken Link Checker 1.11.5) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: core/core.php:3352
+msgid "Broken Link Checker"
+msgstr "Broken Link Checker"
+
+#: core/core.php:3372
+msgid "PHP version"
+msgstr "PHP 版本"
+
+#: core/core.php:3378
+msgid "MySQL version"
+msgstr "MySQL 版本"
+
+#: core/core.php:3391
+msgid "You have an old version of CURL. Redirect detection may not work properly."
+msgstr "這台主機安裝的是舊版的 CURL，重新導向檢測也許無法正確運作。"
+
+#: core/core.php:3403 core/core.php:3419 core/core.php:3424
+msgid "Not installed"
+msgstr "尚未安裝"
+
+#: core/core.php:3406
+msgid "CURL version"
+msgstr "CURL 版本"
+
+#: core/core.php:3412
+msgid "Installed"
+msgstr "已安裝"
+
+#: core/core.php:3425
+msgid "You must have either CURL or Snoopy installed for the plugin to work!"
+msgstr "網站管理員必須在 CURL 和 Snoopy 中擇一安裝，這個外掛才能正確運作。"
+
+#: core/core.php:3436
+msgid "On"
+msgstr "開啟"
+
+#: core/core.php:3437
+msgid "Redirects may be detected as broken links when safe_mode is on."
+msgstr "當 safe_mode 開啟時，外掛也許會將重新導向檢測為中斷的連結。"
+
+#: core/core.php:3442 core/core.php:3456
+msgid "Off"
+msgstr "關閉"
+
+#: core/core.php:3450
+msgid "On ( %s )"
+msgstr "開啟 (%s)"
+
+#: core/core.php:3451
+msgid "Redirects may be detected as broken links when open_basedir is on."
+msgstr "當 open_basedir 開啟時，外掛也許會將重新導向檢測為中斷的連結。"
+
+#: core/core.php:3469
+msgid "Database character set"
+msgstr "資料庫字元集"
+
+#: core/core.php:3488
+msgid "If this value is zero even after several page reloads you have probably encountered a bug."
+msgstr "如果這個值為 0，即使多次重新載入頁面，仍有可能遇到錯誤。"
+
+#: core/core.php:3611 core/core.php:3730
+msgid "[%s] Broken links detected"
+msgstr "在《%s》中所檢測到的中斷連結"
+
+#: core/core.php:3616
+msgid "Broken Link Checker has detected %d new broken link on your site."
+msgid_plural "Broken Link Checker has detected %d new broken links on your site."
+msgstr[0] "Broken Link Checker 在你的網站中檢測到 %d 個新的中斷連結。"
+
+#: core/core.php:3647
+msgid "Here's a list of the first %d broken links:"
+msgid_plural "Here's a list of the first %d broken links:"
+msgstr[0] "這是前 %d 個中斷連結的清單:"
+
+#: core/core.php:3656
+msgid "Here's a list of the new broken links: "
+msgstr "這裡是新的中斷連結清單: "
+
+#: core/core.php:3665
+msgid "Link text : %s"
+msgstr "連結文字: %s"
+
+#: core/core.php:3666
+msgid "Link URL : <a href=\"%s\">%s</a>"
+msgstr "連結網址: <a href=\"%s\">%s</a>"
+
+#: core/core.php:3667
+msgid "Source : %s"
+msgstr "來源: %s"
+
+#: core/core.php:3681
+msgid "You can see all broken links here:"
+msgstr "網站管理員可以在此檢視所有中斷的連結:"
+
+#: core/core.php:3735
+msgid "Broken Link Checker has detected %d new broken link in your posts."
+msgid_plural "Broken Link Checker has detected %d new broken links in your posts."
+msgstr[0] "Broken Link Checker 在你的文章中檢測到 %d 個新的中斷連結。"
+
+#: core/init.php:256
+msgid "Once Weekly"
+msgstr "每週一次"
+
+#: core/init.php:262
+msgid "Twice a Month"
+msgstr "每月兩次"
+
+#: core/init.php:338
+msgid "Broken Link Checker installation failed. Try deactivating and then reactivating the plugin."
+msgstr "Broken Link Checker 外掛安裝失敗。請先予以停用，然後重新啟用這個外掛。"
+
+#: core/init.php:342
+msgid "Please activate the plugin separately on each site. Network activation is not supported."
+msgstr "請在每一個網站個別啟用這個外掛。這個外掛不支援遠端啟用。"
+
+#: includes/admin/db-upgrade.php:97
+msgid "Failed to delete old DB tables. Database error : %s"
+msgstr "無法刪除舊的資料表。資料庫錯誤: %s"
+
+#: includes/admin/links-page-js.php:64 includes/admin/links-page-js.php:653
+msgid "Wait..."
+msgstr "請稍候..."
+
+#: includes/admin/links-page-js.php:370
+msgctxt "link text"
+msgid "(None)"
+msgstr "(無)"
+
+#: includes/admin/links-page-js.php:371
+msgctxt "link text"
+msgid "(Multiple links)"
+msgstr "(數個連結)"
+
+#: includes/admin/links-page-js.php:429
+msgctxt "link suggestions"
+msgid "Searching..."
+msgstr "搜尋中..."
+
+#: includes/admin/links-page-js.php:430
+msgctxt "link suggestions"
+msgid "No suggestions available."
+msgstr "沒有可用的建議。"
+
+#: includes/admin/links-page-js.php:431
+msgctxt "link suggestions"
+msgid "Archived page from %s (via the Wayback Machine)"
+msgstr "來自 %s 的封存網頁 (透過 Wayback Machine)"
+
+#: includes/admin/links-page-js.php:528
+msgid "%d instances of the link were successfully modified."
+msgstr "成功修改 %d 個執行實體的連結。"
+
+#: includes/admin/links-page-js.php:534
+msgid "However, %d instances couldn't be edited and still point to the old URL."
+msgstr "不過，無法進行編輯的 %d 個執行實體仍指向舊的網址。"
+
+#: includes/admin/links-page-js.php:540
+msgid "The link could not be modified."
+msgstr "無法修改這個連結。"
+
+#: includes/admin/links-page-js.php:543
+msgid "The following error(s) occurred :"
+msgstr "發生以下錯誤:"
+
+#: includes/admin/links-page-js.php:615
+msgid "Error: Link URL must not be empty."
+msgstr "錯誤: 連結網址不能為空。"
+
+#: includes/admin/links-page-js.php:691
+msgid "%d instances of the link were successfully unlinked."
+msgstr "成功解除 %d 個執行實體的連結。"
+
+#: includes/admin/links-page-js.php:697
+msgid "However, %d instances couldn't be removed."
+msgstr "不過，無法移除這 %d 個執行實體。"
+
+#: includes/admin/links-page-js.php:702
+msgid "The plugin failed to remove the link."
+msgstr "外掛無法移除這個連結。"
+
+#: includes/admin/links-page-js.php:705
+msgid "The following error(s) occured :"
+msgstr "發生以下錯誤:"
+
+#: includes/admin/links-page-js.php:751
+msgid "Enter a name for the new custom filter"
+msgstr "為自訂篩選器輸入名稱"
+
+#: includes/admin/links-page-js.php:763
+msgid ""
+"You are about to delete the current filter.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"即將刪除目前的篩節器。\n"
+"點擊 [取消] 停止刪除程序，點擊 [確定] 進行刪除。"
+
+#: includes/admin/links-page-js.php:787
+msgid ""
+"Are you sure you want to delete all posts, bookmarks or other items that contain any of the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to delete"
+msgstr ""
+"確定要在所有文章、書籤或其他項目中，刪除所有選取的連結？這項操作無法復原。\n"
+"點擊 [取消] 停止刪除程序，點擊 [確定] 進行刪除。"
+
+#: includes/admin/links-page-js.php:801
+msgid ""
+"Are you sure you want to remove the selected links? This action can't be undone.\n"
+"'Cancel' to stop, 'OK' to remove"
+msgstr ""
+"確定要移除選取的連結？這項操作無法復原。\n"
+"點擊 [取消] 停止移除程序，點擊 [確定] 進行移除。"
+
+#: includes/admin/links-page-js.php:931
+msgid "Enter a search string first."
+msgstr "請先輸入搜尋關鍵字。"
+
+#: includes/admin/links-page-js.php:938
+msgid "Select one or more links to edit."
+msgstr "選取一或多個連結以進行編輯。"
+
+#: includes/admin/options-page-js.php:54
+msgid "Hide debug info"
+msgstr "隱藏除錯資訊"
+
+#: includes/admin/search-form.php:16
+msgid "Save This Search As a Filter"
+msgstr "將這項搜尋另存為篩選器"
+
+#: includes/admin/search-form.php:26
+msgid "Delete This Filter"
+msgstr "刪除這個篩選器"
+
+#: includes/admin/search-form.php:32 includes/link-query.php:81
+msgid "Search"
+msgstr "搜尋"
+
+#: includes/admin/search-form.php:42
+msgid "Link text"
+msgstr "連結文字"
+
+#: includes/admin/search-form.php:45 includes/admin/table-printer.php:216
+msgid "URL"
+msgstr "網址"
+
+#: includes/admin/search-form.php:48 includes/admin/table-printer.php:545
+msgid "HTTP code"
+msgstr "HTTP 狀態碼"
+
+#: includes/admin/search-form.php:51
+msgid "Link status"
+msgstr "連結狀態"
+
+#: includes/admin/search-form.php:68 includes/admin/search-form.php:85
+msgid "Link type"
+msgstr "連結類型"
+
+#: includes/admin/search-form.php:70
+msgid "Any"
+msgstr "任何"
+
+#: includes/admin/search-form.php:74
+msgid "Links used in"
+msgstr "連結用於"
+
+#: includes/admin/search-form.php:112
+msgid "Search Links"
+msgstr "搜尋連結"
+
+#: includes/admin/search-form.php:113 includes/admin/table-printer.php:369
+#: includes/admin/table-printer.php:754 includes/admin/table-printer.php:879
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/admin/table-printer.php:188
+msgid "Compact View"
+msgstr "精簡檢視"
+
+#: includes/admin/table-printer.php:193
+msgid "Detailed View"
+msgstr "詳細檢視"
+
+#: includes/admin/table-printer.php:223
+msgid "Source"
+msgstr "來源"
+
+#: includes/admin/table-printer.php:229
+msgid "Link Text"
+msgstr "連結文字"
+
+#: includes/admin/table-printer.php:236
+msgid "Redirect URL"
+msgstr "重新導向網址"
+
+#: includes/admin/table-printer.php:287
+msgid "Bulk Actions"
+msgstr "批次操作"
+
+#: includes/admin/table-printer.php:290
+msgid "Fix redirects"
+msgstr "修正重新導向"
+
+#: includes/admin/table-printer.php:291
+msgid "Mark as not broken"
+msgstr "標示為未中斷"
+
+#: includes/admin/table-printer.php:296
+msgid "Move sources to Trash"
+msgstr "將來源移至回收桶"
+
+#: includes/admin/table-printer.php:298
+msgid "Delete sources"
+msgstr "刪除來源"
+
+#: includes/admin/table-printer.php:313
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: includes/admin/table-printer.php:314
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: includes/admin/table-printer.php:345
+msgid "Bulk Edit URLs"
+msgstr "批次編輯網址"
+
+#: includes/admin/table-printer.php:347
+msgid "Find"
+msgstr "搜尋"
+
+#: includes/admin/table-printer.php:351
+msgid "Replace with"
+msgstr "取代為"
+
+#: includes/admin/table-printer.php:359
+msgid "Case sensitive"
+msgstr "區分大小寫"
+
+#: includes/admin/table-printer.php:363
+msgid "Regular expression"
+msgstr "規則運算式"
+
+#: includes/admin/table-printer.php:371 includes/admin/table-printer.php:880
+msgid "Update"
+msgstr "更新"
+
+#: includes/admin/table-printer.php:526
+msgid "Post published on"
+msgstr "文章發佈於"
+
+#: includes/admin/table-printer.php:531
+msgid "Link last checked"
+msgstr "上次檢查時間"
+
+#: includes/admin/table-printer.php:535
+msgid "Never"
+msgstr "從不"
+
+#: includes/admin/table-printer.php:550
+msgid "Response time"
+msgstr "回應時間"
+
+#: includes/admin/table-printer.php:552
+msgid "%2.3f seconds"
+msgstr "%2.3f 秒"
+
+#: includes/admin/table-printer.php:555
+msgid "Final URL"
+msgstr "最終網址"
+
+#: includes/admin/table-printer.php:560
+msgid "Redirect count"
+msgstr "重新導向計數"
+
+#: includes/admin/table-printer.php:565
+msgid "Instance count"
+msgstr "執行個體計數"
+
+#: includes/admin/table-printer.php:574
+msgid "This link has failed %d time."
+msgid_plural "This link has failed %d times."
+msgstr[0] "這個連結已失效 %d 次。"
+
+#: includes/admin/table-printer.php:593
+msgid "Log"
+msgstr "記錄"
+
+#: includes/admin/table-printer.php:618 includes/admin/table-printer.php:663
+msgid "Show more info about this link"
+msgstr "顯示這個連結的詳細資訊"
+
+#: includes/admin/table-printer.php:636
+msgctxt "checked how long ago"
+msgid "Checked"
+msgstr "檢查於"
+
+#: includes/admin/table-printer.php:652
+msgid "Broken for"
+msgstr "連結已中斷"
+
+#: includes/admin/table-printer.php:664
+msgctxt "link in the \"Status\" column"
+msgid "Details"
+msgstr "詳細資料"
+
+#: includes/admin/table-printer.php:685
+msgid "Edit this link"
+msgstr "編輯這個連結"
+
+#: includes/admin/table-printer.php:687
+msgid "Remove this link from all posts"
+msgstr "從所有文章中移除這個連結"
+
+#: includes/admin/table-printer.php:693
+msgid "Remove this link from the list of broken links and mark it as valid"
+msgstr "從中斷連結的清單中移除這個連結，並標示為有效連結"
+
+#: includes/admin/table-printer.php:701
+msgid "Hide this link and do not report it again unless its status changes"
+msgstr "隱藏這個連結。除非連結狀態有變，否則不再為這個連結進行回報"
+
+#: includes/admin/table-printer.php:707
+msgid "Undismiss this link"
+msgstr "為這個連結取消屏蔽"
+
+#: includes/admin/table-printer.php:708
+msgid "Undismiss"
+msgstr "取消屏蔽"
+
+#: includes/admin/table-printer.php:721
+msgid "Replace this redirect with a direct link"
+msgstr "以直接連結取代重新導向"
+
+#: includes/admin/table-printer.php:755
+msgid "Update URL"
+msgstr "更新網址"
+
+#: includes/admin/table-printer.php:782
+msgid "[An orphaned link! This is a bug.]"
+msgstr "[找到孤立連結！這是一項程式碼錯誤。]"
+
+#: includes/admin/table-printer.php:859
+msgctxt "inline editor title"
+msgid "Edit Link"
+msgstr "編輯連結"
+
+#: includes/admin/table-printer.php:862
+msgctxt "inline link editor"
+msgid "Text"
+msgstr "文字"
+
+#: includes/admin/table-printer.php:867
+msgctxt "inline link editor"
+msgid "URL"
+msgstr "網址"
+
+#: includes/admin/table-printer.php:872
+msgctxt "inline link editor"
+msgid "Suggestions"
+msgstr "建議"
+
+#: includes/admin/table-printer.php:892
+msgid "Use this URL"
+msgstr "使用這個網址"
+
+#: includes/any-post.php:426 modules/containers/acf_field.php:248
+#: modules/containers/blogroll.php:46 modules/containers/comment.php:159
+#: modules/containers/custom_field.php:230
+msgid "Edit"
+msgstr "編輯"
+
+#: includes/any-post.php:434 modules/containers/acf_field.php:252
+#: modules/containers/custom_field.php:236
+msgid "Move this item to the Trash"
+msgstr "將這個項目移至回收桶"
+
+#: includes/any-post.php:436 modules/containers/acf_field.php:252
+#: modules/containers/custom_field.php:238
+msgid "Trash"
+msgstr "移至回收桶"
+
+#: includes/any-post.php:441 modules/containers/acf_field.php:254
+#: modules/containers/custom_field.php:243
+msgid "Delete this item permanently"
+msgstr "永久刪除這個項目"
+
+#: includes/any-post.php:443 modules/containers/acf_field.php:254
+#: modules/containers/blogroll.php:47 modules/containers/custom_field.php:245
+msgid "Delete"
+msgstr "刪除"
+
+#: includes/any-post.php:456
+msgid "Preview &#8220;%s&#8221;"
+msgstr "預覽《%s》"
+
+#: includes/any-post.php:457
+msgid "Preview"
+msgstr "預覽"
+
+#: includes/any-post.php:464
+msgid "View &#8220;%s&#8221;"
+msgstr "檢視《%s》"
+
+#: includes/any-post.php:465 modules/containers/acf_field.php:258
+#: modules/containers/comment.php:172 modules/containers/custom_field.php:250
+msgid "View"
+msgstr "檢視"
+
+#: includes/any-post.php:484 modules/containers/acf_field.php:248
+#: modules/containers/custom_field.php:230
+msgid "Edit this item"
+msgstr "編輯這個項目"
+
+#: includes/any-post.php:548 modules/containers/blogroll.php:83
+#: modules/containers/comment.php:43
+msgid "Nothing to update"
+msgstr "無需更新"
+
+#: includes/any-post.php:558
+msgid "Updating post %d failed"
+msgstr "無法更新文章 %d"
+
+#: includes/any-post.php:595 modules/containers/acf_field.php:327
+#: modules/containers/custom_field.php:317
+msgid "Failed to delete post \"%s\" (%d)"
+msgstr "無法刪除文章《%s》(%d)"
+
+#: includes/admin/table-printer.php:322
+msgid "Displaying %s&#8211;%s of <span class=\"current-link-count\">%s</span>"
+msgstr "本頁列出第 %s 到第 %s 個連結，總計 <span class=\"current-link-count\">%s</span> 個連結"
+
+#: includes/admin/table-printer.php:582
+msgid "This link has been broken for %s."
+msgstr "這個連結已中斷 %s。"

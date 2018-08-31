@@ -1,0 +1,72 @@
+# Translation of Plugins - Shield Security for WordPress - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Shield Security for WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-11-11 16:53:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Shield Security for WordPress - Stable (latest release)\n"
+
+#: src/features/base.php:1144
+msgid "Watch Help Video"
+msgstr "Hilfe-Video ansehen"
+
+#. Plugin Name of the plugin/theme
+msgid "Shield Security"
+msgstr "Shield Security"
+
+#. Description of the plugin/theme
+msgid "Powerful, Easy-To-Use #1 Rated WordPress Security System"
+msgstr "Mächtiges, einfach zu bedienendes, #1 bewertetes WordPress-Sicherheitssystem"
+
+#: src/features/base.php:1143
+msgid "Save All Settings"
+msgstr "Alle Einstellungen speichern"
+
+#: src/features/base.php:1142
+msgid "Plugin Activated Features Summary:"
+msgstr "Zusammenfassung der vom Plugin aktivierten Features:"
+
+#: src/features/base.php:1141
+msgid "Blog"
+msgstr "Blog"
+
+#: src/features/base.php:1140
+msgid "More Info"
+msgstr "Weitere Informationen"
+
+#: src/features/base.php:1139
+msgid "Off"
+msgstr "Aus"
+
+#: src/features/base.php:1138
+msgid "On"
+msgstr "Ein "
+
+#: src/features/base.php:1137
+msgid "Settings"
+msgstr "﻿Einstellungen"
+
+#. Author URI of the plugin/theme
+msgid "http://icwp.io/2e"
+msgstr "http://icwp.io/2e"
+
+#. Author of the plugin/theme
+msgid "iControlWP"
+msgstr "iControlWP"
+
+#. Plugin URI of the plugin/theme
+msgid "http://icwp.io/2f"
+msgstr "http://icwp.io/2f"
+
+#: src/processors/loginprotect_wplogin.php:64
+msgid "Permalinks"
+msgstr "Permalinks"
+
+#: src/processors/base_plugin.php:59 src/processors/base_plugin.php:87
+msgid "Support Forums"
+msgstr "Support-Forum"

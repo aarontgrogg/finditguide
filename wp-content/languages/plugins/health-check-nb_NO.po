@@ -1,0 +1,1285 @@
+# Translation of Plugins - Health Check &amp; Troubleshooting - Stable (latest release) in Norwegian (Bokmål)
+# This file is distributed under the same license as the Plugins - Health Check &amp; Troubleshooting - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-07-25 10:36:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nb_NO\n"
+"Project-Id-Version: Plugins - Health Check &amp; Troubleshooting - Stable (latest release)\n"
+
+#. translators: %s: Plugin name.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:965
+msgid "Enable the plugin, %s, while troubleshooting."
+msgstr "Aktiver utvidelsen %s under feilsøkingen."
+
+#. translators: %s: Plugin name.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:950
+msgid "Disable the plugin, %s, while troubleshooting."
+msgstr "Deaktiver utvidelsen %s under feilsøkingen."
+
+#. translators: %d: The amount of plugins.
+#: includes/class-health-check-site-status.php:217
+msgid "Your site has %d active plugin, and it is up to date."
+msgid_plural "Your site has %d active plugins, and they are all up to date."
+msgstr[0] "Nettsiden har %d aktiv utvidelse, og den er oppdatert."
+msgstr[1] "Nettsiden har %d aktive utvidelser, og disse er oppdatert."
+
+#. translators: %1$d: The amount of inactive themes. %2$s: The default theme
+#. for WordPress. %3$s: The currently active theme.
+#: includes/class-health-check-site-status.php:355
+msgid "Your site has %1$d inactive theme, other than %2$s, the default WordPress theme, and %3$s, your active theme. It is recommended to remove any unused themes to enhance your sites security."
+msgid_plural "Your site has %1$d inactive themes, other than %2$s, the default WordPress theme, and %3$s, your active theme. It is recommended to remove any unused themes to enhance your sites security."
+msgstr[0] "Nettsiden har %1$d ubrukt tema. Dette medregner ikke %2$s, som er standardtemaet til WordPress, ei heller %3$s som er ditt nåværende aktive tema. Det anbefales av sikkerhetsmessige årsaker å slette ubrukte tema."
+msgstr[1] "Nettsiden har %1$d ubrukte temaer. Dette medregner ikke %2$s, som er standardtemaet til WordPress, ei heller %3$s som er ditt nåværende aktive tema. Det anbefales av sikkerhetsmessige årsaker å slette ubrukte tema."
+
+#. translators: %1$d: The amount of inactive themes. %2$s: The default theme
+#. for WordPress. %3$s: The currently active theme. %4$s: The active themes
+#. parent theme.
+#: includes/class-health-check-site-status.php:337
+msgid "Your site has %1$d inactive theme. To enhance your sites security it is recommended to remove any unused themes. You should keep %2$s, the default WordPress theme, %3$s, your current theme and %4$s, the parent theme."
+msgid_plural "Your site has %1$d inactive themes. To enhance your sites security it is recommended to remove any unused themes. You should keep %2$s, the default WordPress theme, %3$s, your current theme and %4$s, the parent theme."
+msgstr[0] "Nettsiden har %1$d ubrukt tema. Dette medregner ikke %2$s, som er standardtemaet til WordPress, ei heller %3$s som er ditt nåværende aktive datter tema samt %4$s, som er det aktive foreldretemaet. Det anbefales av sikkerhetsmessige årsaker å slette ubrukte tema."
+msgstr[1] "Nettsiden har %1$d ubrukte temaer. Dette medregner ikke %2$s, som er standardtemaet til WordPress, ei heller %3$s som er ditt nåværende aktive datter tema samt %4$s, som er det aktive foreldretemaet. Det anbefales av sikkerhetsmessige årsaker å slette ubrukte tema."
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:920
+msgid "Available Plugins"
+msgstr "Tilgjengelige innstikk"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:887
+msgid "Plugin actions, such as activating and deactivating, are not available while in Troubleshooting Mode."
+msgstr "Handlinger per innstikk, som for eksempel aktivering og deaktivering, er ikke tilgjengelig når man er i feilsøkingsmodus."
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:873
+msgid "Notices"
+msgstr "Varsler"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:879
+msgid "There are no notices to show."
+msgstr "Det er for tiden ingen varsler."
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:909
+msgid "Dismiss notices"
+msgstr "Ta bort varslene"
+
+#: includes/class-health-check-loopback.php:174
+#: includes/class-health-check-loopback.php:185
+msgid "Waiting..."
+msgstr "Venter..."
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1060
+msgid "Show fewer themes"
+msgstr "Vis færre tema"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1029
+msgid "Switch to this theme"
+msgstr "Bytt til dette temaet"
+
+#. translators: %s: Theme name.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1025
+msgid "Switch the active theme to %s"
+msgstr "Bytt det aktive temaet til %s"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1002
+msgid "Available Themes"
+msgstr "Tilgjengelige tema"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:987
+msgid "Show all plugins"
+msgstr "Vis alle utvidelsene"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:991
+msgid "Show fewer plugins"
+msgstr "Vis færre utvidelser"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:969
+msgid "Enable"
+msgstr "Aktiver"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:954
+msgid "Disable"
+msgstr "Deaktiver"
+
+#. translators: %d: The amount of outdated plugins.
+#: includes/class-health-check-site-status.php:203
+msgid "Your site has %d plugin waiting to be updated."
+msgid_plural "Your site has %d plugins waiting to be updated."
+msgstr[0] "Nettsiden har %d utvidelse som venter på å oppdateres."
+msgstr[1] "Nettsiden har %d utvidelser som venter på å oppdateres."
+
+#. translators: %s: The active theme name.
+#: includes/class-health-check-loopback.php:182
+msgid "Active theme: %s"
+msgstr "Aktivt tema: %s"
+
+#. translators: %d: The amount of inactive plugins.
+#: includes/class-health-check-site-status.php:234
+msgid "Your site has %d inactive plugin, it is recommended to remove any unused plugins to enhance your site security."
+msgid_plural "Your site has %d inactive plugins, it is recommended to remove any unused plugins to enhance your site security."
+msgstr[0] "Nettsiden har %d inaktiv utvidelse, det anbefales å slette ubrukte utvidelser for å øke nettsidens sikkerhet."
+msgstr[1] "Nettsiden har %d inaktive utvidelser, det anbefales å slette ubrukte utvidelser for  øke nettsidens sikkerhet."
+
+#. Plugin Name of the plugin/theme
+msgid "Health Check & Troubleshooting"
+msgstr "Helsesjekk & Feilsøking"
+
+#. translators: %d: The amount of outdated themes.
+#: includes/class-health-check-site-status.php:304
+msgid "Your site has %d theme waiting to be updated."
+msgid_plural "Your site has %d themes waiting to be updated."
+msgstr[0] "Nettsiden har %d tema som venter på å oppdateres."
+msgstr[1] "Nettsiden har %d temaer som venter på å oppdateres"
+
+#: includes/class-health-check.php:216
+msgid "Currently being tested..."
+msgstr "Testes nå..."
+
+#. translators: %d: The amount of themes.
+#: includes/class-health-check-site-status.php:318
+msgid "Your site has %d installed theme, and it is up to date."
+msgid_plural "Your site has %d installed themes, and they are all up to date."
+msgstr[0] "Nettsiden har %d installert tema, og dette er oppdatert."
+msgstr[1] "Nettsiden har %d installerte temaer, og disse er oppdatert."
+
+#: includes/class-health-check-site-status.php:373
+msgid "Your site does not have a default theme, default themes are used by WordPress automatically if anything is wrong with your normal theme."
+msgstr "Nettsiden har ikke noe standard tema, disse brukes automatisk av WordPress dersom noe er galt med ditt gjeldende tema."
+
+#: includes/class-health-check-troubleshoot.php:227
+msgid "You have successfully enabled Troubleshooting Mode, all plugins will appear inactive until you disable Troubleshooting Mode, or log out and back in again."
+msgstr "Du har aktivert feilsøkingsmodus, alle utvidelser vil fremstå som deaktivert inntil du deaktiverer modusen, eller logger ut og inn igjen."
+
+#. translators: %s: URL to Settings > General to change options.
+#: includes/class-health-check-site-status.php:618
+msgid "You are accessing this website using HTTPS, but your <a href=\"%s\">WordPress Address</a> is not set up to use HTTPS by default."
+msgstr "Du besøker nettsiden over HTTPS, men <a href=\"%s\">WordPress-adresse (URL) innstillingen</a> er ikke satt til å brukt HTTPS som standard."
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1056
+msgid "Show all themes"
+msgstr "Vis alle temaer"
+
+#: pages/site-status.php:37
+msgid "Theme Versions"
+msgstr "Temaversjoner"
+
+#: pages/site-status.php:30
+msgid "Plugin Versions"
+msgstr "Utvidelseversjoner"
+
+#: pages/site-status.php:23
+msgid "WordPress Version"
+msgstr "WordPress versjon"
+
+#: includes/class-health-check.php:314
+msgid "Site Status"
+msgstr "Nettstedsstatus"
+
+#. translators: %1$s: Your current version of WordPress. %2$s The latest
+#. version of WordPress available.
+#: includes/class-health-check-site-status.php:110
+msgid "%1$s ( Latest version: %2$s )"
+msgstr "%1$s ( Nyeste versjon er %2$s )"
+
+#. translators: %s: Your current version of WordPress.
+#: includes/class-health-check-site-status.php:91
+msgid "%s - We were unable to check if any new versions are available."
+msgstr "%s - Det var ikke mulig å se om det finnes nyere versjoner."
+
+#. translators: %1$s: Your current version of WordPress. %2$s The latest
+#. version of WordPress available.
+#: includes/class-health-check-site-status.php:121
+msgid "%1$s ( Latest version: %2$s ) - We strongly urge you to update, as minor updates are often security related."
+msgstr "%1$s ( Nyeste versjon er %2$s ) - Det anbefales på det sterkeste å oppdatere nettsiden, da småoppdateringer som dette ofte er sikkerthetsrelatert."
+
+#: pages/site-status.php:52
+msgid "Database Server version"
+msgstr "Database serverversjon"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:867
+msgid "Here you can enable individual plugins or themes, helping you to find out what might be causing strange behaviors on your site. Do note that any changes you make to settings will be kept when you disable Troubleshooting Mode."
+msgstr "Her kan man individuelt slå av og på utvidelser og temaer, for å gjøre det lettere å finne ut hva som eventuelt forårsaken problemer på nettsiden. Merk at endringer gjort på innstillinger er gjeldende for alle, og vil ikke forsvinne når man deaktiverer feilsøkingsmoduset."
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:863
+msgid "Your site is currently in Troubleshooting Mode. This has no effect on your site visitors, they will continue to view your site as usual, but for you it will look as if you had just installed WordPress for the first time."
+msgstr "Nettstedet er for øyeblikket i feilsøkingsmodus. Dette har ingen innvirkning på sidens besøkende, for dem vil siden se ut, og oppføre seg, som vanlig, men for deg vil det se ut som WordPress nylig ble installert."
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:859
+msgid "Health Check &mdash; Troubleshooting Mode"
+msgstr "Helsesjekk &mdash; Feilsøkingsmodus"
+
+#. translators: %s: The plugin slug that was enabled.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:506
+msgid "When enabling the plugin, %s, a site failure occurred. Because of this the change was automatically reverted."
+msgstr "Under aktivering av utvidelsen, %s, oppstod en kritisk feil på nettsiden. Vi har derfor automatisk deaktivert utvidelsen igjen."
+
+#. translators: %s: The plugin slug that was disabled.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:532
+msgid "When disabling the plugin, %s, a site failure occurred. Because of this the change was automatically reverted."
+msgstr "Under deaktivering av utvidelsen, %s, oppstod en kritisk feil på nettsiden. Vi ahr derfor automatisk aktivert utvidelsen igjen."
+
+#. translators: %s: The theme slug that was switched to.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:555
+msgid "When switching the active theme to %s, a site failure occurred. Because of this we reverted the theme to the one you used previously."
+msgstr "Det oppstod en kritisk feil på nettsiden når det aktive temaet ble endret til %s. Vi har derfor automatisk enret tilbake til det forrige temaet som ble brukt."
+
+#. translators: %s: Recommended PHP version
+#: includes/class-health-check-site-status.php:422
+msgid "For best performance we recommend using PHP %s or higher."
+msgstr "For best ytelse anbefaler vi PHP versjon %s eller nyere."
+
+#: includes/class-health-check-troubleshoot.php:153
+msgid "We could not remove the old must-use plugin."
+msgstr "Kunne ikke slette det gamle må-brukes innstikket."
+
+#: includes/class-health-check-mail-check.php:104
+msgid "Send test mail"
+msgstr "Send test e-post"
+
+#: includes/class-health-check-mail-check.php:98
+msgid "Additional message"
+msgstr "Egen melding"
+
+#. translators: %1$s: website name. %2$s: website url. %3$s: The date the
+#. message was sent. %4$s: The time the message was sent. %5$s: Additional
+#. custom message from the administrator.
+#: includes/class-health-check-mail-check.php:39
+msgid "Hi! This test message was sent by the Health Check plugin from %1$s (%2$s) on %3$s at %4$s. Since you’re reading this, it obviously works. Additional message from admin: %5$s"
+msgstr "Hei! Denne testmeldingen ble sendt via Helsesjekk innstikket fra %1$s (%2$s) klokken %4$s den %3$s. Ettersom du leser dette ser ting ut til å virke. Egen melding fra administratoren: %5$s"
+
+#: includes/class-health-check-debug-data.php:812
+msgid "- Some errors, likely caused by invalid permissions, were encountered when determining the size of your installation. This means the values represented may be inaccurate."
+msgstr "- Vi traff på noen feil, muligens på grunn av manglende rettigheter, som gjør at vi ikke kunne hente størrelsen på alle filene. Det betyr at totalstørrelsen desverre ikke er helt nøyaktig."
+
+#. translators: %s: website url.
+#: includes/class-health-check-mail-check.php:35
+msgid "Health Check – Test Message from %s"
+msgstr "Helsesjekk - Testmelding fra %s"
+
+#: includes/class-health-check-files-integrity.php:113
+msgid "One possible reason for this may be that your installation contains translated versions. An easy way to clear this is to reinstall WordPress. Don't worry. This will only affect WordPress' own files, not your themes, plugins or uploaded media."
+msgstr "En grunn til dette kan være at siden på ett tidspunkt har benyttet andre språkfiler enn hva som benyttes nå. En enkel måte å rette dette på er å re-installere WordPress. Frykt ikke, dette påvirker bare WordPress' egne filer. Ditt tema, dine innstikk samt opplastede filer og alt annet innhold påvirkes ikke."
+
+#: includes/class-health-check-debug-data.php:808
+msgid "Total installation size"
+msgstr "Instalasjonens totale størrelse"
+
+#: includes/class-health-check-debug-data.php:804
+msgid "Whole WordPress Directory"
+msgstr "Hele WordPress mappen"
+
+#: includes/class-health-check-debug-data.php:800
+msgid "Database size"
+msgstr "Database størrelse"
+
+#: includes/class-health-check-debug-data.php:796
+msgid "Plugins Directory"
+msgstr "Innstikk mappen"
+
+#: includes/class-health-check-debug-data.php:792
+msgid "Themes Directory"
+msgstr "Tema mappen"
+
+#: includes/class-health-check-debug-data.php:788
+msgid "Uploads Directory"
+msgstr "Opplastede filer"
+
+#: includes/class-health-check-debug-data.php:457
+msgid "Your htaccess file only contains core WordPress features"
+msgstr "Filen inneholder bare regler fra WordPress funksjoner"
+
+#: includes/class-health-check-debug-data.php:457
+msgid "Custom rules have been added to your htaccess file"
+msgstr "Egne regler er lagt til i htaccess filen"
+
+#: includes/class-health-check-debug-data.php:456
+msgid "htaccess rules"
+msgstr "htaccess regler"
+
+#: includes/class-health-check-debug-data.php:364
+msgid "Not available"
+msgstr "Ikke tilgjengelig"
+
+#: includes/class-health-check-debug-data.php:358
+msgid "GD not available"
+msgstr "GD er ikke tilgjengelig"
+
+#: includes/class-health-check-debug-data.php:106
+msgid "Installation size"
+msgstr "Installasjonsstørrelse"
+
+#. translators: %s: Latest WordPress version number.
+#. translators: %s: Latest plugin version number.
+#. translators: %s: Latest theme version number.
+#. translators: %s: Latest theme version number.
+#: includes/class-health-check-debug-data.php:55
+#: includes/class-health-check-debug-data.php:583
+#: includes/class-health-check-debug-data.php:608
+#: includes/class-health-check-debug-data.php:673
+msgid "( Latest version: %s )"
+msgstr "( Nyeste versjon: %s )"
+
+#. translators: Prefix for the active theme in a listing.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:697
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1035
+msgid "Active:"
+msgstr "Aktivt:"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:682
+msgid "Themes"
+msgstr "Tema"
+
+#: includes/class-health-check-files-integrity.php:174
+msgid "Original"
+msgstr "Original"
+
+#: includes/class-health-check-files-integrity.php:176
+msgid "Modified"
+msgstr "Endret"
+
+#: includes/class-health-check-mail-check.php:92
+msgid "E-mail"
+msgstr "E-post"
+
+#: includes/class-health-check-mail-check.php:82
+msgid "The Mail Check will invoke the <code>wp_mail()</code> function and check if it succeeds. We will use the E-mail address you have set up, but you can change it below if you like."
+msgstr "E-post testen vil prøve å sende en melding via <code>wp_mail()</code> funksjonen. Vi benytter e-post adressen for sidens administrator, men denne kan endres i feltet under om ønskelig."
+
+#: includes/class-health-check-mail-check.php:116
+msgid "Mail Check"
+msgstr "E-post test"
+
+#: includes/class-health-check-files-integrity.php:205
+msgid "Check the Files Integrity"
+msgstr "Sjekk filintegritet"
+
+#: includes/class-health-check-files-integrity.php:201
+msgid "The File Integrity checks all the core files with the <code>checksums</code> provided by the WordPress API to see if they are intact. If there are changes you will be able to make a Diff between the files hosted on WordPress.org and your installation to see what has been changed."
+msgstr "Filintegriteten verifiseres mot <code>kontrollverdier</code> hentet via WordPress' API. Dersom det registreres avvik vil man kunne hente en sammenligning mellom din fil, og den offisielle utgaven fra WordPress.org."
+
+#: includes/class-health-check-files-integrity.php:218
+msgid "File Integrity"
+msgstr "Filintegritet"
+
+#: modals/backup-warning.php:20
+msgid "I understand"
+msgstr "Jeg forstår"
+
+#: modals/backup-warning.php:8
+msgid "Because of how Troubleshooting Mode functions, unforeseen conflicts with other plugins or themes may in rare cases occur, leading to unexpected behaviors."
+msgstr "Grunnet måten feilsøkingsmoduset fungerer kan konflikter med andre utvidelser og temaer i ytterst få tilfeller forekomme, som forårsaker uventede atferd."
+
+#: modals/backup-warning.php:4
+msgid "Remember to keep backups"
+msgstr "Husk å lage sikkerhetskopi"
+
+#: modals/backup-warning.php:16
+msgid "Additionally, since we really want to make this plugin as safe as possible, if you should have any problems with the troubleshooting mode, please create a new topic in the <a href=\"https://wordpress.org/support/plugin/health-check\">plugins support forum</a> with details about what theme and what plugins you’re using and the steps needed to reproduce the problem. This will help us to analyze and fix such problems."
+msgstr "Vi gjør alltid vårt ytterste for å holde utvidelsen så trygg som mulig, skulle du derfor møte noen form for problematikk i feilsøkingsmodus, eller med andre funksjoner, start gjerne en <a href=\"https://wordpress.org/support/plugin/health-check\">ny tråd på forumet for brukerstøtte</a>. Husk å innkludere så mye informasjon som mulig, som hvilket tema og hvilke utvidelser som brukes, og hvilke steg du tok før problematikken oppstod. Dette hjelper oss med å analysere, identifisere, og fikse problemer raskere."
+
+#: includes/class-health-check-mail-check.php:55
+msgid "It seems there was a problem sending the e-mail."
+msgstr "Det oppstod en feil ved utsendelsen av testmeldingen."
+
+#: includes/class-health-check-mail-check.php:51
+msgid "We have just sent an e-mail using <code>wp_mail()</code> and it seems to work. Please check your inbox and spam folder to see if you received it."
+msgstr "En e-post er send ved hjelp av <code>wp_mail()</code> og den virker være sendt. Vennligst sjekk innboksen og evt. søppelpost mappen for å bekrefte mottak av meldingen."
+
+#: includes/class-health-check-files-integrity.php:119
+#: includes/class-health-check-files-integrity.php:125
+msgid "Reason"
+msgstr "Årsak"
+
+#: includes/class-health-check-files-integrity.php:117
+#: includes/class-health-check-files-integrity.php:123
+msgid "File"
+msgstr "Fil"
+
+#: includes/class-health-check-files-integrity.php:115
+#: includes/class-health-check-files-integrity.php:121
+msgid "Status"
+msgstr "Status"
+
+#: includes/class-health-check-files-integrity.php:108
+msgid "All files passed the check. Everything seems to be ok!"
+msgstr "Alle filene er verrifisert. Alt ser bra ut!"
+
+#: includes/class-health-check-files-integrity.php:84
+msgid "File not found"
+msgstr "Filen finnes ikke"
+
+#: includes/class-health-check-files-integrity.php:81
+msgid "(View Diff)"
+msgstr "(Sammenlign)"
+
+#: includes/class-health-check-files-integrity.php:81
+msgid "Content changed"
+msgstr "Innhold endret"
+
+#: includes/class-health-check.php:318
+msgid "Tools"
+msgstr "Verktøy"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:120
+msgid "Install a default theme"
+msgstr "Installer standardtema"
+
+#. translators: %1$s: Current PHP version. %2$s: Recommended PHP version.
+#: includes/class-health-check-site-status.php:408
+msgid "Your version of PHP, %1$s, is very outdated and no longer receiving security updates. You should contact your host for an upgrade, WordPress recommends using PHP version %2$s."
+msgstr "Din PHP utgave, %1$s, er svært utdatert og mottar ikke lengre sikkerhetsoppdateringer. Du bør kontakte din websideleverandør for en oppdatering, WordPress anbefaler PHP versjon %2$s.."
+
+#: includes/class-health-check-site-status.php:389
+#: includes/class-health-check-site-status.php:404
+#: includes/class-health-check-site-status.php:418
+msgctxt "The link to the Update PHP page, which may be localized."
+msgid "https://wordpress.org/support/upgrade-php/"
+msgstr "https://wordpress.org/support/upgrade-php/"
+
+#: includes/class-health-check-loopback.php:157
+msgid "Result from testing without any plugins active and a default theme"
+msgstr "Resultat av å teste uten noen utvidelser og med standard tema"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:715
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1074
+#: includes/class-health-check-troubleshoot.php:299
+msgid "Disable Troubleshooting Mode"
+msgstr "Deaktiver feilsøkingsmodus"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:115
+msgid "You don't have any of the default themes installed. A default theme helps you determine if your current theme is causing conflicts."
+msgstr "Du har ingen standardtema installert. Ett standardtema lar deg fastslå om en feil eller konflikt forårsakes av temaet som brukes."
+
+#: modals/backup-warning.php:12
+msgid "We therefore strongly recommend <a href=\"https://codex.wordpress.org/WordPress_Backups\">making a backup of your site</a> before you enable troubleshooting mode."
+msgstr "VI anbefaler derfor på det sterkeste alltid <a href=\"https://codex.wordpress.org/WordPress_Backups\">å lage en sikkerhetskopi av din nettside</a> før feilsøkingsmodus benyttes."
+
+#: includes/class-health-check-files-integrity.php:112
+msgid "It appears as if some files may have been modified."
+msgstr "Det er registrert endringer ved noen filer."
+
+#. Translators: %s: Plugin slug.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:657
+msgid "Enable %s"
+msgstr "Aktiver %s"
+
+#. Translators: %s: Plugin slug.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:644
+msgid "Disable %s"
+msgstr "Deaktiver %s"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:231
+msgid "Enable while troubleshooting"
+msgstr "Aktiver under feilsøking"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:223
+msgid "Disable while troubleshooting"
+msgstr "Deaktiver under feilsøking"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:613
+msgid "Manage active plugins"
+msgstr "Administrer aktive utvidelser"
+
+#: includes/class-health-check-debug-data.php:325
+msgid "Imagick Module Version"
+msgstr "Imagick modul versjon"
+
+#: includes/class-health-check.php:233 includes/class-health-check.php:250
+#: includes/class-health-check.php:309
+msgctxt "Menu, Section and Page Title"
+msgid "Health Check"
+msgstr "Helsesjekk"
+
+#: pages/troubleshoot.php:25
+msgid "A Troubleshooting Mode menu is added to your admin bar, which will allow you to enable plugins individually, switch back to your current theme, and disable Troubleshooting Mode."
+msgstr "En feilsøkingsmeny legges til i verktøylinjen, denne lar deg aktivere og deaktivere utvidelser, endre hvilket tema som vises, og deaktivere feilsøkingsmodus."
+
+#: pages/troubleshoot.php:21
+msgid "By enabling the Troubleshooting Mode, all plugins will appear inactive and your site will switch to the default theme only for you. All other users will see your site as usual."
+msgstr "Ved å aktivere feilsøkingsmodus vil alle utvidelser vises som deaktivert og nettstedet vil benytte ett standard tema for din bruker. Alle andre besøkende vil se nettsiden som vanlig."
+
+#: pages/troubleshoot.php:16
+msgid "When troubleshooting issues on your site, you are likely to be told to disable all plugins and switch to the default theme."
+msgstr "Når man feilsøker problemer på en nettside så er første steg alltid å se om problemet vedvarer om man deaktiverer alle utvidelser og benytter ett standard tema."
+
+#. translators: %1$d: The HTTP response code. %2$s: The error message returned.
+#: includes/class-health-check-loopback.php:74
+msgid "Error encountered: (%1$d) %2$s"
+msgstr "En feil oppstod: (%1$d) %2$s"
+
+#: includes/class-health-check-debug-data.php:519
+msgid "Database name"
+msgstr "Database navn"
+
+#: includes/class-health-check.php:215
+msgid "Copied"
+msgstr "Kopiert"
+
+#: includes/class-health-check.php:287
+msgid "Troubleshoot"
+msgstr "Feilsøk"
+
+#: includes/class-health-check-debug-data.php:369
+msgid "Ghostscript Version"
+msgstr "Ghostscript versjon"
+
+#: includes/class-health-check-debug-data.php:366
+msgid "Unable to determine if Ghostscript is installed"
+msgstr "Kunne ikke fastslå om Ghostscript er installert"
+
+#: includes/class-health-check-debug-data.php:357
+msgid "GD Version"
+msgstr "GD versjon"
+
+#: includes/class-health-check-debug-data.php:329
+msgid "ImageMagick Version"
+msgstr "ImageMagick versjon"
+
+#: includes/class-health-check-debug-data.php:139
+msgid "Media handling"
+msgstr "Mediehåndtering"
+
+#: includes/class-health-check-debug-data.php:345
+msgid "Imagick Resource Limits"
+msgstr "Imagick resurs begrensninger"
+
+#: includes/class-health-check-debug-data.php:312
+msgid "Active editor"
+msgstr "Mediebibliotek i bruk"
+
+#: includes/class-health-check-debug-data.php:411
+msgid "Max input time"
+msgstr "Maksimum inntastingstid"
+
+#: includes/class-health-check-troubleshoot.php:231
+msgid "Return to the Dashboard"
+msgstr "Tilbake til kontrollpanelet"
+
+#: includes/class-health-check-troubleshoot.php:204
+msgid "We were unable to replace the plugin file required to enable the Troubleshooting Mode."
+msgstr "Vi kunne ikke erstatte filen som benyttes for å kjøre utvidelsen i feilsøkingsmodus."
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:606
+msgid "Troubleshooting Mode"
+msgstr "Feilsøkingsmodus"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:620
+msgid "Plugins"
+msgstr "Utvidelser"
+
+#: includes/class-health-check-troubleshoot.php:309
+msgid "Enable Troubleshooting Mode"
+msgstr "Aktiver feilsøkingsmodus"
+
+#: includes/class-health-check-troubleshoot.php:145
+msgid "We were unable to create the mu-plugins directory."
+msgstr "Kunne ikke opprette mu-plugins mappen."
+
+#: includes/class-health-check.php:316
+msgid "Troubleshooting"
+msgstr "Feilsøking"
+
+#: includes/class-health-check.php:214
+msgid "Please wait..."
+msgstr "Vennligst vent..."
+
+#: includes/class-health-check-troubleshoot.php:160
+msgid "We were unable to copy the plugin file required to enable the Troubleshooting Mode."
+msgstr "Kunne ikke kopiere utvidelsesfilen som krever for å kjøre i feilsøkingsmodus."
+
+#: includes/class-health-check-loopback.php:71
+msgid "The loopback request to your site failed, this may prevent WP_Cron from working, along with theme and plugin editors."
+msgstr "Tilbakekallet til siden feilet, dette kan forhindre WP_Cron fra å virke, samt hindre redigering av temaer og utvidelser."
+
+#: pages/troubleshoot.php:29
+msgid "Please note, that due to how Must Use plugins work, any such plugin will not be disabled for the troubleshooting session."
+msgstr "Merk at på grunn av hvordan Må-brukes utvidelser implementeres, så kan disse ikke deaktiveres når man er i feilsøkingsmodus."
+
+#: pages/troubleshoot.php:17
+msgid "Understandably, you do not wish to do so as it may affect your site visitors, leaving them with lost functionality."
+msgstr "Forståelig nok så ønsker man ikke å gjøre dette, da det vil påvirke nettsidens besøkende ved å slå av funksjoner."
+
+#: pages/site-status.php:109
+msgid "Loopback request"
+msgstr "Tilbakekall"
+
+#: includes/class-health-check-loopback.php:95
+msgid "The loopback request to your site completed successfully."
+msgstr "Tilbakekallet til siden ble fullført som forventet."
+
+#. translators: %d: The HTTP response code returned.
+#: includes/class-health-check-loopback.php:87
+msgid "The loopback request returned an unexpected status code, %d, this may affect tools such as WP_Cron, or theme and plugin editors."
+msgstr "Tilbakekallet mottok en uventet statuskode, %d, dette kan påvirke verktøy som WP_Cron, eller sidene for redigering av temaer og utvidelser."
+
+#: includes/class-health-check-debug-data.php:296
+msgid "Create loopback requests"
+msgstr "Opprette tilbakekall"
+
+#: includes/class-health-check-auto-updates.php:446
+msgid "Some files are not writable by WordPress:"
+msgstr "Noen filer er ikke skrivbare fra WordPress:"
+
+#: includes/class-health-check-auto-updates.php:420
+msgid "This could mean that connections are failing to WordPress.org."
+msgstr "Dette kan innebære at koblinger til WordPress.org feiler."
+
+#: pages/site-status.php:102
+msgid "Background updates"
+msgstr "Bakgrunnsoppdateringer"
+
+#. translators: %s: Plugin version number.
+#. translators: %s: Theme version number.
+#: includes/class-health-check-debug-data.php:547
+#: includes/class-health-check-debug-data.php:578
+#: includes/class-health-check-debug-data.php:668
+msgid "Version %s"
+msgstr "Versjon %s"
+
+#. translators: %s: Plugin author name.
+#. translators: %s: Theme author name.
+#: includes/class-health-check-debug-data.php:543
+#: includes/class-health-check-debug-data.php:574
+#: includes/class-health-check-debug-data.php:664
+msgid "By %s"
+msgstr "Av %s"
+
+#: includes/class-health-check-debug-data.php:383
+msgid "(Supports 64bit values)"
+msgstr "Støtter 64bit verdier)"
+
+#: includes/class-health-check-auto-updates.php:357
+msgid "Your installation of WordPress doesn't require FTP credentials to perform updates."
+msgstr "Denne WordPress installasjonen krever ikke FTP autentisering for å kjøre oppdateringer."
+
+#: includes/class-health-check-auto-updates.php:214
+#: includes/class-health-check-auto-updates.php:229
+msgid "You would have received an email because of this."
+msgstr "Du skal ha mottatt en e-post om dette."
+
+#. translators: %s: Name of the filter used.
+#: includes/class-health-check-auto-updates.php:166
+msgid "A plugin has prevented updates by disabling %s."
+msgstr "En utvidelse hindrer oppdateringer ved å deaktivere %s."
+
+#. translators: %s: Name of the constant used.
+#: includes/class-health-check-auto-updates.php:81
+#: includes/class-health-check-auto-updates.php:103
+#: includes/class-health-check-auto-updates.php:125
+msgid "The %s constant is defined and enabled."
+msgstr "PHP konstantverdien %s er definert og aktiv."
+
+#: includes/class-health-check-auto-updates.php:227
+msgid "A previous automatic background update could not occur."
+msgstr "En tidligere automatisk bakgrunnsoppdatering har feilet."
+
+#. translators: %s: Code of error shown.
+#: includes/class-health-check-auto-updates.php:218
+#: includes/class-health-check-auto-updates.php:235
+msgid "The error code was %s."
+msgstr "Feilkoden var %s."
+
+#: includes/class-health-check-auto-updates.php:213
+msgid "A previous automatic background update ended with a critical failure, so updates are now disabled."
+msgstr "En tidligere automatisk bakgrunnsopdpatering resulterte i en kritisk feilmelding, så oppdateringer er for tiden deaktivert."
+
+#: pages/site-status.php:88
+msgid "Secure communication"
+msgstr "Sikker kommunikasjon"
+
+#. translators: %1$s: The database engine in use (MySQL or MariaDB). %2$s:
+#. Database server minimum version number.
+#: includes/class-health-check-site-status.php:478
+msgid "WordPress 3.2+ requires %1$s version %2$s or higher."
+msgstr "WordPress 3.2 og nyere krever versjon %2$s eller nyere av %1$s."
+
+#: pages/debug-data.php:26
+msgid "Show copy and paste field in English"
+msgstr "Vis kopifeltet på engelsk"
+
+#: includes/class-health-check-site-status.php:647
+msgid "Your WordPress install cannot communicate securely with other services. Talk to your web host about OpenSSL support for PHP."
+msgstr "Denne WordPress installasjonen kan ikke benytte sikker kommunikasjon med andre tjenester. Vennligst kontakt nettsideleverandøren angående OpenSSL støtte i PHP."
+
+#. translators: %s: Name of the filter used.
+#: includes/class-health-check-auto-updates.php:188
+msgid "The %s filter is enabled."
+msgstr "Filteret, %s, er i bruk."
+
+#: pages/site-status.php:95
+msgid "Scheduled events"
+msgstr "Planlagte hendelser"
+
+#: includes/class-health-check-site-status.php:673
+msgid "No scheduled events have been missed."
+msgstr "Ingen planlagte hendelser har feilet."
+
+#. translators: %s: The name of the failed cron event.
+#: includes/class-health-check-site-status.php:666
+msgid "A scheduled event (%s) has failed to run. Your site still works, but this may indicate that scheduling posts or automated updates may not work as intended."
+msgstr "En planlagt hendelse (%s) har feilet. Nettstedet vil fremdeles virke som normalt, men dette kan antyde at planlagte innlegg or automatiske oppdateringer ikke virker som de skal."
+
+#: includes/class-health-check-site-status.php:642
+msgid "Your WordPress install can communicate securely with other services."
+msgstr "Din WordPress installasjon kan kommunisere med andre tjenester via sikre kanaler."
+
+#: includes/class-health-check-wp-cron.php:51
+msgid "No scheduled events exist on this site."
+msgstr "Det er ingen planlagte hendleser for denne nettsiden."
+
+#: includes/class-health-check-debug-data.php:535
+#: includes/class-health-check-debug-data.php:566
+#: includes/class-health-check-debug-data.php:656
+msgid "No version or author information available"
+msgstr "Ingen versjons- eller forfatter informasjon tilgjengelig"
+
+#. translators: %s: Name of the filter used.
+#: includes/class-health-check-auto-updates.php:524
+msgid "WordPress security and maintenance releases are blocked by the %s filter."
+msgstr "WordPress sikkerhets- og vedlikeholdsoppdateringer  blokkeres av %s filteret."
+
+#. translators: %s: Name of the constant used.
+#: includes/class-health-check-auto-updates.php:513
+msgid "WordPress security and maintenance releases are blocked by %s."
+msgstr "WordPress sikkerhets- og vedlikeholdsoppdateringer blokkeres av %s."
+
+#: includes/class-health-check-auto-updates.php:451
+msgid "All of your WordPress files are writable."
+msgstr "Alle dine WordPress filer er skrivbare."
+
+#. translators: %s: Name of the filter used.
+#: includes/class-health-check-auto-updates.php:490
+msgid "WordPress development updates are blocked by the %s filter."
+msgstr "Oppdateringer for utviklingesutgaven av WordPress blokkeres av %s filteret."
+
+#. translators: %s: Name of the constant used.
+#: includes/class-health-check-auto-updates.php:479
+msgid "WordPress development updates are blocked by the %s constant."
+msgstr "Oppdateringer for utviklingesutgaven av WordPress blokkeres av %s konstantverdien."
+
+#. translators: %s: WordPress version
+#: includes/class-health-check-auto-updates.php:417
+msgid "Couldn't retrieve a list of the checksums for WordPress %s."
+msgstr "Kunne ikke hente listen over sjekksummer for WordPress %s."
+
+#: includes/class-health-check-auto-updates.php:348
+msgid "(Your site is performing updates over FTP due to file ownership. Talk to your hosting company.)"
+msgstr "(Ditt nettsted utfører oppdateringer via FTP protokollen på grunn av filrettigheter. Kontakt din webleverandør for å rette opp i dette.)"
+
+#: includes/class-health-check-auto-updates.php:347
+msgid "Your installation of WordPress prompts for FTP credentials to perform updates."
+msgstr "Din WordPress installasjon spør etter FTP pålogging for å kunne utføre oppdateringer."
+
+#: includes/class-health-check-auto-updates.php:316
+msgid "No version control systems were detected."
+msgstr "Ingen systemer for versjonskontroll ble oppdaget."
+
+#. translators: %1$s: Folder name. %2$s: Version control directory.
+#: includes/class-health-check-auto-updates.php:307
+msgid "The folder %1$s was detected as being under version control (%2$s)."
+msgstr "Mappen %1$s virker være under versjonkontroll (%2$s)."
+
+#. translators: %1$s: Folder name. %2$s: Version control directory. %3$s:
+#. Filter name.
+#: includes/class-health-check-auto-updates.php:294
+msgid "The folder %1$s was detected as being under version control (%2$s), but the %3$s filter is allowing updates."
+msgstr "Mappen %1$s virker være under versjonkontroll (%2$s), men %3$s filteret tillater oppdateringer."
+
+#: includes/class-health-check-auto-updates.php:232
+msgid "We'll try again with the next release."
+msgstr "Et nytt forsøk blir gjort ved neste utgivelse."
+
+#: includes/class-health-check-auto-updates.php:215
+msgid "When you've been able to update using the \"Update Now\" button on Dashboard > Updates, we'll clear this error for future update attempts."
+msgstr "Denne meldingen fjernes etter noen har kjørt en oppdatering med \"Oppdater nå\" knappen under Kontrollpanel > Oppdateringer siden."
+
+#: pages/debug-data.php:144
+msgid "Table Of Contents"
+msgstr "Innholdsfortegnelse"
+
+#. Author of the plugin/theme
+msgid "The WordPress.org community"
+msgstr "WordPress.org fellesskapet"
+
+#. Description of the plugin/theme
+msgid "Checks the health of your WordPress install."
+msgstr "Sjekker helsen på din WordPress installasjon."
+
+#. #-#-#-#-#  health-check-code.pot (Health Check & Troubleshooting 1.2.1) 
+#. #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  health-check-code.pot (Health Check & Troubleshooting 1.2.1) 
+#. #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://wordpress.org/plugins/health-check/"
+msgstr "http://wordpress.org/extend/plugins/health-check/"
+
+#: includes/class-health-check.php:317
+msgid "PHP Information"
+msgstr "PHP informason"
+
+#: includes/class-health-check-debug-data.php:63
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/class-health-check-debug-data.php:66
+#: includes/class-health-check-debug-data.php:620
+msgid "Version"
+msgstr "Versjon"
+
+#: includes/class-health-check-debug-data.php:70
+msgid "Language"
+msgstr "Språk"
+
+#: includes/class-health-check-debug-data.php:79
+msgid "Site URL"
+msgstr "WordPress-adresse (URL)"
+
+#: includes/class-health-check-debug-data.php:74
+msgid "Home URL"
+msgstr "Nettstedsadresse (URL)"
+
+#: includes/class-health-check-debug-data.php:84
+msgid "Permalink structure"
+msgstr "Permalenke struktur"
+
+#: includes/class-health-check-debug-data.php:88
+msgid "Is this site using HTTPS?"
+msgstr "Kjører siden på HTTPS"
+
+#: includes/class-health-check-debug-data.php:89
+#: includes/class-health-check-debug-data.php:93
+#: includes/class-health-check-debug-data.php:101
+#: includes/class-health-check-debug-data.php:439
+#: includes/class-health-check-debug-data.php:444
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/class-health-check-debug-data.php:89
+#: includes/class-health-check-debug-data.php:93
+#: includes/class-health-check-debug-data.php:101
+#: includes/class-health-check-debug-data.php:439
+#: includes/class-health-check-debug-data.php:444
+msgid "No"
+msgstr "Nei"
+
+#: includes/class-health-check-debug-data.php:92
+msgid "Can anyone register on this site?"
+msgstr "Kan hvem som helst registrere seg på siden"
+
+#: includes/class-health-check-debug-data.php:96
+msgid "Default comment status"
+msgstr "Standardvalg for kommentering"
+
+#: includes/class-health-check-debug-data.php:119
+msgid "Other themes"
+msgstr "Andre temaer"
+
+#: pages/phpinfo.php:26
+msgid "Some scenarios require you to look up more detailed server configurations than what is normally required. This page allows you to view all available configuration options for your PHP setup. Please be advised that WordPress does not guarantee that any information shown on this page may not be considered private."
+msgstr "I noen situasjoner kreves det mer detaljert informasjon om ens server konfigurasjon. Denne siden lar deg se alle tilgjengelige konfigurasjonsvalg for din PHP instans. Vær oppmerksom på at WordPress ikke kan garantere for at noe av informasjonen på denne siden anses som konfidensiel."
+
+#: pages/phpinfo.php:18
+msgid "The phpinfo() function has been disabled by your host. Please contact the host if you need more information about your setup."
+msgstr "phpinfo() funksjonen er deaktivert av din webhotell leverandør. Vennligst kontakt dem dersom du trenger mer detaljert informasjon om deres oppsett."
+
+#: includes/class-health-check-site-status.php:631
+msgid "You are not using HTTPS to access this website."
+msgstr "Du benytter ikke HTTPS for å vise denne nettsiden."
+
+#: includes/class-health-check-site-status.php:625
+msgid "You are accessing this website using HTTPS."
+msgstr "Du besøker denne nettsiden via en HTTPS kobling."
+
+#: pages/site-status.php:81
+msgid "HTTPS status"
+msgstr "HTTPS status"
+
+#: includes/class-health-check-site-status.php:593
+msgid "WordPress.org is reachable from your server."
+msgstr "WordPress.org kan nåes fra din server."
+
+#. translators: %1$s: Name of the library, %2$s: Number of version.
+#: includes/class-health-check-site-status.php:565
+#: includes/class-health-check-site-status.php:577
+msgid "WordPress' utf8mb4 support requires MySQL client library (%1$s) version %2$s or newer."
+msgstr "WordPress' utf8mb4 støtte krever MySQL klientverson %2$s for %1$s eller nyere."
+
+#: includes/class-health-check-site-status.php:541
+msgid "Your MariaDB version supports utf8mb4"
+msgstr "Din MariaDB utgave støtter utf8mb4"
+
+#. translators: %s: Number of version.
+#: includes/class-health-check-site-status.php:534
+msgid "WordPress' utf8mb4 support requires MariaDB version %s or greater"
+msgstr "WordPress' utf8mb4 støtte krever MariaDB versjon %s eller høyere"
+
+#: includes/class-health-check-site-status.php:525
+msgid "Your MySQL version supports utf8mb4"
+msgstr "Din MySQL utgave støtter utf8mb4"
+
+#. translators: %s: Number of version.
+#: includes/class-health-check-site-status.php:518
+msgid "WordPress' utf8mb4 support requires MySQL version %s or greater"
+msgstr "WordPress' utf8mb4 støtte krever MySQL versjon %s eller høyere"
+
+#: pages/site-status.php:67
+msgid "MySQL utf8mb4 support"
+msgstr "MySQL utf8mb4 støtte"
+
+#: includes/class-health-check-site-status.php:453
+msgid "Your PHP install supports JSON."
+msgstr "Din PHP instalasjon støtter JSON."
+
+#: includes/class-health-check-site-status.php:448
+msgid "The PHP install on your server has the JSON extension disabled and is therefore not compatible with WordPress 3.2 or newer."
+msgstr "Utgaven av PHP som kjøres på serveren har ikke JSON utvidelsen aktivert, og er derfor ikke kompatibel med WordPress 3.2 eller nyere."
+
+#: pages/site-status.php:60
+msgid "JSON Extension"
+msgstr "JSON Utvidelse"
+
+#. translators: %s: The name of the database engine being used.
+#: includes/class-health-check-site-status.php:489
+msgid "You are using a <code>wp-content/db.php</code> drop-in which might mean that a %s database is not being used."
+msgstr "Du benytter en <code>wp-content/db.php</code> drop-in som betyr at en %s database muligens ikke benyttes."
+
+#. translators: %1$s: The database engine in use (MySQL or MariaDB). %2$s:
+#. Database server recommended version number.
+#: includes/class-health-check-site-status.php:468
+msgid "For performance and security reasons, we strongly recommend running %1$s version %2$s or higher."
+msgstr "På grunn av bedre ytelse og bedre sikkerhet, anbefaler vi på det sterkeste å kjøre MySQL versjon %s eller høyere."
+
+#: pages/site-status.php:16
+msgid "The health check shows critical information about your WordPress configuration and items that require your attention."
+msgstr "Helsesjekken viser kritisk informasjon om din WordPress installasjon og elementer som krever din oppmerksomhet."
+
+#: pages/debug-data.php:219
+msgid "Return to table of contents"
+msgstr "Tilbake til innholdslisten"
+
+#: pages/debug-data.php:86 pages/debug-data.php:138
+msgid "Mark field for copying"
+msgstr "Merk felt for kopiering"
+
+#: pages/debug-data.php:84 pages/debug-data.php:136
+msgid "Some information may be filtered out from the list you are about to copy, this is information that may be considered private, and is not meant to be shared in a public forum."
+msgstr "Deler av informasjonen kan være filtrert bort fra listen du skal til å kopiere, dette er informasjon som kan ansees som konfidensiell, og bør derfor ikke deles i offentlige fora."
+
+#: pages/debug-data.php:24
+msgid "Show copy and paste field"
+msgstr "Vis kopi og lim feltet"
+
+#: pages/debug-data.php:21
+msgid "The system information shown below can also be copied and pasted into support requests such as on the WordPress.org forums, or to your theme and plugin developers."
+msgstr "Systeminformasjonen under kan også kopieres og limes inn når man oppretter en supporthenvendelse for eksempel via WordPress.org forumet, eller til utviklerne av ett tema eller en utvidelse."
+
+#. translators: %1$s: Theme name. %2$s: Theme slug.
+#: includes/class-health-check-debug-data.php:681
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: includes/class-health-check-debug-data.php:638
+msgid "Supported theme features"
+msgstr "Støttede temafunksjoner"
+
+#: includes/class-health-check-debug-data.php:634
+msgid "Parent theme"
+msgstr "Foreldretema"
+
+#: includes/class-health-check-debug-data.php:630
+msgid "Author website"
+msgstr "Utviklerens nettside"
+
+#: includes/class-health-check-debug-data.php:625
+msgid "Author"
+msgstr "Utvikler"
+
+#: includes/class-health-check-debug-data.php:615
+msgid "Name"
+msgstr "Navn"
+
+#. translators: %1$s: Plugin version number. %2$s: Plugin author name.
+#. translators: %1$s: Theme version number. %2$s: Theme author name.
+#: includes/class-health-check-debug-data.php:539
+#: includes/class-health-check-debug-data.php:570
+#: includes/class-health-check-debug-data.php:660
+msgid "Version %1$s by %2$s"
+msgstr "versjon %1$s av %2$s"
+
+#: includes/class-health-check-debug-data.php:524
+msgid "Database prefix"
+msgstr "Database forstavelse"
+
+#: includes/class-health-check-debug-data.php:514
+msgid "Database host"
+msgstr "Database vert"
+
+#: includes/class-health-check-debug-data.php:509
+msgid "Database user"
+msgstr "Database bruker"
+
+#: includes/class-health-check-debug-data.php:505
+msgid "Client version"
+msgstr "Klientversjon"
+
+#: includes/class-health-check-debug-data.php:501
+msgid "Server version"
+msgstr "Serverversjon"
+
+#: includes/class-health-check-debug-data.php:497
+msgid "Extension"
+msgstr "Utvidelse"
+
+#: includes/class-health-check-debug-data.php:443
+msgid "Is the Imagick library available"
+msgstr "Er Imagemagick biblioteket tilgjengelig"
+
+#: includes/class-health-check-debug-data.php:438
+msgid "SUHOSIN installed"
+msgstr "SUHOSIN installert"
+
+#: includes/class-health-check-debug-data.php:433
+msgid "Your server does not support cURL"
+msgstr "Din server støtter ikke cURL"
+
+#: includes/class-health-check-debug-data.php:427
+#: includes/class-health-check-debug-data.php:432
+msgid "cURL Version"
+msgstr "cURL versjon"
+
+#: includes/class-health-check-debug-data.php:419
+msgid "PHP post max size"
+msgstr "PHP post maks størrelse"
+
+#: includes/class-health-check-debug-data.php:415
+msgid "Upload max filesize"
+msgstr "Opplasting maks filstørrelse"
+
+#: includes/class-health-check-debug-data.php:407
+msgid "PHP memory limit"
+msgstr "PHP minnegrense"
+
+#: includes/class-health-check-debug-data.php:403
+msgid "PHP time limit"
+msgstr "PHP tidsbegrensning"
+
+#: includes/class-health-check-debug-data.php:399
+msgid "PHP max input variables"
+msgstr "PHP maks inndata variabler"
+
+#: includes/class-health-check-debug-data.php:395
+msgid "Unable to determine some settings as the ini_get() function has been disabled"
+msgstr "Noen innstillinger kan ikke hentes ettersom ini_get() funksjonen er deaktivert"
+
+#: includes/class-health-check-debug-data.php:157
+#: includes/class-health-check-debug-data.php:161
+#: includes/class-health-check-debug-data.php:165
+#: includes/class-health-check-debug-data.php:169
+#: includes/class-health-check-debug-data.php:173
+#: includes/class-health-check-debug-data.php:177
+#: includes/class-health-check-debug-data.php:181
+#: includes/class-health-check-debug-data.php:185
+#: includes/class-health-check-debug-data.php:189
+#: includes/class-health-check-debug-data.php:193
+#: includes/class-health-check-debug-data.php:197
+#: includes/class-health-check-debug-data.php:201
+#: includes/class-health-check-debug-data.php:205
+#: includes/class-health-check-debug-data.php:631
+msgid "Undefined"
+msgstr "Udefinert"
+
+#: includes/class-health-check-debug-data.php:134
+msgid "Inactive Plugins"
+msgstr "Inaktive utvidelser"
+
+#: includes/class-health-check-debug-data.php:129
+msgid "Active Plugins"
+msgstr "Aktive utvidelser"
+
+#: includes/class-health-check-debug-data.php:169
+#: includes/class-health-check-debug-data.php:177
+#: includes/class-health-check-debug-data.php:181
+#: includes/class-health-check-debug-data.php:185
+#: includes/class-health-check-debug-data.php:189
+#: includes/class-health-check-debug-data.php:193
+#: includes/class-health-check-debug-data.php:197
+#: includes/class-health-check-debug-data.php:201
+#: includes/class-health-check-debug-data.php:205
+msgid "Disabled"
+msgstr "Deaktivert"
+
+#: includes/class-health-check-debug-data.php:169
+#: includes/class-health-check-debug-data.php:177
+#: includes/class-health-check-debug-data.php:181
+#: includes/class-health-check-debug-data.php:185
+#: includes/class-health-check-debug-data.php:189
+#: includes/class-health-check-debug-data.php:193
+#: includes/class-health-check-debug-data.php:197
+#: includes/class-health-check-debug-data.php:201
+#: includes/class-health-check-debug-data.php:205
+msgid "Enabled"
+msgstr "Aktivert"
+
+#: includes/class-health-check-debug-data.php:215
+#: includes/class-health-check-debug-data.php:219
+#: includes/class-health-check-debug-data.php:223
+#: includes/class-health-check-debug-data.php:227
+#: includes/class-health-check-debug-data.php:231
+#: includes/class-health-check-debug-data.php:694
+msgid "Writable"
+msgstr "Skrivbar"
+
+#: includes/class-health-check-debug-data.php:215
+#: includes/class-health-check-debug-data.php:219
+#: includes/class-health-check-debug-data.php:223
+#: includes/class-health-check-debug-data.php:227
+#: includes/class-health-check-debug-data.php:231
+#: includes/class-health-check-debug-data.php:694
+msgid "Not writable"
+msgstr "Ikke skrivbar"
+
+#: includes/class-health-check-debug-data.php:251
+#: includes/class-health-check-debug-data.php:266
+msgid "User Count"
+msgstr "Antall brukere"
+
+#: includes/class-health-check-debug-data.php:255
+msgid "Site Count"
+msgstr "Antall sider"
+
+#: includes/class-health-check-debug-data.php:259
+msgid "Network Count"
+msgstr "Antall nettverk"
+
+#: includes/class-health-check-debug-data.php:222
+msgid "The uploads directory"
+msgstr "Mappe for opplastinger"
+
+#: includes/class-health-check-debug-data.php:230
+msgid "The themes directory"
+msgstr "Mappe for temaer"
+
+#: includes/class-health-check-debug-data.php:226
+msgid "The plugins directory"
+msgstr "Mappe for utvidelser"
+
+#: includes/class-health-check-debug-data.php:218
+msgid "The wp-content directory"
+msgstr "wp-content mappen"
+
+#: includes/class-health-check-debug-data.php:693
+msgid "The Must Use Plugins directory"
+msgstr "Mappe for må-brukes utvidelser"
+
+#: includes/class-health-check-debug-data.php:110
+msgid "Drop-ins"
+msgstr "Innslipp"
+
+#: includes/class-health-check-debug-data.php:111
+msgid "Drop-ins are single files that replace or enhance WordPress features in ways that are not possible for traditional plugins"
+msgstr "Innslipp er enkeltfiler som erstatter eller forbedrer WordPress funksjoner på måter som ikke er mulig med tradisjonelle utvidelser"
+
+#: includes/class-health-check-debug-data.php:124
+msgid "Must Use Plugins"
+msgstr "Utvidelser som alltid brukes"
+
+#: includes/class-health-check-debug-data.php:277
+#: includes/class-health-check-debug-data.php:284 pages/site-status.php:74
+msgid "Communication with WordPress.org"
+msgstr "Kommunikasjon mot WordPress.org"
+
+#: includes/class-health-check-debug-data.php:214
+msgid "The main WordPress directory"
+msgstr "Mappen WordPress er installert til"
+
+#: includes/class-health-check-debug-data.php:148
+msgid "Database"
+msgstr "Database"
+
+#: includes/class-health-check-debug-data.php:144
+msgid "The options shown below relate to your server setup. If changes are required, you may need your web host's assistance."
+msgstr "Alternativene under kommer fra servermiljøet ditt. Dersom noen verdier trenger å endres må du muligens kontakte dem du har webhotell avtalen hos."
+
+#: includes/class-health-check-debug-data.php:394
+msgid "Server settings"
+msgstr "Serverinnstillinger"
+
+#. translators: %1$s: The IP address WordPress.org resolves to. %2$s: The error
+#. returned by the lookup.
+#: includes/class-health-check-debug-data.php:287
+#: includes/class-health-check-site-status.php:600
+msgid "Unable to reach WordPress.org at %1$s: %2$s"
+msgstr "Kunne ikke kommunisere med WordPress.org på %1$s: %2$s"
+
+#: includes/class-health-check-debug-data.php:279
+msgid "WordPress.org is reachable"
+msgstr "Kan kommunisere med WordPress.org"
+
+#: includes/class-health-check-debug-data.php:380
+msgid "Unable to determine PHP version"
+msgstr "Kunne ikke anslå hvilken versjon av PHP som brukes"
+
+#: includes/class-health-check-debug-data.php:389
+msgid "Unable to determine PHP SAPI"
+msgstr "Kunne ikke anslå hvilken versjon av PHP SAPI som brukes"
+
+#: includes/class-health-check-debug-data.php:388
+msgid "PHP SAPI"
+msgstr "PHP SAPI"
+
+#: includes/class-health-check-debug-data.php:379 pages/site-status.php:44
+msgid "PHP Version"
+msgstr "PHP versjon"
+
+#: includes/class-health-check-debug-data.php:376
+msgid "Unable to determine server architecture"
+msgstr "Kunne ikke anslå hvilken arkitektur serveren kjører på"
+
+#: includes/class-health-check-debug-data.php:375
+msgid "Server architecture"
+msgstr "Serverarkitektur"
+
+#: includes/class-health-check-debug-data.php:143
+msgid "Server"
+msgstr "Server"
+
+#: includes/class-health-check-debug-data.php:153
+msgid "These values represent values set in your websites code which affect WordPress in various ways that may be of importance when seeking help with your site."
+msgstr "Disse verdiene representerer data som brukes rundt om i koden til WordPress, og kan derfor være viktig når man søker hjelp med en nettside."
+
+#: includes/class-health-check-debug-data.php:211
+msgid "The status of various locations WordPress needs to write files in various scenarios."
+msgstr "Statusen for lokasjoner WordPress trenger skriverettigheter til ved forskjellige scenarier."
+
+#. translators: %1$s: Current PHP version. %2$s: Recommended PHP version. %3$s:
+#. Minimum PHP version.
+#: includes/class-health-check-site-status.php:393
+msgid "Your version of PHP, %1$s, is very outdated and no longer receiving security updates and is not supported by WordPress. You should contact your host for an upgrade, WordPress recommends using PHP version %2$s, but will work with version %3$s or newer."
+msgstr "Din PHP utgave, %1$s, er svært utdatert og mottar ikke lengre sikkerhetsoppdateringer or er heller ikke offisielt støttet av WordPress. Du bør kontakte din websideleverandør for en oppdatering, WordPress anbefaler PHP versjon %2$s, men vil også virke med versjon %3$s eller nyere."
+
+#: includes/class-health-check-debug-data.php:100
+msgid "Is this a multisite?"
+msgstr "Er dette et nettverk?"
+
+#: includes/class-health-check-debug-data.php:635
+msgid "Not a child theme"
+msgstr "Ikke et dattertema"
+
+#: includes/class-health-check-debug-data.php:210
+msgid "Filesystem Permissions"
+msgstr "Filrettigheter"
+
+#: includes/class-health-check-debug-data.php:152
+msgid "WordPress Constants"
+msgstr "WordPress konstantverdier"
+
+#: includes/class-health-check-debug-data.php:115
+msgid "Active Theme"
+msgstr "Aktivt tema"
+
+#: includes/class-health-check.php:315
+msgid "Debug Information"
+msgstr "Feilsøkingsinformasjon"

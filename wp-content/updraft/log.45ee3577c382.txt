@@ -1,0 +1,403 @@
+0000.001 (0) Opened log file at time: Fri, 31 Aug 2018 14:04:41 +0000 on https://dev.finditguide.com
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.13 WP: 4.9.8 PHP: 7.2.9 (fpm-fcgi, Linux mail 3.13.0-142-generic #191-Ubuntu SMP Fri Feb 2 12:13:35 UTC 2018 x86_64) MySQL: 5.5.61 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 13.7M | 16M) multisite: N openssl: OpenSSL 1.0.1f 6 Jan 2014 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.007 (0) Free space on disk containing Updraft's temporary directory: 443146.6 MB
+0000.010 (0) Tasks: Backup files:  (schedule: manual) Backup DB: 1 (schedule: daily)
+0000.012 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.017 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1535646728, seconds_ago=77553)
+0000.025 (0) Set semaphore last lock (d) time to 2018-08-31 14:04:41
+0000.027 (0) Semaphore lock (d) complete
+0000.037 (0) Backup run: resumption=0, nonce=45ee3577c382, begun at=1535724281 (0s ago), job type=backup
+0000.040 (0) Scheduling a resumption (1) after 600 seconds (1535724881) in case this run gets aborted
+0000.048 (0) This backup run is not intended for files - skipping
+0000.050 (0) Beginning creation of database dump (WordPress DB)
+0000.065 (0) Table qw87w2_options: Total expected rows (approximate): 592
+0000.196 (0) Table qw87w2_options: Total rows added: 665 in 0.13 seconds
+0000.211 (0) Table qw87w2_options: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_options.table.gz - 367.7 KB)
+0000.227 (0) Table qw87w2_site: Total expected rows (approximate): 1
+0000.231 (0) Table qw87w2_site: Total rows added: 1 in 0.00 seconds
+0000.234 (0) Table qw87w2_site: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_site.table.gz - 0.4 KB)
+0000.250 (0) Table qw87w2_blogs: Total expected rows (approximate): 5
+0000.254 (0) Table qw87w2_blogs: Total rows added: 5 in 0.00 seconds
+0000.257 (0) Table qw87w2_blogs: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_blogs.table.gz - 0.6 KB)
+0000.265 (0) Table qw87w2_users: Total expected rows (approximate): 3
+0000.270 (0) Table qw87w2_users: Total rows added: 3 in 0.00 seconds
+0000.273 (0) Table qw87w2_users: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_users.table.gz - 0.7 KB)
+0000.282 (0) Table qw87w2_usermeta: Total expected rows (approximate): 163
+0000.288 (0) Table qw87w2_usermeta: Total rows added: 123 in 0.00 seconds
+0000.291 (0) Table qw87w2_usermeta: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_usermeta.table.gz - 4.9 KB)
+0000.302 (0) Table qw87w2_blog_versions: Total expected rows (approximate): 0
+0000.306 (0) Table qw87w2_blog_versions: Total rows added: 0 in 0.00 seconds
+0000.309 (0) Table qw87w2_blog_versions: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_blog_versions.table.gz - 0.3 KB)
+0000.317 (0) Table qw87w2_commentmeta: Total expected rows (approximate): 0
+0000.321 (0) Table qw87w2_commentmeta: Total rows added: 0 in 0.00 seconds
+0000.325 (0) Table qw87w2_commentmeta: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_commentmeta.table.gz - 0.3 KB)
+0000.334 (0) Table qw87w2_comments: Total expected rows (approximate): 0
+0000.339 (0) Table qw87w2_comments: Total rows added: 0 in 0.00 seconds
+0000.342 (0) Table qw87w2_comments: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_comments.table.gz - 0.5 KB)
+0000.349 (0) Table qw87w2_links: Total expected rows (approximate): 0
+0000.354 (0) Table qw87w2_links: Total rows added: 0 in 0.00 seconds
+0000.359 (0) Table qw87w2_links: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_links.table.gz - 0.4 KB)
+0000.371 (0) Table qw87w2_postmeta: Total expected rows (approximate): 485
+0000.387 (0) Table qw87w2_postmeta: Total rows added: 392 in 0.01 seconds
+0000.391 (0) Table qw87w2_postmeta: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_postmeta.table.gz - 9.4 KB)
+0000.399 (0) Table qw87w2_posts: Total expected rows (approximate): 29
+0000.441 (0) Table qw87w2_posts: Total rows added: 47 in 0.04 seconds
+0000.465 (0) Table qw87w2_posts: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_posts.table.gz - 108.7 KB)
+0000.481 (0) Table qw87w2_registration_log: Total expected rows (approximate): 5
+0000.499 (0) Table qw87w2_registration_log: Total rows added: 5 in 0.00 seconds
+0000.504 (0) Table qw87w2_registration_log: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_registration_log.table.gz - 0.5 KB)
+0000.512 (0) Table qw87w2_signups: Total expected rows (approximate): 0
+0000.516 (0) Table qw87w2_signups: Total rows added: 0 in 0.00 seconds
+0000.519 (0) Table qw87w2_signups: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_signups.table.gz - 0.5 KB)
+0000.528 (0) Table qw87w2_sitemeta: Total expected rows (approximate): 125
+0000.545 (0) Table qw87w2_sitemeta: Total rows added: 120 in 0.02 seconds
+0000.549 (0) Table qw87w2_sitemeta: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_sitemeta.table.gz - 37.6 KB)
+0000.556 (0) Table qw87w2_term_relationships: Total expected rows (approximate): 6
+0000.559 (0) Table qw87w2_term_relationships: Total rows added: 6 in 0.00 seconds
+0000.561 (0) Table qw87w2_term_relationships: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_term_relationships.table.gz - 0.4 KB)
+0000.567 (0) Table qw87w2_term_taxonomy: Total expected rows (approximate): 26
+0000.570 (0) Table qw87w2_term_taxonomy: Total rows added: 26 in 0.00 seconds
+0000.572 (0) Table qw87w2_term_taxonomy: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_term_taxonomy.table.gz - 0.6 KB)
+0000.579 (0) Table qw87w2_termmeta: Total expected rows (approximate): 0
+0000.582 (0) Table qw87w2_termmeta: Total rows added: 0 in 0.00 seconds
+0000.584 (0) Table qw87w2_termmeta: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_termmeta.table.gz - 0.3 KB)
+0000.590 (0) Table qw87w2_terms: Total expected rows (approximate): 26
+0000.594 (0) Table qw87w2_terms: Total rows added: 26 in 0.00 seconds
+0000.596 (0) Table qw87w2_terms: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_terms.table.gz - 0.7 KB)
+0000.602 (0) Table qw87w2_yoast_seo_links: Total expected rows (approximate): 43
+0000.607 (0) Table qw87w2_yoast_seo_links: Total rows added: 132 in 0.00 seconds
+0000.609 (0) Table qw87w2_yoast_seo_links: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_yoast_seo_links.table.gz - 1.9 KB)
+0000.615 (0) Table qw87w2_yoast_seo_meta: Total expected rows (approximate): 191
+0000.619 (0) Table qw87w2_yoast_seo_meta: Total rows added: 191 in 0.00 seconds
+0000.622 (0) Table qw87w2_yoast_seo_meta: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_yoast_seo_meta.table.gz - 0.8 KB)
+0000.628 (0) Table qw87w2_better_login_security_history: Total expected rows (approximate): 0
+0000.632 (0) Table qw87w2_better_login_security_history: Total rows added: 0 in 0.00 seconds
+0000.633 (0) Table qw87w2_better_login_security_history: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_better_login_security_history.table.gz - 0.4 KB)
+0000.639 (0) Table qw87w2_blc_filters: Total expected rows (approximate): 0
+0000.641 (0) Table qw87w2_blc_filters: Total rows added: 0 in 0.00 seconds
+0000.643 (0) Table qw87w2_blc_filters: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_blc_filters.table.gz - 0.3 KB)
+0000.648 (0) Table qw87w2_blc_instances: Total expected rows (approximate): 161
+0000.659 (0) Table qw87w2_blc_instances: Total rows added: 132 in 0.01 seconds
+0000.663 (0) Table qw87w2_blc_instances: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_blc_instances.table.gz - 2.5 KB)
+0000.670 (0) Table qw87w2_blc_links: Total expected rows (approximate): 45
+0000.677 (0) Table qw87w2_blc_links: Total rows added: 53 in 0.01 seconds
+0000.681 (0) Table qw87w2_blc_links: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_blc_links.table.gz - 9.5 KB)
+0000.689 (0) Table qw87w2_blc_synch: Total expected rows (approximate): 12
+0000.693 (0) Table qw87w2_blc_synch: Total rows added: 12 in 0.00 seconds
+0000.696 (0) Table qw87w2_blc_synch: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_blc_synch.table.gz - 0.5 KB)
+0000.701 (0) Table qw87w2_duplicator_packages: Total expected rows (approximate): 0
+0000.704 (0) Table qw87w2_duplicator_packages: Total rows added: 0 in 0.00 seconds
+0000.705 (0) Table qw87w2_duplicator_packages: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_duplicator_packages.table.gz - 0.4 KB)
+0000.711 (0) Table qw87w2_icl_content_status: Total expected rows (approximate): 0
+0000.713 (0) Table qw87w2_icl_content_status: Total rows added: 0 in 0.00 seconds
+0000.715 (0) Table qw87w2_icl_content_status: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_content_status.table.gz - 0.3 KB)
+0000.722 (0) Table qw87w2_icl_core_status: Total expected rows (approximate): 0
+0000.725 (0) Table qw87w2_icl_core_status: Total rows added: 0 in 0.00 seconds
+0000.728 (0) Table qw87w2_icl_core_status: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_core_status.table.gz - 0.4 KB)
+0000.735 (0) Table qw87w2_icl_flags: Total expected rows (approximate): 63
+0000.739 (0) Table qw87w2_icl_flags: Total rows added: 63 in 0.00 seconds
+0000.741 (0) Table qw87w2_icl_flags: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_flags.table.gz - 0.9 KB)
+0000.751 (0) Table qw87w2_icl_languages: Total expected rows (approximate): 63
+0000.755 (0) Table qw87w2_icl_languages: Total rows added: 63 in 0.00 seconds
+0000.757 (0) Table qw87w2_icl_languages: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_languages.table.gz - 1.5 KB)
+0000.765 (0) Table qw87w2_icl_languages_translations: Total expected rows (approximate): 3713
+0000.801 (0) Table qw87w2_icl_languages_translations: Total rows added: 3969 in 0.03 seconds
+0000.805 (0) Table qw87w2_icl_languages_translations: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_languages_translations.table.gz - 33.1 KB)
+0000.811 (0) Table qw87w2_icl_locale_map: Total expected rows (approximate): 2
+0000.814 (0) Table qw87w2_icl_locale_map: Total rows added: 2 in 0.00 seconds
+0000.817 (0) Table qw87w2_icl_locale_map: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_locale_map.table.gz - 0.3 KB)
+0000.822 (0) Table qw87w2_icl_message_status: Total expected rows (approximate): 0
+0000.825 (0) Table qw87w2_icl_message_status: Total rows added: 0 in 0.00 seconds
+0000.827 (0) Table qw87w2_icl_message_status: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_message_status.table.gz - 0.4 KB)
+0000.833 (0) Table qw87w2_icl_mo_files_domains: Total expected rows (approximate): 19
+0000.836 (0) Table qw87w2_icl_mo_files_domains: Total rows added: 19 in 0.00 seconds
+0000.838 (0) Table qw87w2_icl_mo_files_domains: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_mo_files_domains.table.gz - 1.6 KB)
+0000.844 (0) Table qw87w2_icl_node: Total expected rows (approximate): 0
+0000.846 (0) Table qw87w2_icl_node: Total rows added: 0 in 0.00 seconds
+0000.848 (0) Table qw87w2_icl_node: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_node.table.gz - 0.3 KB)
+0000.853 (0) Table qw87w2_icl_reminders: Total expected rows (approximate): 0
+0000.857 (0) Table qw87w2_icl_reminders: Total rows added: 0 in 0.00 seconds
+0000.858 (0) Table qw87w2_icl_reminders: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_reminders.table.gz - 0.3 KB)
+0000.863 (0) Table qw87w2_icl_string_packages: Total expected rows (approximate): 5
+0000.866 (0) Table qw87w2_icl_string_packages: Total rows added: 5 in 0.00 seconds
+0000.868 (0) Table qw87w2_icl_string_packages: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_string_packages.table.gz - 0.5 KB)
+0000.873 (0) Table qw87w2_icl_string_pages: Total expected rows (approximate): 150
+0000.876 (0) Table qw87w2_icl_string_pages: Total rows added: 150 in 0.00 seconds
+0000.878 (0) Table qw87w2_icl_string_pages: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_string_pages.table.gz - 0.8 KB)
+0000.883 (0) Table qw87w2_icl_string_positions: Total expected rows (approximate): 0
+0000.885 (0) Table qw87w2_icl_string_positions: Total rows added: 0 in 0.00 seconds
+0000.888 (0) Table qw87w2_icl_string_positions: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_string_positions.table.gz - 0.3 KB)
+0000.892 (0) Table qw87w2_icl_string_status: Total expected rows (approximate): 0
+0000.895 (0) Table qw87w2_icl_string_status: Total rows added: 0 in 0.00 seconds
+0000.897 (0) Table qw87w2_icl_string_status: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_string_status.table.gz - 0.4 KB)
+0000.905 (0) Table qw87w2_icl_string_translations: Total expected rows (approximate): 10802
+0001.215 (0) Table qw87w2_icl_string_translations: Total rows added: 11445 in 0.31 seconds
+0001.218 (0) Table qw87w2_icl_string_translations: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_string_translations.table.gz - 286.6 KB)
+0001.224 (0) Table qw87w2_icl_string_urls: Total expected rows (approximate): 6
+0001.227 (0) Table qw87w2_icl_string_urls: Total rows added: 6 in 0.00 seconds
+0001.229 (0) Table qw87w2_icl_string_urls: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_string_urls.table.gz - 0.5 KB)
+0001.241 (0) Table qw87w2_icl_strings: Total expected rows (approximate): 21716
+0002.160 (0) Table qw87w2_icl_strings: Total rows added: 21108 in 0.92 seconds
+0002.164 (0) Table qw87w2_icl_strings: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_strings.table.gz - 1329.3 KB)
+0002.172 (0) Table qw87w2_icl_translate: Total expected rows (approximate): 42
+0002.185 (0) Table qw87w2_icl_translate: Total rows added: 30 in 0.01 seconds
+0002.189 (0) Table qw87w2_icl_translate: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_translate.table.gz - 33.6 KB)
+0002.197 (0) Table qw87w2_icl_translate_job: Total expected rows (approximate): 6
+0002.201 (0) Table qw87w2_icl_translate_job: Total rows added: 6 in 0.00 seconds
+0002.203 (0) Table qw87w2_icl_translate_job: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_translate_job.table.gz - 0.5 KB)
+0002.209 (0) Table qw87w2_icl_translation_batches: Total expected rows (approximate): 2
+0002.213 (0) Table qw87w2_icl_translation_batches: Total rows added: 2 in 0.00 seconds
+0002.215 (0) Table qw87w2_icl_translation_batches: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_translation_batches.table.gz - 0.4 KB)
+0002.222 (0) Table qw87w2_icl_translation_status: Total expected rows (approximate): 7
+0002.234 (0) Table qw87w2_icl_translation_status: Total rows added: 8 in 0.01 seconds
+0002.237 (0) Table qw87w2_icl_translation_status: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_translation_status.table.gz - 30.2 KB)
+0002.245 (0) Table qw87w2_icl_translations: Total expected rows (approximate): 38
+0002.252 (0) Table qw87w2_icl_translations: Total rows added: 38 in 0.00 seconds
+0002.258 (0) Table qw87w2_icl_translations: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_translations.table.gz - 0.8 KB)
+0002.270 (0) Table qw87w2_icwp_wpsf_audit_trail: Total expected rows (approximate): 56
+0002.277 (0) Table qw87w2_icwp_wpsf_audit_trail: Total rows added: 56 in 0.00 seconds
+0002.281 (0) Table qw87w2_icwp_wpsf_audit_trail: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icwp_wpsf_audit_trail.table.gz - 2.1 KB)
+0002.290 (0) Table qw87w2_icwp_wpsf_ip_lists: Total expected rows (approximate): 2
+0002.294 (0) Table qw87w2_icwp_wpsf_ip_lists: Total rows added: 2 in 0.00 seconds
+0002.297 (0) Table qw87w2_icwp_wpsf_ip_lists: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icwp_wpsf_ip_lists.table.gz - 0.5 KB)
+0002.304 (0) Table qw87w2_icwp_wpsf_notes: Total expected rows (approximate): 0
+0002.307 (0) Table qw87w2_icwp_wpsf_notes: Total rows added: 0 in 0.00 seconds
+0002.309 (0) Table qw87w2_icwp_wpsf_notes: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icwp_wpsf_notes.table.gz - 0.4 KB)
+0002.316 (0) Table qw87w2_icwp_wpsf_reporting: Total expected rows (approximate): 73
+0002.321 (0) Table qw87w2_icwp_wpsf_reporting: Total rows added: 73 in 0.00 seconds
+0002.323 (0) Table qw87w2_icwp_wpsf_reporting: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icwp_wpsf_reporting.table.gz - 1.1 KB)
+0002.329 (0) Table qw87w2_icwp_wpsf_sessions: Total expected rows (approximate): 2
+0002.333 (0) Table qw87w2_icwp_wpsf_sessions: Total rows added: 2 in 0.00 seconds
+0002.335 (0) Table qw87w2_icwp_wpsf_sessions: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icwp_wpsf_sessions.table.gz - 0.6 KB)
+0002.341 (0) Table qw87w2_icwp_wpsf_spambot_comments_filter: Total expected rows (approximate): 0
+0002.344 (0) Table qw87w2_icwp_wpsf_spambot_comments_filter: Total rows added: 0 in 0.00 seconds
+0002.346 (0) Table qw87w2_icwp_wpsf_spambot_comments_filter: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icwp_wpsf_spambot_comments_filter.table.gz - 0.4 KB)
+0002.353 (0) Table qw87w2_icwp_wpsf_statistics: Total expected rows (approximate): 14
+0002.358 (0) Table qw87w2_icwp_wpsf_statistics: Total rows added: 14 in 0.00 seconds
+0002.361 (0) Table qw87w2_icwp_wpsf_statistics: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icwp_wpsf_statistics.table.gz - 0.8 KB)
+0002.373 (0) Table qw87w2_revslider_css: Total expected rows (approximate): 128
+0002.381 (0) Table qw87w2_revslider_css: Total rows added: 109 in 0.01 seconds
+0002.385 (0) Table qw87w2_revslider_css: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_revslider_css.table.gz - 4.8 KB)
+0002.394 (0) Table qw87w2_revslider_layer_animations: Total expected rows (approximate): 0
+0002.399 (0) Table qw87w2_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0002.404 (0) Table qw87w2_revslider_layer_animations: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_revslider_layer_animations.table.gz - 0.3 KB)
+0002.411 (0) Table qw87w2_revslider_navigations: Total expected rows (approximate): 0
+0002.416 (0) Table qw87w2_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0002.419 (0) Table qw87w2_revslider_navigations: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_revslider_navigations.table.gz - 0.3 KB)
+0002.427 (0) Table qw87w2_revslider_sliders: Total expected rows (approximate): 0
+0002.431 (0) Table qw87w2_revslider_sliders: Total rows added: 0 in 0.00 seconds
+0002.434 (0) Table qw87w2_revslider_sliders: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_revslider_sliders.table.gz - 0.3 KB)
+0002.447 (0) Table qw87w2_revslider_slides: Total expected rows (approximate): 0
+0002.452 (0) Table qw87w2_revslider_slides: Total rows added: 0 in 0.00 seconds
+0002.455 (0) Table qw87w2_revslider_slides: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_revslider_slides.table.gz - 0.3 KB)
+0002.472 (0) Table qw87w2_revslider_static_slides: Total expected rows (approximate): 0
+0002.478 (0) Table qw87w2_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0002.481 (0) Table qw87w2_revslider_static_slides: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_revslider_static_slides.table.gz - 0.3 KB)
+0002.490 (0) Table qw87w2_smush_dir_images: Total expected rows (approximate): 0
+0002.500 (0) Table qw87w2_smush_dir_images: Total rows added: 0 in 0.00 seconds
+0002.504 (0) Table qw87w2_smush_dir_images: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_smush_dir_images.table.gz - 0.4 KB)
+0002.514 (0) Table qw87w2_updraftcentral_site_temporary_keys: Total expected rows (approximate): 0
+0002.519 (0) Table qw87w2_updraftcentral_site_temporary_keys: Total rows added: 0 in 0.00 seconds
+0002.522 (0) Table qw87w2_updraftcentral_site_temporary_keys: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_updraftcentral_site_temporary_keys.table.gz - 0.3 KB)
+0002.530 (0) Table qw87w2_updraftcentral_sitemeta: Total expected rows (approximate): 3
+0002.535 (0) Table qw87w2_updraftcentral_sitemeta: Total rows added: 3 in 0.00 seconds
+0002.541 (0) Table qw87w2_updraftcentral_sitemeta: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_updraftcentral_sitemeta.table.gz - 0.5 KB)
+0002.553 (0) Table qw87w2_updraftcentral_sites: Total expected rows (approximate): 3
+0002.563 (0) Table qw87w2_updraftcentral_sites: Total rows added: 3 in 0.00 seconds
+0002.567 (0) Table qw87w2_updraftcentral_sites: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_updraftcentral_sites.table.gz - 5.3 KB)
+0002.577 (0) Table qw87w2_woocommerce_api_keys: Total expected rows (approximate): 0
+0002.582 (0) Table qw87w2_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0002.586 (0) Table qw87w2_woocommerce_api_keys: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_api_keys.table.gz - 0.4 KB)
+0002.597 (0) Table qw87w2_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0002.602 (0) Table qw87w2_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0002.606 (0) Table qw87w2_woocommerce_attribute_taxonomies: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0002.617 (0) Table qw87w2_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0002.620 (0) Table qw87w2_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0002.622 (0) Table qw87w2_woocommerce_downloadable_product_permissions: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0002.630 (0) Table qw87w2_woocommerce_log: Total expected rows (approximate): 0
+0002.634 (0) Table qw87w2_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0002.636 (0) Table qw87w2_woocommerce_log: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_log.table.gz - 0.4 KB)
+0002.643 (0) Table qw87w2_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0002.646 (0) Table qw87w2_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0002.649 (0) Table qw87w2_woocommerce_order_itemmeta: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0002.659 (0) Table qw87w2_woocommerce_order_items: Total expected rows (approximate): 0
+0002.664 (0) Table qw87w2_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0002.667 (0) Table qw87w2_woocommerce_order_items: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_order_items.table.gz - 0.4 KB)
+0002.674 (0) Table qw87w2_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0002.677 (0) Table qw87w2_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0002.679 (0) Table qw87w2_woocommerce_payment_tokenmeta: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0002.685 (0) Table qw87w2_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0002.689 (0) Table qw87w2_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0002.691 (0) Table qw87w2_woocommerce_payment_tokens: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0002.697 (0) Table qw87w2_woocommerce_sessions: Total expected rows (approximate): 13
+0002.701 (0) Table qw87w2_woocommerce_sessions: Total rows added: 13 in 0.00 seconds
+0002.703 (0) Table qw87w2_woocommerce_sessions: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_sessions.table.gz - 1.3 KB)
+0002.712 (0) Table qw87w2_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0002.717 (0) Table qw87w2_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0002.720 (0) Table qw87w2_woocommerce_shipping_zone_locations: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0002.729 (0) Table qw87w2_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0002.734 (0) Table qw87w2_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0002.737 (0) Table qw87w2_woocommerce_shipping_zone_methods: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0002.745 (0) Table qw87w2_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0002.749 (0) Table qw87w2_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0002.752 (0) Table qw87w2_woocommerce_shipping_zones: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0002.766 (0) Table qw87w2_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0002.771 (0) Table qw87w2_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0002.775 (0) Table qw87w2_woocommerce_tax_rate_locations: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0002.789 (0) Table qw87w2_woocommerce_tax_rates: Total expected rows (approximate): 0
+0002.794 (0) Table qw87w2_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0002.797 (0) Table qw87w2_woocommerce_tax_rates: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_tax_rates.table.gz - 0.4 KB)
+0002.818 (0) Table qw87w2_wsal_metadata: Total expected rows (approximate): 4452
+0002.897 (0) Table qw87w2_wsal_metadata: Total rows added: 4232 in 0.08 seconds
+0002.902 (0) Table qw87w2_wsal_metadata: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_wsal_metadata.table.gz - 42.2 KB)
+0002.919 (0) Table qw87w2_wsal_occurrences: Total expected rows (approximate): 762
+0002.933 (0) Table qw87w2_wsal_occurrences: Total rows added: 636 in 0.01 seconds
+0002.936 (0) Table qw87w2_wsal_occurrences: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_wsal_occurrences.table.gz - 7.5 KB)
+0002.945 (0) Table qw87w2_wsal_options: Total expected rows (approximate): 52
+0002.957 (0) Table qw87w2_wsal_options: Total rows added: 57 in 0.01 seconds
+0002.961 (0) Table qw87w2_wsal_options: finishing file (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_wsal_options.table.gz - 38.2 KB)
+0002.980 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_options.table.gz (1/82): adding to final database dump
+0003.080 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_site.table.gz (2/82): adding to final database dump
+0003.083 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_blogs.table.gz (3/82): adding to final database dump
+0003.085 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_users.table.gz (4/82): adding to final database dump
+0003.087 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_usermeta.table.gz (5/82): adding to final database dump
+0003.090 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_blog_versions.table.gz (6/82): adding to final database dump
+0003.093 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_commentmeta.table.gz (7/82): adding to final database dump
+0003.096 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_comments.table.gz (8/82): adding to final database dump
+0003.098 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_links.table.gz (9/82): adding to final database dump
+0003.100 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_postmeta.table.gz (10/82): adding to final database dump
+0003.104 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_posts.table.gz (11/82): adding to final database dump
+0003.142 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_registration_log.table.gz (12/82): adding to final database dump
+0003.145 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_signups.table.gz (13/82): adding to final database dump
+0003.147 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_sitemeta.table.gz (14/82): adding to final database dump
+0003.158 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_term_relationships.table.gz (15/82): adding to final database dump
+0003.160 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_term_taxonomy.table.gz (16/82): adding to final database dump
+0003.163 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_termmeta.table.gz (17/82): adding to final database dump
+0003.164 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_terms.table.gz (18/82): adding to final database dump
+0003.165 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_yoast_seo_links.table.gz (19/82): adding to final database dump
+0003.168 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_yoast_seo_meta.table.gz (20/82): adding to final database dump
+0003.170 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_better_login_security_history.table.gz (21/82): adding to final database dump
+0003.172 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_blc_filters.table.gz (22/82): adding to final database dump
+0003.175 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_blc_instances.table.gz (23/82): adding to final database dump
+0003.177 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_blc_links.table.gz (24/82): adding to final database dump
+0003.182 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_blc_synch.table.gz (25/82): adding to final database dump
+0003.185 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_duplicator_packages.table.gz (26/82): adding to final database dump
+0003.187 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_content_status.table.gz (27/82): adding to final database dump
+0003.189 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_core_status.table.gz (28/82): adding to final database dump
+0003.191 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_flags.table.gz (29/82): adding to final database dump
+0003.193 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_languages.table.gz (30/82): adding to final database dump
+0003.196 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_languages_translations.table.gz (31/82): adding to final database dump
+0003.211 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_locale_map.table.gz (32/82): adding to final database dump
+0003.215 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_message_status.table.gz (33/82): adding to final database dump
+0003.218 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_mo_files_domains.table.gz (34/82): adding to final database dump
+0003.221 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_node.table.gz (35/82): adding to final database dump
+0003.224 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_reminders.table.gz (36/82): adding to final database dump
+0003.225 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_string_packages.table.gz (37/82): adding to final database dump
+0003.227 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_string_pages.table.gz (38/82): adding to final database dump
+0003.229 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_string_positions.table.gz (39/82): adding to final database dump
+0003.232 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_string_status.table.gz (40/82): adding to final database dump
+0003.234 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_string_translations.table.gz (41/82): adding to final database dump
+0003.320 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_string_urls.table.gz (42/82): adding to final database dump
+0003.323 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_strings.table.gz (43/82): adding to final database dump
+0003.598 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_translate.table.gz (44/82): adding to final database dump
+0003.612 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_translate_job.table.gz (45/82): adding to final database dump
+0003.616 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_translation_batches.table.gz (46/82): adding to final database dump
+0003.620 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_translation_status.table.gz (47/82): adding to final database dump
+0003.629 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icl_translations.table.gz (48/82): adding to final database dump
+0003.634 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icwp_wpsf_audit_trail.table.gz (49/82): adding to final database dump
+0003.645 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icwp_wpsf_ip_lists.table.gz (50/82): adding to final database dump
+0003.648 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icwp_wpsf_notes.table.gz (51/82): adding to final database dump
+0003.651 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icwp_wpsf_reporting.table.gz (52/82): adding to final database dump
+0003.653 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icwp_wpsf_sessions.table.gz (53/82): adding to final database dump
+0003.656 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icwp_wpsf_spambot_comments_filter.table.gz (54/82): adding to final database dump
+0003.658 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_icwp_wpsf_statistics.table.gz (55/82): adding to final database dump
+0003.661 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_revslider_css.table.gz (56/82): adding to final database dump
+0003.666 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_revslider_layer_animations.table.gz (57/82): adding to final database dump
+0003.669 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_revslider_navigations.table.gz (58/82): adding to final database dump
+0003.671 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_revslider_sliders.table.gz (59/82): adding to final database dump
+0003.673 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_revslider_slides.table.gz (60/82): adding to final database dump
+0003.675 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_revslider_static_slides.table.gz (61/82): adding to final database dump
+0003.679 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_smush_dir_images.table.gz (62/82): adding to final database dump
+0003.682 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_updraftcentral_site_temporary_keys.table.gz (63/82): adding to final database dump
+0003.685 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_updraftcentral_sitemeta.table.gz (64/82): adding to final database dump
+0003.687 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_updraftcentral_sites.table.gz (65/82): adding to final database dump
+0003.689 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_api_keys.table.gz (66/82): adding to final database dump
+0003.691 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_attribute_taxonomies.table.gz (67/82): adding to final database dump
+0003.693 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_downloadable_product_permissions.table.gz (68/82): adding to final database dump
+0003.695 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_log.table.gz (69/82): adding to final database dump
+0003.701 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_order_itemmeta.table.gz (70/82): adding to final database dump
+0003.704 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_order_items.table.gz (71/82): adding to final database dump
+0003.707 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_payment_tokenmeta.table.gz (72/82): adding to final database dump
+0003.710 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_payment_tokens.table.gz (73/82): adding to final database dump
+0003.713 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_sessions.table.gz (74/82): adding to final database dump
+0003.716 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_shipping_zone_locations.table.gz (75/82): adding to final database dump
+0003.719 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_shipping_zone_methods.table.gz (76/82): adding to final database dump
+0003.721 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_shipping_zones.table.gz (77/82): adding to final database dump
+0003.723 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_tax_rate_locations.table.gz (78/82): adding to final database dump
+0003.726 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_woocommerce_tax_rates.table.gz (79/82): adding to final database dump
+0003.728 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_wsal_metadata.table.gz (80/82): adding to final database dump
+0003.752 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_wsal_occurrences.table.gz (81/82): adding to final database dump
+0003.758 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db-table-qw87w2_wsal_options.table.gz (82/82): adding to final database dump
+0003.772 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db.gz: finished writing out complete database file (2344 KB)
+0003.850 (0) Total database tables backed up: 82 (backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db.gz, size: 2422163, sha256)
+0003.868 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db.gz: db: This file has not yet been successfully uploaded: will queue
+0003.873 (0) Saving backup history. Total backup size: 2.3 MB
+0003.880 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0003.889 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0003.891 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-727b89a0dac2f09e846e4014a5b82cdd)
+0008.410 (0) Google Drive quota usage: used=12115.6 MB, total=117760 MB, available=105644.4 MB
+0008.414 (0) backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db.gz: Attempting to upload to Google Drive (into folder id: 0B8WEJN04mF1Yd29aUVdFUFhKWWc)
+0009.282 (0) Googledrive chunked upload: 43.3 % uploaded (1048576)
+0009.687 (0) Googledrive chunked upload: 86.6 % uploaded (2097152)
+0010.943 (0) Googledrive chunked upload: 100 % uploaded (2097152)
+0010.989 (0) OK: Archive backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db.gz uploaded to Google Drive in 2.57 seconds
+0010.998 (0) Recording as successfully uploaded: backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db.gz
+0011.032 (0) Deleting local file: backup_2018-08-31-1604_The_FindIt_Guide_Dev_Site_45ee3577c382-db.gz: OK
+0011.047 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=7
+0011.059 (0) Number of backup sets in history: 9; groups (db): 1
+0011.062 (0) Examining (for databases) backup set with group_id=0, nonce=45ee3577c382, datestamp=1535724281 (Aug 31 2018 14:04:41)
+0011.064 (0) This backup set is the backup set just made, so will not be deleted.
+0011.064 (0) Examining (for databases) backup set with group_id=0, nonce=17465118275a, datestamp=1535719503 (Aug 31 2018 12:45:03)
+0011.064 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.068 (0) Examining (for databases) backup set with group_id=0, nonce=c4782c30e6c8, datestamp=1535718360 (Aug 31 2018 12:26:00)
+0011.068 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.070 (0) Examining (for databases) backup set with group_id=0, nonce=17561fa29636, datestamp=1535712780 (Aug 31 2018 10:53:00)
+0011.070 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.070 (0) Examining (for databases) backup set with group_id=0, nonce=b9e152800ddd, datestamp=1535709600 (Aug 31 2018 10:00:00)
+0011.070 (0) Examining (for databases) backup set with group_id=0, nonce=8e229a22ee95, datestamp=1535708040 (Aug 31 2018 09:34:00)
+0011.070 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.070 (0) Examining (for databases) backup set with group_id=0, nonce=31b53c29cdf4, datestamp=1535707320 (Aug 31 2018 09:22:00)
+0011.070 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.070 (0) Examining (for databases) backup set with group_id=0, nonce=398a7e4a08fd, datestamp=1535703900 (Aug 31 2018 08:25:00)
+0011.070 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0011.071 (0) Examining (for databases) backup set with group_id=0, nonce=81ff130112c0, datestamp=1535703000 (Aug 31 2018 08:10:00)
+0011.071 (0) 1535703000: db: this set includes a database (backup_2018-08-31-1010_Ihre_Mittelstandsberater_81ff130112c0-db.gz); db count is now 7
+0011.071 (0) 1535703000: db: over retain limit (7); will delete this database
+0011.071 (0) Delete file: backup_2018-08-31-1010_Ihre_Mittelstandsberater_81ff130112c0-db.gz, service=googledrive
+0013.379 (0) backup_2018-08-31-1010_Ihre_Mittelstandsberater_81ff130112c0-db.gz: Deletion successful
+0013.390 (0) This backup set is now empty; will remove from history
+0013.392 (0) Corresponding log file (log.81ff130112c0.txt) not found - must have already been deleted
+0013.393 (0) Number of backup sets in history: 8; groups (files): 1
+0013.395 (0) Examining (for files) backup set with nonce=45ee3577c382, datestamp=1535724281 (Aug 31 2018 14:04:41)
+0013.396 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0013.407 (0) Examining (for files) backup set with nonce=17465118275a, datestamp=1535719503 (Aug 31 2018 12:45:03)
+0013.407 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.410 (0) Examining (for files) backup set with nonce=c4782c30e6c8, datestamp=1535718360 (Aug 31 2018 12:26:00)
+0013.410 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0013.414 (0) Examining (for files) backup set with nonce=17561fa29636, datestamp=1535712780 (Aug 31 2018 10:53:00)
+0013.414 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0013.414 (0) Examining (for files) backup set with nonce=b9e152800ddd, datestamp=1535709600 (Aug 31 2018 10:00:00)
+0013.414 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0013.418 (0) Examining (for files) backup set with nonce=8e229a22ee95, datestamp=1535708040 (Aug 31 2018 09:34:00)
+0013.418 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0013.421 (0) Examining (for files) backup set with nonce=31b53c29cdf4, datestamp=1535707320 (Aug 31 2018 09:22:00)
+0013.421 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0013.421 (0) Examining (for files) backup set with nonce=398a7e4a08fd, datestamp=1535703900 (Aug 31 2018 08:25:00)
+0013.421 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0013.421 (0) Retain: saving new backup history (sets now: 8) and finishing retain operation
+0013.430 (0) Resume backup (45ee3577c382, 0): finish run
+0013.441 (0) Decremented the semaphore (d) by 1
+0013.448 (0) Semaphore (d) unlocked
+0013.453 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0013.478 (0) No email will/can be sent - the user has not configured an email address.
+0013.481 (0) The backup apparently succeeded and is now complete

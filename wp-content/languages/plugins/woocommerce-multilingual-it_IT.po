@@ -1,0 +1,1375 @@
+# Translation of Stable (latest release) in Italian
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-04-05 12:05:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: menu/sub/settings.php:402
+msgid "The multi-currency mode cannot be enabled as a specific currency was not set. Go to the %sWooCommerce settings%s page and select the default currency for your store."
+msgstr "La modalità multi valuta non può essere attivata perché non è stata impostata una specifica valuta. Vai alla pagina  %sImpostazioni di WooCommerce%s e seleziona la valuta standard per il tuo negozio."
+
+#: compatibility/class-wcml-composite-products.php:197
+msgid "Components"
+msgstr "Componenti"
+
+#: inc/wc-strings.class.php:437
+msgid "You are using the same value as for the regular category base. This is known to create conflicts resulting in urls not working properly."
+msgstr "Stai utilizzando lo stesso valore come per base delle categorie regolari. È risaputo che crea conflitti e che le URL non funzionano correttamente."
+
+#: inc/wc-strings.class.php:503
+msgid "translations"
+msgstr "traduzioni"
+
+#: menu/sub/settings.php:61 menu/sub/settings.php:63
+msgid "Your product permalink base is not translated in %s. The urls for the translated products will not work. Go to the %sString Translation%s to translate."
+msgstr "La base del permalink dei prodotti non è stata tradotta in %s. Gli URL dei prodotti tradotti non saranno funzionanti. Per tradurre, vai in %sTraduzione stringhe%s."
+
+#: menu/sub/settings.php:71
+msgid "Attention required: probable problem with URLs in different languages"
+msgstr "Attenzione: possibile problema con gli URL in lingue diverse"
+
+#: menu/sub/settings.php:73
+msgid "Your site's default language is not English and the strings language is also not English. This may lead to problems with your site's URLs in different languages."
+msgstr "La lingua predefinita del sito e quella delle stringhe non è l'inglese. Questo potrebbe creare problemi con gli URL del sito in lingue diverse."
+
+#: menu/sub/settings.php:76
+msgid "Change the strings language to English"
+msgstr "Imposta l'inglese come lingua delle stringe"
+
+#: menu/sub/settings.php:77
+msgid "Re-scan strings"
+msgstr "Ripeti scansione delle stringhe"
+
+#: menu/sub/settings.php:82
+msgid "Run fix"
+msgstr "Esegui correzione"
+
+#: menu/sub/settings.php:85 menu/sub/settings.php:90
+msgid "Please review the %sguide for running WooCommerce multilingual with default language other than English%s."
+msgstr "Consulta la %sguida per eseguire WooCommerce multilingual con una lingua predefinita diversa dall'inglese%s."
+
+#: menu/sub/settings.php:89
+msgid "Your site's default language is not English. There are some settings that require careful attention."
+msgstr "La lingua predefinita del tuo sito non è l'inglese. Ci sono delle impostazioni che richiedono la massima attenzione."
+
+#: menu/sub/settings.php:96 woocommerce_wpml.class.php:610
+msgid "Dismiss"
+msgstr "Elimina"
+
+#: menu/sub/settings.php:105
+msgid "Some settings from the WooCommerce Multilingual wpml-config.xml file have been overwritten."
+msgstr "Alcune impostazioni contenute nel file wpml-config.xml di WooCommerce Multilingual sono state sovrascritte."
+
+#: menu/sub/settings.php:107
+msgid "You should check WPML configuration files added by other plugins or manual settings on the %sMultilingual Content Setup%s section."
+msgstr "Dovresti controllare i file di configurazione di WPML aggiunti da altri plugin o le impostazioni manuali alla sezione %sConfigurazione contenuto multilingue%s."
+
+#: menu/sub/settings.php:126
+msgid "WooCommerce Store Pages"
+msgstr "Pagine del negozio WooCommerce"
+
+#: menu/sub/settings.php:127
+msgid "To run a multilingual e-commerce site, you need to have the WooCommerce shop pages translated in all the site's languages. Once all the pages are installed you can add the translations for them from this menu."
+msgstr "Per gestire un sito e-commerce multilingue, devi avere le pagine del negozio WooCommerce tradotte in tutte le lingue del sito. Quando avrai installato tutte le pagine, potrai aggiungere le loro traduzioni da questo menu."
+
+#: menu/sub/settings.php:137
+msgid "One or more WooCommerce pages have not been created."
+msgstr "Una o più pagine WooCommerce non sono state create."
+
+#: menu/sub/settings.php:139
+msgid "Install WooCommerce Pages"
+msgstr "Installa pagine WooCommerce"
+
+#: menu/sub/settings.php:152
+msgid "WooCommerce store pages don't exist for this language:"
+msgstr "Le pagine del negozio WooCommerce non sono presenti in questa lingua:"
+
+#: menu/sub/settings.php:154
+msgid "WooCommerce store pages don't exist for these languages:"
+msgstr "Le pagine del negozio WooCommerce non sono presenti in queste lingue:"
+
+#: menu/sub/settings.php:164
+msgid "Create missing translations."
+msgstr "Crea traduzioni mancanti."
+
+#: menu/sub/settings.php:171
+msgid "These pages are currently being translated by translators via WPML: "
+msgstr "Queste pagine al momento sono in corso di traduzione tramite WPML:"
+
+#: menu/sub/settings.php:176
+msgid "Hide this message"
+msgstr "Nascondi questo messaggio"
+
+#: menu/sub/settings.php:179
+msgid "Show details about missing translations"
+msgstr "Mostra i dettagli delle traduzioni mancanti"
+
+#: menu/sub/settings.php:184
+msgid "WooCommerce store pages are translated to all the site's languages."
+msgstr "Le pagine del negozio WooCommerce risultano tradotte in tutte le lingue del sito."
+
+#: menu/sub/settings.php:196
+msgid "Taxonomies missing translations"
+msgstr "Traduzioni mancanti delle tassonomie"
+
+#: menu/sub/settings.php:197
+msgid "To run a fully translated site, you should translate all taxonomy terms. Some store elements, such as variations, depend on taxonomy translation."
+msgstr "Per creare un sito completamente tradotto, devi tradurre tutti i termini delle tassonomie. Alcuni elementi del negozio, come le varianti, dipendono dalla traduzione delle tassonomie."
+
+#: menu/sub/settings.php:230
+msgid "This taxonomy requires translation."
+msgstr "Questa tassonomia deve essere tradotta."
+
+#: menu/sub/settings.php:236
+msgid "This taxonomy does not require translation."
+msgstr "Questa tassonomia non deve essere tradotta."
+
+#: menu/sub/settings.php:236
+msgid "Ignore"
+msgstr "Ignora"
+
+#: menu/sub/settings.php:245
+msgid "Right now, there are no taxonomy terms needing translation."
+msgstr "Al momento, non ci sono termini delle tassonomie da tradurre."
+
+#: menu/sub/settings.php:257
+msgid "Product Translation Interface"
+msgstr "Interfaccia di traduzione prodotti"
+
+#: menu/sub/settings.php:258
+msgid "The recommended way to translate products is using the products translation table in the WooCommerce Multilingual admin. Choose to go to the native WooCommerce interface, if your products include custom sections that require direct access."
+msgstr "La modalità consigliata per tradurre i prodotti è l'utilizzo della tabella di traduzione prodotti disponibile in Gestione multilingue di WooCommerce. Se i tuoi prodotti includono sezioni personalizzate, che richiedono l'accesso diretto, scegli di andare nell'interfaccia nativa di WooCommerce."
+
+#: menu/sub/settings.php:266
+msgid "Choose what to do when clicking on the translation controls for products:"
+msgstr "Scegli cosa fare quando fai clic sui comandi di traduzione dei prodotti:"
+
+#: menu/sub/settings.php:270
+msgid "Go to the product translation table in WooCommerce Multilingual"
+msgstr "Vai nella tabella di traduzione dei prodotti disponibile in WooCommerce Multilingual"
+
+#: menu/sub/settings.php:274
+msgid "Go to the native WooCommerce product editing screen"
+msgstr "Vai nella schermata WooCommerce nativa di modifica dei prodotti"
+
+#: menu/sub/settings.php:289
+msgid "Products synchronization"
+msgstr "Sincronizzazione dei prodotti"
+
+#: menu/sub/settings.php:290
+msgid "Configure specific product properties that should be synced to translations."
+msgstr "Configura proprietà specifiche del prodotto da sincronizzare nelle traduzioni."
+
+#: menu/sub/settings.php:300
+msgid "Sync publishing date for translated products."
+msgstr "Sincronizza la data di pubblicazione per i prodotti tradotti."
+
+#: menu/sub/settings.php:304
+msgid "Sync products and product taxonomies order."
+msgstr "Sincronizza prodotti e ordine tassonomia prodotti"
+
+#: menu/sub/settings.php:320
+msgid "File Paths Synchronization "
+msgstr "Sincronizzazione dei percorsi dei file"
+
+#: menu/sub/settings.php:321
+msgid "If you are using downloadable products, you can choose to have their paths synchronized, or seperate for each language."
+msgstr "Se stai utilizzando prodotti scaricabili, puoi scegliere di sincronizzare i loro percorsi o di separarli per ogni lingua."
+
+#: menu/sub/settings.php:331
+msgid "Use the same file paths in all languages"
+msgstr "Usa gli stessi percorsi per i file di ogni lingua"
+
+#: menu/sub/settings.php:335
+msgid "Different file paths for each language"
+msgstr "Percorsi diversi per i file di ogni lingua"
+
+#: menu/sub/settings.php:367
+msgid "Manage Currencies"
+msgstr "Gestisci valute"
+
+#: menu/sub/settings.php:368
+msgid "This will let you enable the multi-currency mode where users can see prices according to their currency preference and configured exchange rate."
+msgstr "Questo ti consentirà di attivare la modalità Valuta multipla con la quale gli utenti potranno visualizzare i prezzi in base alla propria valuta di preferenza e al cambio valuta configurato."
+
+#: menu/sub/settings.php:383
+msgid "No multi-currency."
+msgstr "Non multi-valuta."
+
+#: menu/sub/settings.php:390
+msgid "Multiple currencies, independent of languages."
+msgstr "Valute multiple, indipendenti dalla lingue."
+
+#: menu/sub/settings.php:392
+msgid "Learn more"
+msgstr "Per saperne di più"
+
+#: menu/sub/settings.php:413
+msgid "Your store's base currency is %s (%s). To change it, go to the %s page."
+msgstr "La valuta di base del tuo negozio è %s (%s). Per modificarla, vai alla pagina %s."
+
+#: menu/sub/settings.php:419
+msgid "Currency"
+msgstr "Valuta"
+
+#: menu/sub/settings.php:427
+msgid "default"
+msgstr "predefinita"
+
+#: menu/sub/settings.php:455 menu/sub/settings.php:456
+msgid "Edit"
+msgstr "Modifica"
+
+#: menu/sub/settings.php:461 menu/sub/settings.php:462
+#: menu/sub/settings.php:679
+msgid "Delete"
+msgstr "Elimina"
+
+#: menu/sub/settings.php:471
+msgid "Default currency"
+msgstr "Valuta predefinita"
+
+#: menu/sub/settings.php:472
+msgid "Switch to this currency when switching language in the front-end"
+msgstr "Passa a questa valuta quando si cambia la lingua dal front-end"
+
+#: menu/sub/settings.php:496 menu/sub/settings.php:509
+#: menu/sub/settings.php:585
+msgid "OFF"
+msgstr "NO"
+
+#: menu/sub/settings.php:497 menu/sub/settings.php:510
+#: menu/sub/settings.php:586
+msgid "ON"
+msgstr "SÌ"
+
+#: menu/sub/settings.php:521
+msgid "Keep"
+msgstr "Mantieni"
+
+#: menu/sub/settings.php:544
+msgid "Please fill field"
+msgstr "Compila il campo"
+
+#: menu/sub/settings.php:603
+msgid "Add currency"
+msgstr "Aggiungi valuta"
+
+#: menu/sub/settings.php:633
+msgid "Products using custom currency rates as they were migrated from the previous versions - option to support different prices per language"
+msgstr "Prodotti con cambi valuta personalizzati copiati da versioni precedenti - opzione per supportare prezzi diversi in ogni lingua"
+
+#: menu/sub/settings.php:664 menu/sub/settings.php:674
+msgid "n/a"
+msgstr "n/d"
+
+#: menu/sub/settings.php:679
+msgid "Are you sure?"
+msgstr "Confermi?"
+
+#: menu/sub/settings.php:694
+msgid "Show only products with custom prices in secondary currencies"
+msgstr "Mostra solo i prodotti con i prezzi personalizzati nelle valute secondarie"
+
+#: menu/sub/settings.php:695
+msgid "When this option is on, when you switch to a secondary currency on the front end, only the products with custom prices in that currency are being displayed. Products with prices determined based on the exchange rate are hidden."
+msgstr "Quando questa opzione è attiva, se si seleziona la valuta secondaria nel frontend, saranno visualizzati solo i prodotti con i prezzi personalizzati in quella valuta. I prodotti con i prezzi determinati in base al tasso di cambio non saranno visibili."
+
+#: menu/sub/settings.php:717
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "Abbandonando questa pagina le modifiche effettuate andranno perse."
+
+#: menu/sub/settings.php:718
+msgid "At least one currency must be enabled for this language!"
+msgstr "Devi abilitare almeno una valuta per questa lingua!"
+
+#: menu/sub/sync-taxonomy-translations.php:32
+msgid "Synchronize %s assignment in content"
+msgstr "Sincronizza proprietà (%s) assegnata al contenuto"
+
+#: menu/sub/sync-taxonomy-translations.php:40
+msgid "This action lets you automatically apply the %s taxonomy to your content in different  languages. It will scan the original content and apply the same taxonomy to translated content."
+msgstr "Questa azione ti consente di applicare la tassonomia %s automaticamente al tuo contenuto in lingue diverse. Il contenuto originale sarà analizzato e gli sarà applicata la stessa tassonomia del contenuto tradotto."
+
+#: menu/sub/settings.php:720 menu/sub/troubleshooting.php:15
+#: woocommerce_wpml.class.php:383
+msgid "Troubleshooting"
+msgstr "Risoluzione dei problemi"
+
+#: menu/sub/troubleshooting.php:17
+msgid "Please make a backup of your database before you start the synchronization"
+msgstr "Esegui un backup del tuo database prima di avviare la sincronizzazione"
+
+#: menu/sub/troubleshooting.php:25 menu/sub/troubleshooting.php:32
+#: menu/sub/troubleshooting.php:39 menu/sub/troubleshooting.php:46
+#: menu/sub/troubleshooting.php:54 menu/sub/troubleshooting.php:62
+#: menu/sub/troubleshooting.php:82
+msgid "left"
+msgstr "rimanenti"
+
+#: menu/sub/troubleshooting.php:75
+msgid "none"
+msgstr "nessuno"
+
+#: menu/sub/troubleshooting.php:87
+msgid "Start"
+msgstr "Avvia"
+
+#: menu/sub/variations_box.php:9
+msgid "Please add variations to product"
+msgstr "Aggiungi le varianti ai prodotti"
+
+#: menu/sub/variations_box.php:26
+msgid "Please save translation before translate variations file paths"
+msgstr "Prima di tradurre i percorsi dei file delle varianti, salva la traduzione"
+
+#: menu/sub/variations_box.php:30
+msgid "Variations are not downloadable"
+msgstr "Le varianti non sono scaricabili"
+
+#: menu/sub/variations_box.php:35
+msgid "Download URL"
+msgstr "Scarica URL"
+
+#: menu/sub/variations_box.php:57
+msgid "Variation is not downloadable"
+msgstr "La variante non è scaricabile"
+
+#: woocommerce_wpml.class.php:504
+msgid "This field is locked for editing because WPML will copy its value from the original language."
+msgstr "L'editing di questo campo è bloccato in quanto WPML copierà il suo valore dalla lingua originale."
+
+#: woocommerce_wpml.class.php:514
+msgid "This is a translation of %s. Some of the fields are not editable. It's recommended to use the %s for translating products."
+msgstr "Questa è la traduzioni di %s. Alcuni campi non sono modificabili. Per tradurre i prodotti si consiglia l'uso di %s."
+
+#: woocommerce_wpml.class.php:514
+msgid "WooCommerce Multilingual products translator"
+msgstr "Traduttore multilingue prodotti WooCommerce"
+
+#: woocommerce_wpml.class.php:540
+msgid "How to translate products"
+msgstr "Come tradurre i prodotti"
+
+#: woocommerce_wpml.class.php:541
+msgid "Quick edit is disabled for product translations. It\\'s recommended to use the %s for editing products translations. %s"
+msgstr "La modifica veloce è disabilitata per le traduzioni dei prodotti. È consigliato utilizzare %s per modificare le traduzioni dei prodotti. %s"
+
+#: woocommerce_wpml.class.php:541
+msgid "WooCommerce Multilingual products editor"
+msgstr "Editor multilingue prodotti WooCommerce"
+
+#: woocommerce_wpml.class.php:541
+msgid "Edit this product translation"
+msgstr "Modifica la traduzione di questo prodotto"
+
+#: woocommerce_wpml.class.php:572
+msgid "How to translate attributes"
+msgstr "Come tradurre gli attributi"
+
+#: woocommerce_wpml.class.php:584
+msgid "How to translate product categories"
+msgstr "Come tradurre le categorie dei prodotti"
+
+#: woocommerce_wpml.class.php:606
+msgid "Would you like to see a quick overview?"
+msgstr "Desideri visualizzare una breve panoramica?"
+
+#: woocommerce_wpml.class.php:609
+msgid "Learn how to turn your e-commerce site multilingual"
+msgstr "Informazioni per trasformare il tuo sito e-commerce in un sito multilingue"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wpml.org/documentation/related-projects/woocommerce-multilingual/"
+msgstr "http://wpml.org/documentation/related-projects/woocommerce-multilingual/"
+
+#. Description of the plugin/theme
+msgid "Allows running fully multilingual e-Commerce sites with WooCommerce and WPML. <a href=\"http://wpml.org/documentation/related-projects/woocommerce-multilingual/\">Documentation</a>."
+msgstr "Permette di avere siti ecommerce completamente multilingua con WooCommerce e WPML. <a href=\"http://wpml.org/documentation/related-projects/woocommerce-multilingual/\">Documentazione</a>."
+
+#. Author of the plugin/theme
+msgid "OnTheGoSystems"
+msgstr "OnTheGoSystems"
+
+#. Author URI of the plugin/theme
+msgid "http://www.onthegosystems.com/"
+msgstr "http://www.onthegosystems.com/"
+
+#: compatibility/templates/bundles_box.php:3
+#: compatibility/templates/woocommerce-composite-products.php:2
+#: menu/sub/custom-box.php:1 menu/sub/custom-prices.php:109
+#: menu/sub/images-box.php:1 menu/sub/variations_box.php:1
+msgid "Collapse"
+msgstr "Comprimi"
+
+#: compatibility/templates/bundles_box.php:3
+#: compatibility/templates/bundles_box.php:4
+#: compatibility/templates/woocommerce-composite-products.php:2
+#: compatibility/templates/woocommerce-composite-products.php:3
+#: menu/sub/custom-box.php:1 menu/sub/custom-box.php:2
+#: menu/sub/images-box.php:1 menu/sub/images-box.php:2
+#: menu/sub/variations_box.php:1 menu/sub/variations_box.php:2
+msgid "Expand"
+msgstr "Espandi"
+
+#: compatibility/templates/bundles_box.php:23
+msgid "Please set bundles for product"
+msgstr "Imposta i raggruppamenti per il prodotto"
+
+#: compatibility/templates/bundles_box.php:27
+msgid "Please save translation before translate bundles texts"
+msgstr "Salva la traduzione prima di tradurre i testi dei raggruppamenti"
+
+#: compatibility/templates/bundles_box.php:35
+#: compatibility/templates/woocommerce-composite-products.php:15
+#: inc/products.class.php:2003 menu/sub/images-box.php:34
+msgid "Title"
+msgstr "Titolo"
+
+#: compatibility/templates/bundles_box.php:37
+#: compatibility/templates/woocommerce-composite-products.php:20
+#: menu/sub/images-box.php:38
+msgid "Description"
+msgstr "Descrizione"
+
+#: compatibility/templates/bundles_box.php:47
+#: menu/sub/downloadable-files-box.php:10 menu/sub/images-box.php:47
+#: menu/sub/product-data.php:153 menu/sub/product-data.php:174
+#: menu/sub/product-data.php:256 menu/sub/product-data.php:269
+#: menu/sub/product-data.php:274 menu/sub/product-data.php:281
+#: menu/sub/product-data.php:286 menu/sub/variations_box.php:50
+msgid "Enter translation"
+msgstr "Inserisci la traduzione"
+
+#: compatibility/templates/wc_tab_manager_custom_box_html.php:22
+#: menu/sub/product-data.php:179
+msgid "Show content"
+msgstr "Mostra contenuto"
+
+#: compatibility/templates/wc_tab_manager_custom_box_html.php:24
+#: menu/sub/product-data.php:181 menu/sub/products.php:242
+msgid "Edit translation"
+msgstr "Modifica la traduzione"
+
+#: compatibility/templates/wc_tab_manager_custom_box_html.php:27
+#: compatibility/templates/wc_tab_manager_custom_box_html.php:48
+#: menu/sub/product-data.php:192 menu/sub/product-data.php:237
+#: menu/sub/products.php:242
+msgid "Close"
+msgstr "Chiudi"
+
+#: compatibility/templates/wc_tab_manager_custom_box_html.php:29
+#: menu/sub/product-data.php:194
+msgid "Original content:"
+msgstr "Contenuto originale:"
+
+#: compatibility/templates/wc_tab_manager_custom_box_html.php:50
+#: menu/sub/product-data.php:239
+msgid "%s translation"
+msgstr "Traduzione in %s"
+
+#: compatibility/templates/wc_tab_manager_custom_box_html.php:51
+#: menu/sub/custom-currency-options.php:97 menu/sub/product-data.php:240
+msgid "Cancel"
+msgstr "Annulla"
+
+#: compatibility/templates/wc_tab_manager_custom_box_html.php:52
+#: menu/sub/product-data.php:241
+msgid "Ok"
+msgstr "Ok"
+
+#: compatibility/class-wcml-bookings.php:151
+msgid "One-off cost for the booking as a whole."
+msgstr "Costo una tantum totale della prenotazione."
+
+#: compatibility/class-wcml-accommodation-bookings.php:68
+#: compatibility/class-wcml-bookings.php:157
+msgid "This is the cost per block booked. All other costs (for resources and persons) are added to this."
+msgstr "Questo è il costo per blocco prenotato. A quest'ultimo saranno aggiunti tutti gli altri costi (relativi a risorse e persone)."
+
+#: compatibility/class-wcml-bookings.php:163
+msgid "The cost is displayed to the user on the frontend. Leave blank to have it calculated for you. If a booking has varying costs, this will be prefixed with the word \"from:\"."
+msgstr "Il costo sarà visibile all'utente nel frontend. Lascia il campo in bianco affinché quest'ultimo venga calcolato automaticamente. Se una prenotazione ha costi variabili, il costo sarà preceduto dalla parola \"da:\"."
+
+#: compatibility/class-wcml-accommodation-bookings.php:39
+#: compatibility/class-wcml-bookings.php:273
+msgid "Calculate costs in other currencies automatically"
+msgstr "Calcola i costi in altre valute automaticamente"
+
+#: compatibility/class-wcml-accommodation-bookings.php:44
+#: compatibility/class-wcml-bookings.php:278
+msgid "Set costs in other currencies manually"
+msgstr "Imposta i costi in altre valute manualmente"
+
+#: compatibility/class-wcml-bookings.php:1040
+msgid "Booking currency"
+msgstr "Valuta di prenotazione"
+
+#: compatibility/class-wcml-bookings.php:1088
+#: inc/multi-currency-support.class.php:1197
+#: inc/multi-currency-support.class.php:1284 inc/multi-currency.class.php:638
+#: inc/multi-currency.class.php:742 inc/multi-currency.class.php:974
+#: inc/orders.class.php:231 inc/products.class.php:445
+#: inc/products.class.php:3112
+msgid "Invalid nonce"
+msgstr "Nonce non valido"
+
+#: compatibility/class-wcml-bookings.php:1247
+msgid "Resources"
+msgstr "Risorse"
+
+#: compatibility/class-wcml-bookings.php:1260
+msgid "Person types"
+msgstr "Tipi di persone"
+
+#: compatibility/class-wcml-bookings.php:1288
+msgid "Resources label"
+msgstr "Etichetta risorse"
+
+#: compatibility/class-wcml-wcexporter.php:20
+#: compatibility/class-wcml-wcexporter.php:34 menu/sub/product-data.php:41
+msgid "Language"
+msgstr "Lingua"
+
+#: compatibility/class-wcml-wcexporter.php:25
+msgid "Translation of"
+msgstr "Traduzione di"
+
+#: compatibility/class-wcml-extra-product-options.php:117
+msgid "To translate Extra Options strings please save %s and go to the <b><a href=\"%s\">String Translation interface</a></b>"
+msgstr "Per tradurre le stringhe delle Opzioni aggiuntive, salva %s e vai all'<b><a href=\"%s\">Interfaccia di traduzione stringhe</a></b>"
+
+#: compatibility/class-wcml-product-addons.php:70
+msgid "To translate Add-ons strings please save Add-ons and go to the <b><a href=\"%s\">String Translation interface</a></b>"
+msgstr "Per tradurre le stringhe dei componenti aggiuntivi, salva i componenti aggiuntivi e vai all'<b><a href=\"%s\">Interfaccia di traduzione stringhe</a></b>"
+
+#: compatibility/class-wcml-product-bundles.php:129
+msgid "Product Bundles"
+msgstr "Raggruppamenti prodotto"
+
+#: compatibility/class-wcml-tab-manager.php:235
+msgid "Please update original product"
+msgstr "Aggiorna il prodotto originale"
+
+#: inc/currency-switcher-widget.class.php:7
+msgid "Currency switcher"
+msgstr "Selettore valuta"
+
+#: inc/currency-switcher-widget.class.php:21
+msgid "Configure options"
+msgstr "Configura opzioni"
+
+#: inc/currency-switcher.class.php:30
+msgid "Currencies order updated"
+msgstr "Ordine delle valute aggiornato"
+
+#: inc/dependencies.class.php:93
+msgid "WooCommerce Multilingual is enabled but not effective. It is not compatible with  <a href=\"%s\">WPML</a> versions prior %s."
+msgstr "WooCommerce Multilingual è attivo, ma non funzionante. Non è compatibile con le versioni di <a href=\"%s\">WPML</a> antecedenti alla %s."
+
+#: inc/dependencies.class.php:105
+msgid "WooCommerce Multilingual is enabled but not effective. It is not compatible with  <a href=\"%s\">WPML Translation Management</a> versions prior %s."
+msgstr "WooCommerce Multilingual è attivo, ma non funzionante. Non è compatibile con le versioni di <a href=\"%s\">WPML Translation Management</a> antecedenti alla %s."
+
+#: inc/dependencies.class.php:111
+msgid "WooCommerce Multilingual is enabled but not effective. It is not compatible with  <a href=\"%s\">WPML String Translation</a> versions prior %s."
+msgstr "WooCommerce Multilingual è attivo, ma non funzionante. Non è compatibile con le versioni di <a href=\"%s\">WPML String Translation</a> antecedenti alla %s."
+
+#: inc/dependencies.class.php:117
+msgid "WooCommerce Multilingual is enabled but not effective. It is not compatible with  <a href=\"%s\">WPML Media</a> versions prior %s."
+msgstr "WooCommerce Multilingual è attivo, ma non funzionante. Non è compatibile con le versioni di <a href=\"%s\">WPML Media</a> antecedenti alla %s."
+
+#: inc/dependencies.class.php:134
+msgid "and"
+msgstr "e"
+
+#: inc/dependencies.class.php:141
+msgid "WooCommerce Multilingual is enabled but not effective. It requires %s in order to work."
+msgstr "WooCommerce Multilingual è abilitato, ma non funzionante. Per funzionare richiede %s."
+
+#: inc/dependencies.class.php:165
+msgid "Permalink settings"
+msgstr "Impostazioni permalink"
+
+#: inc/dependencies.class.php:167
+msgid "Configure products slug translation"
+msgstr "Configura la traduzione degli slug dei prodotti"
+
+#: inc/dependencies.class.php:208
+msgid "If you want different slugs for shop pages (%s/%s), you need to disable the shop prefix for products in <a href=\"%s\">WooCommerce Settings</a>"
+msgstr "Se preferisci slug diversi per ogni pagina del negozio (%s/%s), devi disabilitare per i prodotti il prefisso del negozio in <a href=\"%s\">Impostazioni WooCommerce</a>"
+
+#: inc/dependencies.class.php:233
+msgid "Finished! You can visit the %sstrings translation%s screen to translate the strings now."
+msgstr "Fatto! Adesso per tradurre le stringhe, puoi visitare la schermata di %straduzione stringhe%s."
+
+#: inc/dependencies.class.php:249
+msgid "wpml-config.xml file missing from WooCommerce Multilingual folder."
+msgstr "Il file wpml-config.xml non è presente nella cartella WooCommerce Multilingual."
+
+#: inc/dependencies.class.php:273
+msgid "Custom field %s configuration from wpml-config.xml file was altered!"
+msgstr "La configurazione del campo personalizzato %s del file wpml-config.xml è stata alterata!"
+
+#: inc/dependencies.class.php:296
+msgid "Custom type %s configuration from wpml-config.xml file was altered!"
+msgstr "La configurazione del tipo personalizzato %s del file wpml-config.xml è stata alterata!"
+
+#: inc/dependencies.class.php:319
+msgid "Custom taxonomy %s configuration from wpml-config.xml file was altered!"
+msgstr "La configurazione della tassonomia personalizzata %s del file wpml-config.xml è stata alterata!"
+
+#: inc/multi-currency-support.class.php:472
+msgid "Select the currency you want to set the options for:"
+msgstr "Seleziona la valuta per la quale desideri impostare le opzioni:"
+
+#: inc/multi-currency.class.php:434
+msgid "Show all currencies"
+msgstr "Mostra tutte le valute"
+
+#: inc/multi-currency.class.php:660
+msgid "Currency - no orders found"
+msgstr "Valuta - non è stato trovato nessun ordine"
+
+#: inc/multi-currency.class.php:689
+msgid "Order currency:"
+msgstr "Valuta dell'ordine:"
+
+#: inc/multi-currency.class.php:708
+msgid "All the products will be removed from the current order in order to change the currency"
+msgstr "Per modificare la valuta, tutti i prodotti saranno rimossi dall'attuale ordine"
+
+#: inc/orders.class.php:182
+msgid "Order language:"
+msgstr "Lingua dell'ordine:"
+
+#: inc/orders.class.php:202
+msgid "All the products will be removed from the current order in order to change the language"
+msgstr "Per modificare la lingua, tutti i prodotti saranno rimossi dall'attuale ordine"
+
+#: inc/products.class.php:462
+msgid "Title missing"
+msgstr "Titolo assente"
+
+#: inc/products.class.php:967
+msgid "Original language"
+msgstr "Lingua originale"
+
+#: inc/products.class.php:975
+msgid "Not translated"
+msgstr "Non tradotto"
+
+#: inc/products.class.php:978
+msgid "Not translated - needs update"
+msgstr "Non tradotto: richiede aggiornamento"
+
+#: inc/products.class.php:981
+msgid "In progress"
+msgstr "In corso"
+
+#: inc/products.class.php:984
+msgid "Complete"
+msgstr "Completata"
+
+#: inc/products.class.php:1364
+msgid "The recommended way to translate WooCommerce products is using the <b><a href=\"%s\">WooCommerce Multilingual products translation</a></b> page. Please use this page only for translating elements that are not available in the WooCommerce Multilingual products translation table."
+msgstr "La modalità consigliata per la traduzione dei prodotti WooCommerce è utilizzare la pagina <b><a href=\"%s\">Traduzione multilingue dei prodotti WooCommerce</a></b>. Usa questa pagina per tradurre gli elementi che non sono disponibili nella tabella di traduzione multilingue dei prodotti WooCommerce."
+
+#: inc/products.class.php:1376
+msgid "Edit this item inline"
+msgstr "Modifica questo elemento in linea con il testo"
+
+#: inc/products.class.php:1376
+msgid "Quick Edit"
+msgstr "Modifica rapida"
+
+#: inc/products.class.php:2004
+msgid "Content / Description"
+msgstr "Contenuto / Descrizione"
+
+#: inc/products.class.php:2005
+msgid "Excerpt"
+msgstr "Estratto"
+
+#: inc/products.class.php:2006
+msgid "Images"
+msgstr "Immagini"
+
+#: inc/products.class.php:2013
+msgid "Variations"
+msgstr "Varianti"
+
+#: inc/products.class.php:2174
+msgid "Any %s"
+msgstr "Qualsiasi %s"
+
+#: inc/products.class.php:2178
+msgid "Please translate all attributes"
+msgstr "Traduci tutti gli attributi"
+
+#: inc/store-pages.class.php:257 inc/store-pages.class.php:296
+msgid "Cart"
+msgstr "Carrello"
+
+#: inc/store-pages.class.php:258 inc/store-pages.class.php:299
+msgid "Checkout"
+msgstr "Completa transazione"
+
+#: inc/store-pages.class.php:259
+msgid "Checkout &rarr; Pay"
+msgstr "Completa transazione e paga"
+
+#: inc/store-pages.class.php:260
+msgid "Order Received"
+msgstr "Ordine ricevuto"
+
+#: inc/store-pages.class.php:261 inc/store-pages.class.php:302
+msgid "My Account"
+msgstr "Il mio account"
+
+#: inc/store-pages.class.php:262
+msgid "Change Password"
+msgstr "Modifica password"
+
+#: inc/store-pages.class.php:263
+msgid "Edit My Address"
+msgstr "Modifica il mio indirizzo"
+
+#: inc/store-pages.class.php:264
+msgid "Logout"
+msgstr "Esci"
+
+#: inc/store-pages.class.php:265
+msgid "Lost Password"
+msgstr "Password smarrita?"
+
+#: inc/store-pages.class.php:266
+msgid "View Order"
+msgstr "Visualizza ordine"
+
+#: inc/store-pages.class.php:267 inc/store-pages.class.php:293
+msgid "Shop"
+msgstr "Negozio"
+
+#: inc/url-translation.class.php:310
+msgctxt "slug"
+msgid "product-category"
+msgstr "categoria-prodotto"
+
+#: inc/url-translation.class.php:315
+msgctxt "slug"
+msgid "product-tag"
+msgstr "tag-prodotto"
+
+#: inc/terms.class.php:136
+msgid "To translate %s please use the %s translation%s page, inside the %sWooCommerce Multilingual admin%s."
+msgstr "Per tradurre %s, usa la pagina di %s traduzione%s, all'interno di %sGestione multilingue di WooCommerce%s."
+
+#: inc/terms.class.php:311 menu/sub/settings.php:228
+msgid "%s do not require translation."
+msgstr "%s non richiede traduzione."
+
+#: inc/terms.class.php:313 inc/terms.class.php:341 menu/sub/settings.php:230
+msgid "Change"
+msgstr "Modifica"
+
+#: inc/terms.class.php:338 menu/sub/settings.php:233
+msgid "Some %s are missing translations (%d translations missing)."
+msgstr "Alcuni oggetti (%s) sono privi di traduzione (%d traduzioni mancanti)."
+
+#: inc/terms.class.php:340 menu/sub/settings.php:235
+msgid "Translate now"
+msgstr "Traduci ora"
+
+#: inc/terms.class.php:350 menu/sub/settings.php:240
+msgid "All %s are translated."
+msgstr "Tutti gli oggetti (%s) risultano tradotti."
+
+#: inc/terms.class.php:508 menu/sub/sync-taxonomy-translations.php:13
+msgid "Synchronize attributes and update product variations"
+msgstr "Sincronizza gli attributi e aggiorna le varianti dei prodotti"
+
+#: inc/terms.class.php:516 menu/sub/sync-taxonomy-translations.php:21
+msgid "This will automatically generate variations for translated products corresponding to recently translated attributes."
+msgstr "Questo genererà automaticamente le varianti per i prodotti tradotti corrispondenti agli attributi recentemente tradotti."
+
+#: inc/terms.class.php:518 menu/sub/sync-taxonomy-translations.php:23
+msgid "Currently, there are %s variations that need to be created."
+msgstr "Al momento è necessario creare %s varianti."
+
+#: inc/terms.class.php:635
+msgid "%d products left"
+msgstr "%d prodotti rimasti"
+
+#: inc/terms.class.php:635
+msgid "Synchronization complete!"
+msgstr "Sincronizzazione completata!"
+
+#: inc/terms.class.php:671 inc/terms.class.php:693
+msgid "Invalid taxonomy %s"
+msgstr "Tassonomia non valida %s"
+
+#: inc/terms.class.php:810
+msgid "Some translated %s have different %s assignments."
+msgstr "Ad alcuni elementi tradotti (%s) sono stati assegnati attributi diversi (%s)."
+
+#: inc/terms.class.php:813
+msgid "Update %s for all translated %s"
+msgstr "Aggiorna %s per tutti gli oggetti tradotti (%s)"
+
+#: inc/terms.class.php:819
+msgid "All %s have the same %s assignments."
+msgstr "È stata assegnata la stessa proprietà (%s) a tutti gli oggetti (%s)."
+
+#: inc/terms.class.php:827
+msgid "Successfully updated %s for all translated %s."
+msgstr "Proprietà aggiornata (%s) per tutti gli oggetti tradotti (%s)!"
+
+#: inc/upgrade.class.php:40
+msgid "Looks like you are upgrading from a previous version of WooCommerce Multilingual. Would you like to automatically create translated variations and images?"
+msgstr "Ci risulta che tu abbia utilizzato finora una versione meno recente di WooCommerce Multilingual. Desideri creare le traduzioni delle varianti e delle immagini automaticamente?"
+
+#: inc/upgrade.class.php:42
+msgid "Yes, go to the troubleshooting page"
+msgstr "Sì, vai alla pagina dedicata alla risoluzione dei problemi"
+
+#: inc/upgrade.class.php:43
+msgid "No - dismiss"
+msgstr "No, ignora"
+
+#: inc/wc-strings.class.php:563
+msgid "Please enter this text in %s"
+msgstr "Inserisci questo testo in %s"
+
+#: inc/wc-strings.class.php:565
+msgid "You have to enter this text in the strings language ( %s ) so you can translate it using the WPML String Translation."
+msgstr "Devi inserire questo testo in (%s), così potrai farlo tradurre con WPML String Translation."
+
+#: inc/wc-strings.class.php:579
+msgid "You need to enter attribute names in %s (even though your site's default language is %s). Then, translate it to %s and the rest of the site's languages using in the %sWooCommerce Multlingual admin%s."
+msgstr "Devi inserire i nomi degli attibuti in %s (anche se la lingua predefinita del tuo sito è: %s). Poi, traducili in %s e nelle altre lingue del tuo sito utilizzando %sGestione multilingue di WooCommerce%s."
+
+#: inc/wc-strings.class.php:794
+msgid "In order to edit custom attributes you need to use the <a href=\"%s\">custom product translation editor</a>"
+msgstr "Per modificare gli attributi personalizzati devi usare l'<a href=\"%s\">editor di traduzione personalizzata dei prodotti</a>"
+
+#. #-#-#-#-#  tmp-woocommerce-multilingual.pot (WooCommerce Multilingual
+#. 3.7.16)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: menu/management.php:34 menu/plugins.php:4 woocommerce_wpml.class.php:378
+#: woocommerce_wpml.class.php:379 woocommerce_wpml.class.php:391
+#: woocommerce_wpml.class.php:392 woocommerce_wpml.class.php:399
+#: woocommerce_wpml.class.php:403 woocommerce_wpml.class.php:404
+msgid "WooCommerce Multilingual"
+msgstr "WooCommerce Multilingual"
+
+#: menu/management.php:37
+msgid "General settings"
+msgstr "Impostazioni generali"
+
+#: menu/management.php:39
+msgid "Products"
+msgstr "Prodotti"
+
+#: menu/management.php:42 menu/management.php:50
+msgid "You have untranslated terms!"
+msgstr "Ci sono termini non tradotti!"
+
+#: menu/plugins.php:5
+msgid "Required plugins"
+msgstr "Plugin richiesti"
+
+#: menu/plugins.php:10 menu/sub/settings.php:8
+msgid "Plugins Status"
+msgstr "Stato dei plugin"
+
+#: menu/plugins.php:11 menu/sub/settings.php:9
+msgid "WooCommerce Multilingual depends on several plugins to work. If any required plugin is missing, you should install and activate it."
+msgstr "Il funzionamento di WooCommerce Multilingual dipende da vari plugin. Se uno di questi è assente, è necessario installarlo e attivarlo."
+
+#: menu/plugins.php:17
+msgid "WooCommerce Multilingual is enabled but not effective. It is not compatible with  <a href=\"%s\">WPML</a> versions prior 2.0.5."
+msgstr "WooCommerce Multilingual è abilitato, ma non funzionante. Non è compatibile con le versioni di <a href=\"%s\">WPML</a> antecedenti alla 2.0.5."
+
+#: menu/plugins.php:17
+msgid "Update WPML"
+msgstr "Aggiorna WPML"
+
+#: menu/plugins.php:19 menu/plugins.php:29 menu/plugins.php:34
+#: menu/plugins.php:39 menu/plugins.php:49 menu/sub/settings.php:15
+#: menu/sub/settings.php:23 menu/sub/settings.php:26 menu/sub/settings.php:29
+#: menu/sub/settings.php:34
+msgid "%s plugin is installed and active."
+msgstr "Il plugin %s risulta installato e attivo."
+
+#: menu/plugins.php:21 menu/sub/settings.php:17
+msgid "%s is set up."
+msgstr "%s è configurato."
+
+#: menu/plugins.php:23 menu/sub/settings.php:19
+msgid "%s is not set up."
+msgstr "%s non è configurato."
+
+#: menu/plugins.php:26 menu/plugins.php:31 menu/plugins.php:36
+#: menu/plugins.php:41 menu/plugins.php:51
+msgid "%s plugin is either not installed or not active."
+msgstr "Il plugin %s risulta non installato e disattivato."
+
+#: menu/plugins.php:26
+msgid "Get WPML"
+msgstr "Scarica WPML"
+
+#: menu/plugins.php:31
+msgid "Get WPML Media"
+msgstr "Scarica WPML Media"
+
+#: menu/plugins.php:36
+msgid "Get WPML Translation Management"
+msgstr "Scarica WPML Translation Management"
+
+#: menu/plugins.php:41
+msgid "Get WPML String Translation"
+msgstr "Scarica WPML String Translation"
+
+#: menu/plugins.php:47
+msgid "%1$s  is installed, but with incorrect version. You need %1$s %2$s or higher. "
+msgstr "%1$s risulta installato, ma in una versione non valida. È indispensabile %1$s %2$s o successivo."
+
+#: menu/plugins.php:47 menu/plugins.php:51
+msgid "Download WooCommerce"
+msgstr "Scarica WooCommerce"
+
+#: menu/sub/currency-switcher-options.php:11
+msgid "Currency switcher options"
+msgstr "Opzioni selettore valuta"
+
+#: menu/sub/currency-switcher-options.php:12
+msgid "You can customize currency switcher on front-end"
+msgstr "Puoi personalizzare il selettore valuta sul front-end"
+
+#: menu/sub/currency-switcher-options.php:18
+msgid "Currency order"
+msgstr "Ordine delle valute"
+
+#: menu/sub/currency-switcher-options.php:35
+msgid "Drag the currencies to change their order"
+msgstr "Trascina le valute per modificarne l'ordine"
+
+#: menu/sub/currency-switcher-options.php:38
+msgid "Currency switcher style"
+msgstr "Stile selettore valuta"
+
+#: menu/sub/currency-switcher-options.php:43
+msgid "Drop-down menu"
+msgstr "Menu a tendina"
+
+#: menu/sub/currency-switcher-options.php:49
+msgid "List of currencies"
+msgstr "Elenco delle valute"
+
+#: menu/sub/currency-switcher-options.php:52
+msgid "Vertical"
+msgstr "Verticale"
+
+#: menu/sub/currency-switcher-options.php:53
+msgid "Horizontal"
+msgstr "Orizzontale"
+
+#: menu/sub/currency-switcher-options.php:59
+msgid "Visibility"
+msgstr "Visibilità"
+
+#: menu/sub/currency-switcher-options.php:64
+msgid "Show a currency selector on the product page template"
+msgstr "Mostra un selettore di valuta nel template della pagina del prodotto"
+
+#: menu/sub/currency-switcher-options.php:70
+msgid "Available parameters"
+msgstr "Parametri disponibili"
+
+#: menu/sub/currency-switcher-options.php:71
+msgid "%name%, %symbol%, %code%"
+msgstr "%name%, %symbol%, %code%"
+
+#: menu/sub/currency-switcher-options.php:72
+msgid "Template for currency switcher"
+msgstr "Modello per selettore valuta"
+
+#: menu/sub/currency-switcher-options.php:74
+msgid "Default: %name% (%symbol%) - %code%"
+msgstr "Predefiniti: %name% (%symbol%) - %code%"
+
+#: menu/sub/currency-switcher-options.php:77
+msgid "Currency switcher preview"
+msgstr "Anteprima selettore valuta"
+
+#: menu/sub/currency-switcher-options.php:86
+#: menu/sub/custom-currency-options.php:98 menu/sub/product-data.php:30
+#: menu/sub/products.php:76 menu/sub/settings.php:278 menu/sub/settings.php:308
+#: menu/sub/settings.php:339 menu/sub/settings.php:699
+msgid "Save"
+msgstr "Salva"
+
+#: menu/sub/custom-currency-options.php:8
+msgid "Currency options for %s"
+msgstr "Opzioni valuta per %s"
+
+#: menu/sub/custom-currency-options.php:13
+msgid "Exchange Rate"
+msgstr "Tasso di cambio"
+
+#: menu/sub/custom-currency-options.php:15
+#: menu/sub/custom-currency-options.php:55
+#: menu/sub/custom-currency-options.php:86 menu/sub/settings.php:553
+msgid "Only numeric"
+msgstr "Solo caratteri numerici"
+
+#: menu/sub/custom-currency-options.php:20
+msgid "Set on %s"
+msgstr "Impostato il %s"
+
+#: menu/sub/custom-currency-options.php:27
+msgid "Currency Position"
+msgstr "Posizione valuta"
+
+#: menu/sub/custom-currency-options.php:31
+msgid "Left (%s99.99)"
+msgstr "Sinistra (%s99.99)"
+
+#: menu/sub/custom-currency-options.php:34
+msgid "Right (99.99%s)"
+msgstr "Destra (99.99%s)"
+
+#: menu/sub/custom-currency-options.php:37
+msgid "Left with space (%s 99.99)"
+msgstr "Sinistra con spazio (%s 99.99)"
+
+#: menu/sub/custom-currency-options.php:40
+msgid "Right with space (99.99 %s)"
+msgstr "Destra con spazio (99.99 %s)"
+
+#: menu/sub/custom-currency-options.php:46
+msgid "Thousand Separator"
+msgstr "Separatore di migliaia"
+
+#: menu/sub/custom-currency-options.php:50
+msgid "Decimal Separator"
+msgstr "Separatore decimale"
+
+#: menu/sub/custom-currency-options.php:54
+msgid "Number of Decimals"
+msgstr "Numero di decimali"
+
+#: menu/sub/custom-currency-options.php:62
+msgid "Rounding to the nearest integer"
+msgstr "Arrotondamento alla cifra più vicina"
+
+#: menu/sub/custom-currency-options.php:65
+msgid "disabled"
+msgstr "disattivo"
+
+#: menu/sub/custom-currency-options.php:66
+msgid "up"
+msgstr "superiore"
+
+#: menu/sub/custom-currency-options.php:67
+msgid "down"
+msgstr "inferiore"
+
+#: menu/sub/custom-currency-options.php:68
+msgid "nearest"
+msgstr "più vicina"
+
+#: menu/sub/custom-currency-options.php:73
+msgid "Increment for nearest integer"
+msgstr "Incremento per la cifra più vicina"
+
+#: menu/sub/custom-currency-options.php:84
+msgid "Autosubtract amount"
+msgstr "Sottrazione automatica dell'importo"
+
+#: menu/sub/custom-prices.php:17
+msgid "Multi-currency is enabled but no secondary currencies have been set"
+msgstr "L'opzione multi-valuta è abilitata, ma non è stata impostata nessuna valuta secondaria"
+
+#: menu/sub/custom-prices.php:23
+msgid "Calculate prices in other currencies automatically"
+msgstr "Calcola automaticamente i prezzi in altre valute"
+
+#: menu/sub/custom-prices.php:25
+msgid "Click to see the prices in the other currencies as they are currently shown onthe front end."
+msgstr "Clicca per visualizzare i prezzi in altre valute come sono visibili al momento nel front end."
+
+#: menu/sub/custom-prices.php:25
+msgid "Show"
+msgstr "Mostra"
+
+#: menu/sub/custom-prices.php:26 menu/sub/product-data.php:158
+msgid "Hide"
+msgstr "Nascondi"
+
+#: menu/sub/custom-prices.php:33
+msgid "Set prices in other currencies manually"
+msgstr "Imposta manualmente i prezzi in altre valute"
+
+#: menu/sub/custom-prices.php:35
+msgid "Enter prices in other currencies"
+msgstr "Inserisci i prezzi in altre valute"
+
+#: menu/sub/custom-prices.php:36
+msgid "Hide prices in other currencies"
+msgstr "Nascondi i prezzi in altre valute"
+
+#: menu/sub/custom-prices.php:62 menu/sub/custom-prices.php:152
+#: menu/sub/settings.php:426 menu/sub/settings.php:446
+msgid " (%s)"
+msgstr "(%s)"
+
+#: menu/sub/custom-prices.php:66
+msgid "Determined automatically based on exchange rate"
+msgstr "Calcolo effettuato automaticamente in base al cambio valuta"
+
+#: menu/sub/custom-prices.php:74 menu/sub/custom-prices.php:91
+#: menu/sub/custom-prices.php:157 menu/sub/custom-prices.php:171
+msgid "Regular Price"
+msgstr "Prezzo normale"
+
+#: menu/sub/custom-prices.php:79 menu/sub/custom-prices.php:93
+#: menu/sub/custom-prices.php:162 menu/sub/custom-prices.php:173
+msgid "Sale Price"
+msgstr "Prezzo di vendita"
+
+#: menu/sub/custom-prices.php:96 menu/sub/custom-prices.php:108
+msgid "Schedule"
+msgstr "Pianifica"
+
+#: menu/sub/custom-prices.php:101
+msgid "Same as default currency"
+msgstr "Come la valuta predefinita"
+
+#: menu/sub/custom-prices.php:106
+msgid "Set dates"
+msgstr "Imposta date"
+
+#: menu/sub/custom-prices.php:118
+msgctxt "placeholder"
+msgid "From&hellip;"
+msgstr "Da&hellip;"
+
+#: menu/sub/custom-prices.php:119
+msgctxt "placeholder"
+msgid "To&hellip;"
+msgstr "A&hellip;"
+
+#: menu/sub/custom-prices.php:181
+msgid "Please enter in a value less than the regular price"
+msgstr "Inserisci un valore inferiore al prezzo normale"
+
+#: menu/sub/downloadable-files-box.php:9 menu/sub/variations_box.php:49
+msgid "Enter translation for name"
+msgstr "Inserisci la traduzione per il nome"
+
+#: menu/sub/downloadable-files-box.php:11 menu/sub/product-data.php:147
+#: menu/sub/product-data.php:251 menu/sub/variations_box.php:51
+msgid "Choose a file"
+msgstr "Scegli un file"
+
+#: menu/sub/images-box.php:22
+msgid "Please set images for product"
+msgstr "Imposta le immagini per il prodotto"
+
+#: menu/sub/images-box.php:26
+msgid "Please save translation before translate images texts"
+msgstr "Prima di tradurre i testi delle immagini, salva la traduzione"
+
+#: menu/sub/images-box.php:36
+msgid "Caption"
+msgstr "Didascalia"
+
+#: menu/sub/notice-translation-upgrade.php:11
+msgid "<strong>WooCommerce Translation Available</strong> &#8211; Install or update your <code>%s</code> translations to version <code>%s</code>."
+msgstr "<strong>WooCommerce Translation disponibile</strong> &#8211; Installa o aggiorna le tue <code>%s</code> traduzioni alla versione <code>%s</code>."
+
+#: menu/sub/notice-translation-upgrade.php:15
+#: menu/sub/notice-translation-upgrade.php:17
+msgid "Update Translation"
+msgstr "Aggiorna traduzione"
+
+#: menu/sub/notice-translation-upgrade.php:19
+msgid "Hide This Message"
+msgstr "Nascondi questo messaggio"
+
+#: menu/sub/product-data.php:31 menu/sub/products.php:77
+#: menu/sub/settings.php:685
+msgid "Update"
+msgstr "Aggiorna"
+
+#: menu/sub/product-data.php:69
+msgid "This product is an exact duplicate of the %s product."
+msgstr "Questo prodotto è l'esatto duplicato del prodotto %s."
+
+#: menu/sub/product-data.php:71
+msgid "Edit independently."
+msgstr "Modifica separatamente."
+
+#: menu/sub/product-data.php:74
+msgid "Undo (keep this product as a duplicate)"
+msgstr "Annulla (mantieni questo prodotto come duplicato)"
+
+#: menu/sub/product-data.php:84
+msgid "edit product"
+msgstr "modifica il prodotto"
+
+#: menu/sub/product-data.php:100 menu/sub/products.php:130
+msgid "Translation in progress"
+msgstr "Traduzione in corso"
+
+#: menu/sub/product-data.php:110
+msgid "Take this and edit"
+msgstr "Prendi questo e modifica"
+
+#: menu/sub/product-data.php:157
+msgid "Show slug"
+msgstr "Mostra slug"
+
+#: menu/sub/product-data.php:157
+msgid "Edit slug"
+msgstr "Modifica slug"
+
+#: menu/sub/product-data.php:166
+msgid "Please save translation before edit slug"
+msgstr "Prima di modificare lo slug, salva la traduzione"
+
+#: menu/sub/product-data.php:186
+msgid "Translation missing"
+msgstr "Traduzione assente"
+
+#: menu/sub/product-data.php:217 menu/sub/product-data.php:219
+msgid "Add Media"
+msgstr "Aggiungi elemento multimediale"
+
+#: menu/sub/product-data.php:223
+msgid "Text"
+msgstr "Testo"
+
+#: menu/sub/product-data.php:224
+msgid "Visual"
+msgstr "Visuale"
+
+#: menu/sub/product-data.php:250
+msgid "Upload file"
+msgstr "Carica file"
+
+#: menu/sub/product-data.php:266
+msgid "name"
+msgstr "nome"
+
+#: menu/sub/product-data.php:278
+msgid "values"
+msgstr "valori"
+
+#: menu/sub/products.php:85
+msgid "Translate %s"
+msgstr "Traduci %s"
+
+#: menu/sub/products.php:86 menu/sub/products.php:170 menu/sub/products.php:274
+msgid "Show all products"
+msgstr "Mostra tutti i prodotti"
+
+#: menu/sub/products.php:89
+msgid "WooCommerce Products"
+msgstr "Prodotti WooCommerce"
+
+#: menu/sub/products.php:97
+msgid "All languages"
+msgstr "Tutte le lingue"
+
+#: menu/sub/products.php:104
+msgid "Any category"
+msgstr "Qualsiasi categoria"
+
+#: menu/sub/products.php:127
+msgid "All products"
+msgstr "Tutti i prodotti"
+
+#: menu/sub/products.php:128
+msgid "Not translated or needs updating"
+msgstr "Non tradotta o da aggiornare"
+
+#: menu/sub/products.php:129
+msgid "Needs updating"
+msgstr "Richiede l'aggiornamento"
+
+#: menu/sub/products.php:131
+msgid "Translation complete"
+msgstr "Traduzione completata"
+
+#: menu/sub/products.php:140
+msgid "All statuses"
+msgstr "Tutti gli stati"
+
+#: menu/sub/products.php:148 menu/sub/products.php:152
+msgid "Search"
+msgstr "Ricerca"
+
+#: menu/sub/products.php:154
+msgid "Reset"
+msgstr "Reset"
+
+#: menu/sub/products.php:161 menu/sub/products.php:265
+msgid "%d products"
+msgstr "%d prodotti"
+
+#: menu/sub/products.php:163 menu/sub/products.php:267
+msgid "Go to the first page"
+msgstr "Vai alla prima pagina"
+
+#: menu/sub/products.php:164 menu/sub/products.php:268
+msgid "Go to the previous page"
+msgstr "Vai alla pagina precedente"
+
+#: menu/sub/products.php:165 menu/sub/products.php:269
+msgid "of"
+msgstr "di"
+
+#: menu/sub/products.php:166 menu/sub/products.php:270
+msgid "Go to the next page"
+msgstr "Vai alla pagina successiva"
+
+#: menu/sub/products.php:167 menu/sub/products.php:271
+msgid "Go to the last page"
+msgstr "Vai all'ultima pagina"
+
+#: menu/sub/products.php:180
+msgid "Type"
+msgstr "Tipo"
+
+#: menu/sub/products.php:181 menu/sub/settings.php:639
+msgid "Product"
+msgstr "Prodotto"
+
+#: menu/sub/products.php:187
+msgid "No products found"
+msgstr "Nessun prodotto trovato"
+
+#: menu/sub/products.php:225
+msgid " (draft)"
+msgstr "(bozza)"
+
+#: menu/sub/products.php:228
+msgid " | Parent product: %s"
+msgstr "| Prodotto parent: %s"
+
+#: menu/sub/settings.php:50
+msgid "Configuration warnings"
+msgstr "Avvisi di configurazione"
+
+#: menu/sub/settings.php:51
+msgid "Reporting miscelaneous configuration issues that can make WooCommerce Multilingual not run normally"
+msgstr "Segnalare problemi di configurazione vari che non consentono la normale esecuzione di WooCommerce Multilingual"

@@ -1,0 +1,159 @@
+# Translation of Plugins - Media Credit - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Media Credit - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-01-31 22:31:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Media Credit - Stable (latest release)\n"
+
+#. translators: 1: last credit 2: concatenated other credits (empty in
+#. singular)
+#: admin/class-media-credit-admin.php:242
+msgid "Image courtesy of %2$s%1$s"
+msgid_plural "Images courtesy of %2$s and %1$s"
+msgstr[0] "Crédit photo&nbsp;: %2$s%1$s"
+msgstr[1] "Crédit photos&nbsp;: %2$s et %1$s"
+
+#: admin/partials/media-credit-image-properties-tmpl.php:26
+msgid "Add <code>rel=\"nofollow\"</code> to credit link."
+msgstr "Ajout de la balise <code>rel=\"nofollow\"</code> au lien du crédit. "
+
+#: admin/class-media-credit-admin.php:785
+#: admin/partials/media-credit-attachment-details-tmpl.php:34
+msgid "Add <code>rel=\"nofollow\"</code>."
+msgstr "Ajouter la balise <code>rel=\"nofollow\"</code>. "
+
+#: admin/class-media-credit-admin.php:410
+msgid "Microdata is added to the credit itself and the surrounding <code>figure</code> and <code>img</code> (if they don't already have other microdata set). The setting has no effect if credits are displayed after posts."
+msgstr "Des micro-données sont ajoutées au crédit lui-même et aussi aux balises <code>figure</code> et <code>img</code> (si elles n’ont pas déjà des micro-données spécifiées). Ce réglage n’a pas d’effets si les crédits sont affichées après les articles. "
+
+#: admin/class-media-credit-admin.php:405
+msgid "Include schema.org structured data in HTML5 microdata markup."
+msgstr "Inclure le schéma de micro-données schema.org dans les balises HTML5. "
+
+#: admin/class-media-credit-admin.php:404
+msgid "Structured data"
+msgstr "Données structurées"
+
+#: admin/class-media-credit-admin.php:393
+msgid "Default credit"
+msgstr "Crédit par défaut"
+
+#: admin/class-media-credit-admin.php:368
+msgid "Credit position"
+msgstr "Position des crédits"
+
+#: admin/class-media-credit-admin.php:344
+msgid "This is what media credits will look like with your current settings."
+msgstr "Voilà à quoi ressembleront les crédits avec vos réglages actuels. "
+
+#: admin/class-media-credit-admin.php:244
+msgctxt "Female example name for preview"
+msgid "Jane Doe"
+msgstr "Marie Bernard"
+
+#: admin/class-media-credit-admin.php:243
+msgctxt "Male example name for preview"
+msgid "John Smith"
+msgstr "Jean Martin"
+
+#. Plugin URI of the plugin/theme
+msgid "https://code.mundschenk.at/media-credit/"
+msgstr "https://code.mundschenk.at/media-credit/"
+
+#: admin/class-media-credit-admin.php:386
+msgid "Try to add media credit to featured images (depends on theme support)."
+msgstr "Essayer d’ajouter les crédits pour les images mises en avant (si le thème le permet)."
+
+#: admin/class-media-credit-admin.php:382
+msgid "Display credit for featured images."
+msgstr "Affiche les crédits pour les images mises en avant."
+
+#: includes/class-media-credit-template-tags.php:267
+msgid "Recent Media"
+msgstr "Médias récents"
+
+#. Description of the plugin/theme
+msgid "This plugin adds a \"Credit\" field to the media uploading and editing tool and inserts this credit when the images appear on your blog."
+msgstr "Cette extension ajoute un champ «&nbsp;Crédit&nbsp;» à l’outil d’envoi et de modification des médias. Il insère ce crédit quand les médias s’affichent sur votre blog."
+
+#: admin/class-media-credit-admin.php:776
+#: admin/partials/media-credit-attachment-details-tmpl.php:25
+#: admin/partials/media-credit-image-properties-tmpl.php:20
+msgid "Credit URL"
+msgstr "URL pour le crédit"
+
+#: admin/class-media-credit-admin.php:766
+#: admin/partials/media-credit-attachment-details-tmpl.php:16
+#: admin/partials/media-credit-image-properties-tmpl.php:16
+msgid "Credit"
+msgstr "Crédit"
+
+#: admin/class-media-credit-admin.php:399
+msgid "Do not display the attachment author as default credit if it has not been set explicitly (= freeform credits only)."
+msgstr "Ne pas afficher l’auteur comme crédit par défaut s’il n’a pas été explicitement défini (crédits libres uniquement)."
+
+#: admin/class-media-credit-admin.php:378
+msgid "This will cause credit for all images in all posts to display at the bottom of every post on this blog"
+msgstr "Les crédits de tous les médias de chaque article s’afficheront à la fin des articles de ce blog"
+
+#: admin/class-media-credit-admin.php:378
+msgid "Warning"
+msgstr "Avertissement"
+
+#: admin/class-media-credit-admin.php:377
+msgid "Display media credit for all the images attached to a post after the post content. Style with CSS class 'media-credit-end'."
+msgstr "Affiche les crédits pour toute les images liées à un article après le contenu de l’article. Utilise la classe de style CSS 'media-credit-end'."
+
+#: admin/class-media-credit-admin.php:363
+msgid "Organization used when crediting media to users of this blog."
+msgstr "Organisation utilisée quand les crédits sont ceux des utilisateurs de ce blog. "
+
+#: admin/class-media-credit-admin.php:354
+msgid "Text used to separate author names from organization when crediting media to users of this blog."
+msgstr "Cette chaîne de caractères est utilisée afin de séparer le nom des auteurs de l’organisation. Applicable quand les crédits sont ceux des utilisateurs de ce blog. "
+
+#: admin/class-media-credit-admin.php:1025
+msgid "Choose how to display media credit on your blog:"
+msgstr "Réglez la façon d’afficher les crédits sur votre blog&nbsp;: "
+
+#: admin/class-media-credit-admin.php:1012
+msgid "Settings"
+msgstr "Réglages"
+
+#: admin/class-media-credit-admin.php:394
+msgid "Do not display default credit."
+msgstr "Ne pas afficher la valeur par défaut des crédits."
+
+#: admin/class-media-credit-admin.php:373
+msgid "Display credit after posts."
+msgstr "Affiche les crédits à la suite des articles."
+
+#: admin/class-media-credit-admin.php:359
+msgid "Organization"
+msgstr "Organisation"
+
+#: admin/class-media-credit-admin.php:350
+msgid "Separator"
+msgstr "Séparateur"
+
+#: admin/class-media-credit-admin.php:340
+msgid "Preview"
+msgstr "Prévisualiser"
+
+#. #-#-#-#-#  tmp-media-credit.pot (Media Credit 3.1.7)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/class-media-credit-admin.php:334
+msgid "Media Credit"
+msgstr "Media Credit"
+
+#: admin/class-media-credit-admin.php:245
+#: public/class-media-credit-public.php:361
+msgctxt "String used to join multiple image credits for \"Display credit after post\""
+msgid ", "
+msgstr ", "

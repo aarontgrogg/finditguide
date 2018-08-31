@@ -1,0 +1,1278 @@
+# Translation of Plugins - Health Check &amp; Troubleshooting - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Health Check &amp; Troubleshooting - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-08 15:44:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Health Check &amp; Troubleshooting - Stable (latest release)\n"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:867
+msgid "Here you can enable individual plugins or themes, helping you to find out what might be causing strange behaviors on your site. Do note that any changes you make to settings will be kept when you disable Troubleshooting Mode."
+msgstr "啟用這項功能的網站管理員可以在這裡為外掛或佈景主題進行個別啟用，這樣便能找出導致網站上出現奇怪行為的原因。請注意，停用疑難排解模式後，將保留啟用期間所進行的全部變更。"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:873
+msgid "Notices"
+msgstr "注意事項"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:879
+msgid "There are no notices to show."
+msgstr "沒有可供顯示的注意事項。"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:887
+msgid "Plugin actions, such as activating and deactivating, are not available while in Troubleshooting Mode."
+msgstr "啟用 [疑難排解模式] 後，無法進行外掛的批次操作，例如啟用與停用。"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:909
+msgid "Dismiss notices"
+msgstr "關閉注意事項"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:920
+msgid "Available Plugins"
+msgstr "可使用的外掛"
+
+#. translators: %s: Plugin name.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:950
+msgid "Disable the plugin, %s, while troubleshooting."
+msgstr "在疑難排解模式中停用 %s 外掛。"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:954
+msgid "Disable"
+msgstr "停用"
+
+#. translators: %s: Plugin name.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:965
+msgid "Enable the plugin, %s, while troubleshooting."
+msgstr "在疑難排解模式中啟用 %s 外掛。"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:969
+msgid "Enable"
+msgstr "啟用"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:987
+msgid "Show all plugins"
+msgstr "顯示全部外掛"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:991
+msgid "Show fewer plugins"
+msgstr "顯示較少外掛"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1002
+msgid "Available Themes"
+msgstr "可使用的佈景主題"
+
+#. translators: %s: Theme name.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1025
+msgid "Switch the active theme to %s"
+msgstr "切換至佈景主題 %s"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1029
+msgid "Switch to this theme"
+msgstr "切換至這個佈景主題"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1056
+msgid "Show all themes"
+msgstr "顯示全部佈景主題"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1060
+msgid "Show fewer themes"
+msgstr "顯示較少佈景主題"
+
+#: includes/class-health-check-loopback.php:174
+#: includes/class-health-check-loopback.php:185
+msgid "Waiting..."
+msgstr "等待中..."
+
+#. translators: %s: The active theme name.
+#: includes/class-health-check-loopback.php:182
+msgid "Active theme: %s"
+msgstr "使用中的佈景主題: %s"
+
+#. translators: %s: Your current version of WordPress.
+#: includes/class-health-check-site-status.php:91
+msgid "%s - We were unable to check if any new versions are available."
+msgstr "這個網站為 %s 版 - 目前無法檢查是否有可用的新版本。"
+
+#. translators: %1$s: Your current version of WordPress. %2$s The latest
+#. version of WordPress available.
+#: includes/class-health-check-site-status.php:110
+msgid "%1$s ( Latest version: %2$s )"
+msgstr "這個網站為 %1$s 版 (最新版為 %2$s 版)"
+
+#. translators: %1$s: Your current version of WordPress. %2$s The latest
+#. version of WordPress available.
+#: includes/class-health-check-site-status.php:121
+msgid "%1$s ( Latest version: %2$s ) - We strongly urge you to update, as minor updates are often security related."
+msgstr "這個網站為 %1$s 版 (最新版為 %2$s 版) - 強烈建議完成更新，因為次要更新通常與安全性相關。"
+
+#. translators: %d: The amount of outdated plugins.
+#: includes/class-health-check-site-status.php:203
+msgid "Your site has %d plugin waiting to be updated."
+msgid_plural "Your site has %d plugins waiting to be updated."
+msgstr[0] "這個網站有 %d 個外掛須要進行更新。"
+
+#. translators: %d: The amount of plugins.
+#: includes/class-health-check-site-status.php:217
+msgid "Your site has %d active plugin, and it is up to date."
+msgid_plural "Your site has %d active plugins, and they are all up to date."
+msgstr[0] "這個網站安裝了 %d 個外掛，且均為最新版本。"
+
+#. translators: %d: The amount of inactive plugins.
+#: includes/class-health-check-site-status.php:234
+msgid "Your site has %d inactive plugin, it is recommended to remove any unused plugins to enhance your site security."
+msgid_plural "Your site has %d inactive plugins, it is recommended to remove any unused plugins to enhance your site security."
+msgstr[0] "這個網站有 %d 個未啟用的外掛，建議移除全部未使用的外掛以增加網站安全性。"
+
+#. translators: %d: The amount of outdated themes.
+#: includes/class-health-check-site-status.php:304
+msgid "Your site has %d theme waiting to be updated."
+msgid_plural "Your site has %d themes waiting to be updated."
+msgstr[0] "這個網站有 %d 個佈景主題須要進行更新。"
+
+#. translators: %d: The amount of themes.
+#: includes/class-health-check-site-status.php:318
+msgid "Your site has %d installed theme, and it is up to date."
+msgid_plural "Your site has %d installed themes, and they are all up to date."
+msgstr[0] "這個網站安裝了 %d 個佈景主題，且均為最新版本。"
+
+#: includes/class-health-check-site-status.php:373
+msgid "Your site does not have a default theme, default themes are used by WordPress automatically if anything is wrong with your normal theme."
+msgstr "這個網站並未安裝預設佈景主題。預設佈景主題的用途，是在網站使用一般佈景主題發生問題時，WordPress 可以自動套用預設佈景主題避免網站停擺。"
+
+#. translators: %1$d: The amount of inactive themes. %2$s: The default theme
+#. for WordPress. %3$s: The currently active theme. %4$s: The active themes
+#. parent theme.
+#: includes/class-health-check-site-status.php:337
+msgid "Your site has %1$d inactive theme. To enhance your sites security it is recommended to remove any unused themes. You should keep %2$s, the default WordPress theme, %3$s, your current theme and %4$s, the parent theme."
+msgid_plural "Your site has %1$d inactive themes. To enhance your sites security it is recommended to remove any unused themes. You should keep %2$s, the default WordPress theme, %3$s, your current theme and %4$s, the parent theme."
+msgstr[0] "這個網站有 %1$d 個未使用的佈景主題，建議移除全部未使用的佈景主題以增加網站安全性。請保留 WordPress 預設佈景主題 %2$s、目前使用的佈景主題 %3$s 及其上層佈景主題 %4$s。"
+
+#. translators: %1$d: The amount of inactive themes. %2$s: The default theme
+#. for WordPress. %3$s: The currently active theme.
+#: includes/class-health-check-site-status.php:355
+msgid "Your site has %1$d inactive theme, other than %2$s, the default WordPress theme, and %3$s, your active theme. It is recommended to remove any unused themes to enhance your sites security."
+msgid_plural "Your site has %1$d inactive themes, other than %2$s, the default WordPress theme, and %3$s, your active theme. It is recommended to remove any unused themes to enhance your sites security."
+msgstr[0] "除了 WordPress 預設佈景主題 %2$s 及目前使用的佈景主題 %3$s 外，這個網站有 %1$d 未使用的佈景主題，建議移除全部未使用的佈景主題以增加網站安全性。"
+
+#. translators: %s: URL to Settings > General to change options.
+#: includes/class-health-check-site-status.php:618
+msgid "You are accessing this website using HTTPS, but your <a href=\"%s\">WordPress Address</a> is not set up to use HTTPS by default."
+msgstr "目前你正以 HTTPS 存取這個網站，但這個網站的 <a href=\"%s\">WordPress 位址</a>卻仍為預設值，並未設定為 HTTPS。"
+
+#: includes/class-health-check-troubleshoot.php:227
+msgid "You have successfully enabled Troubleshooting Mode, all plugins will appear inactive until you disable Troubleshooting Mode, or log out and back in again."
+msgstr "已成功啟用 [疑難排解模式]，所有外掛均會先行停用，直到停用這個模式或登出網站並再次登入。"
+
+#: includes/class-health-check.php:216
+msgid "Currently being tested..."
+msgstr "目前正在進行測試..."
+
+#: includes/class-health-check.php:314
+msgid "Site Status"
+msgstr "網站狀態"
+
+#: pages/site-status.php:23
+msgid "WordPress Version"
+msgstr "WordPress 版本"
+
+#: pages/site-status.php:30
+msgid "Plugin Versions"
+msgstr "外掛版本"
+
+#: pages/site-status.php:37
+msgid "Theme Versions"
+msgstr "佈景主題版本"
+
+#: pages/site-status.php:52
+msgid "Database Server version"
+msgstr "資料庫伺服器版本"
+
+#. Plugin Name of the plugin/theme
+msgid "Health Check & Troubleshooting"
+msgstr "Health Check & Troubleshooting"
+
+#. translators: %s: The plugin slug that was enabled.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:506
+msgid "When enabling the plugin, %s, a site failure occurred. Because of this the change was automatically reverted."
+msgstr "啟用了代稱為 %s 的外掛後，這個網站便發生錯誤，因此這項變更已自動還原。"
+
+#. translators: %s: The plugin slug that was disabled.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:532
+msgid "When disabling the plugin, %s, a site failure occurred. Because of this the change was automatically reverted."
+msgstr "停用了代稱為 %s 的外掛後，這個網站便發生錯誤，因此這項變更已自動還原。"
+
+#. translators: %s: The theme slug that was switched to.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:555
+msgid "When switching the active theme to %s, a site failure occurred. Because of this we reverted the theme to the one you used previously."
+msgstr "將佈景主題切換至 %s 後，這個網站便發生錯誤，因此系統已將佈景主題還原至之前使用的佈景主題。"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:859
+msgid "Health Check &mdash; Troubleshooting Mode"
+msgstr "網站健康度檢查 &mdash; 疑難排解模式"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:863
+msgid "Your site is currently in Troubleshooting Mode. This has no effect on your site visitors, they will continue to view your site as usual, but for you it will look as if you had just installed WordPress for the first time."
+msgstr "這個網站目前啟用了疑難排解模式。這個模式不會影響網站訪客，網站訪客檢視網站的結果一如往常，但啟用這項功能的網站管理員會看到 WordPress 網站回復成如同第一次安裝後的樣子。"
+
+#. translators: %1$s: website name. %2$s: website url. %3$s: The date the
+#. message was sent. %4$s: The time the message was sent. %5$s: Additional
+#. custom message from the administrator.
+#: includes/class-health-check-mail-check.php:39
+msgid "Hi! This test message was sent by the Health Check plugin from %1$s (%2$s) on %3$s at %4$s. Since you’re reading this, it obviously works. Additional message from admin: %5$s"
+msgstr "你好，這封測試用電子郵件由《%1$s》(網址為 %2$s) 的 Health Check 外掛所傳送，傳送時間為 %3$s %4$s。能閱讀到這封電子郵件的內容，就代表這個網站傳送電子郵件的功能運作正常。來自網站管理員的附加訊息：%5$s"
+
+#: includes/class-health-check-mail-check.php:98
+msgid "Additional message"
+msgstr "附加訊息"
+
+#: includes/class-health-check-mail-check.php:104
+msgid "Send test mail"
+msgstr "傳送測試郵件"
+
+#. translators: %s: Recommended PHP version
+#: includes/class-health-check-site-status.php:422
+msgid "For best performance we recommend using PHP %s or higher."
+msgstr "為了獲得最佳效能，建議使用 PHP %s 版或更新版本。"
+
+#: includes/class-health-check-troubleshoot.php:153
+msgid "We could not remove the old must-use plugin."
+msgstr "這個外掛無法移除舊版強制使用外掛。"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:682
+msgid "Themes"
+msgstr "佈景主題"
+
+#. translators: Prefix for the active theme in a listing.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:697
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1035
+msgid "Active:"
+msgstr "已啟用:"
+
+#. translators: %s: Latest WordPress version number.
+#. translators: %s: Latest plugin version number.
+#. translators: %s: Latest theme version number.
+#. translators: %s: Latest theme version number.
+#: includes/class-health-check-debug-data.php:55
+#: includes/class-health-check-debug-data.php:583
+#: includes/class-health-check-debug-data.php:608
+#: includes/class-health-check-debug-data.php:673
+msgid "( Latest version: %s )"
+msgstr "(最新版本: %s)"
+
+#: includes/class-health-check-debug-data.php:106
+msgid "Installation size"
+msgstr "網站大小"
+
+#: includes/class-health-check-debug-data.php:358
+msgid "GD not available"
+msgstr "主機不提供 GD 功能"
+
+#: includes/class-health-check-debug-data.php:364
+msgid "Not available"
+msgstr "主機不提供這項功能"
+
+#: includes/class-health-check-debug-data.php:456
+msgid "htaccess rules"
+msgstr "htaccess 規則"
+
+#: includes/class-health-check-debug-data.php:457
+msgid "Custom rules have been added to your htaccess file"
+msgstr "自訂規則已加入這個網站的 htaccess 檔案中"
+
+#: includes/class-health-check-debug-data.php:457
+msgid "Your htaccess file only contains core WordPress features"
+msgstr "這個網站的 htaccess 檔案僅包含 WordPress 核心程式功能"
+
+#: includes/class-health-check-debug-data.php:788
+msgid "Uploads Directory"
+msgstr "uploads 目錄"
+
+#: includes/class-health-check-debug-data.php:792
+msgid "Themes Directory"
+msgstr "themes 目錄"
+
+#: includes/class-health-check-debug-data.php:796
+msgid "Plugins Directory"
+msgstr "plugins 目錄"
+
+#: includes/class-health-check-debug-data.php:800
+msgid "Database size"
+msgstr "資料庫大小"
+
+#: includes/class-health-check-debug-data.php:804
+msgid "Whole WordPress Directory"
+msgstr "WordPress 全部目錄"
+
+#: includes/class-health-check-debug-data.php:808
+msgid "Total installation size"
+msgstr "網站大小總計"
+
+#: includes/class-health-check-debug-data.php:812
+msgid "- Some errors, likely caused by invalid permissions, were encountered when determining the size of your installation. This means the values represented may be inaccurate."
+msgstr "- 計算網站大小時，可能會遇到無效權限引起的錯誤，這代表顯示的值可能不正確。"
+
+#: includes/class-health-check-files-integrity.php:113
+msgid "One possible reason for this may be that your installation contains translated versions. An easy way to clear this is to reinstall WordPress. Don't worry. This will only affect WordPress' own files, not your themes, plugins or uploaded media."
+msgstr "其中一個可能的原因是這個網站為本地化版本，而要排除這個原因的方法，最簡單的方式為重新安裝 WordPress。不必擔心，這項操作只會影響 WordPress 核心程式的檔案，而不會對佈景主題、外掛及已上傳的媒體檔案造成任何影響。"
+
+#. translators: %s: website url.
+#: includes/class-health-check-mail-check.php:35
+msgid "Health Check – Test Message from %s"
+msgstr "Health Check 外掛 – 來自 %s 的測試訊息"
+
+#: includes/class-health-check-files-integrity.php:174
+msgid "Original"
+msgstr "原始版本"
+
+#: includes/class-health-check-files-integrity.php:176
+msgid "Modified"
+msgstr "修改版本"
+
+#: includes/class-health-check-files-integrity.php:201
+msgid "The File Integrity checks all the core files with the <code>checksums</code> provided by the WordPress API to see if they are intact. If there are changes you will be able to make a Diff between the files hosted on WordPress.org and your installation to see what has been changed."
+msgstr "檔案完整性檢查使用 WordPress 提供的 <code>checksums</code> API 檢查所有核心程式檔案，以查看它們是否未經修改。如果有任何變更，網站管理員便能將託管於 WordPress.org 上的檔案與這個網站的檔案進行差異比對，以查看變更的內容。"
+
+#: includes/class-health-check-files-integrity.php:205
+msgid "Check the Files Integrity"
+msgstr "檢查檔案完整性"
+
+#: includes/class-health-check-files-integrity.php:218
+msgid "File Integrity"
+msgstr "檔案完整性檢查"
+
+#: includes/class-health-check-mail-check.php:82
+msgid "The Mail Check will invoke the <code>wp_mail()</code> function and check if it succeeds. We will use the E-mail address you have set up, but you can change it below if you like."
+msgstr "[傳送郵件功能檢查] 會叫用 <code>wp_mail()</code> 函式並檢查郵件是否傳送成功。外掛會使用目前進行操作的使用者的電子郵件地址，但可於下方欄位進行變更。"
+
+#: includes/class-health-check-mail-check.php:92
+msgid "E-mail"
+msgstr "電子郵件地址"
+
+#: includes/class-health-check-mail-check.php:116
+msgid "Mail Check"
+msgstr "傳送郵件功能檢查"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:115
+msgid "You don't have any of the default themes installed. A default theme helps you determine if your current theme is causing conflicts."
+msgstr "這個網站並未安裝任何預設佈景主題。預設佈景主題可以協助網站管理員確認使用中的佈景主題是否為造成衝突的原因。"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:120
+msgid "Install a default theme"
+msgstr "安裝預設佈景主題"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:715
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1074
+#: includes/class-health-check-troubleshoot.php:299
+msgid "Disable Troubleshooting Mode"
+msgstr "停用疑難排解模式"
+
+#: includes/class-health-check-files-integrity.php:81
+msgid "Content changed"
+msgstr "內容已變更"
+
+#: includes/class-health-check-files-integrity.php:81
+msgid "(View Diff)"
+msgstr "(檢視差異)"
+
+#: includes/class-health-check-files-integrity.php:84
+msgid "File not found"
+msgstr "找不到檔案"
+
+#: includes/class-health-check-files-integrity.php:108
+msgid "All files passed the check. Everything seems to be ok!"
+msgstr "所有檔案均通過檢查，一切如常。"
+
+#: includes/class-health-check-files-integrity.php:112
+msgid "It appears as if some files may have been modified."
+msgstr "檢查結果顯示，有些檔案可能經過修改。"
+
+#: includes/class-health-check-files-integrity.php:115
+#: includes/class-health-check-files-integrity.php:121
+msgid "Status"
+msgstr "狀態"
+
+#: includes/class-health-check-files-integrity.php:117
+#: includes/class-health-check-files-integrity.php:123
+msgid "File"
+msgstr "檔案"
+
+#: includes/class-health-check-files-integrity.php:119
+#: includes/class-health-check-files-integrity.php:125
+msgid "Reason"
+msgstr "原因"
+
+#: includes/class-health-check-loopback.php:157
+msgid "Result from testing without any plugins active and a default theme"
+msgstr "不啟用任何外掛及使用預設佈景主題的測試結果"
+
+#: includes/class-health-check-mail-check.php:51
+msgid "We have just sent an e-mail using <code>wp_mail()</code> and it seems to work. Please check your inbox and spam folder to see if you received it."
+msgstr "外掛已透過 <code>wp_mail()</code> 函式傳送一封測試電子郵件，該函式功能看來運作無誤，請至收件匣或垃圾郵件資料夾查看是否收到這封測試郵件。"
+
+#: includes/class-health-check-mail-check.php:55
+msgid "It seems there was a problem sending the e-mail."
+msgstr "傳送電子郵件發生問題。"
+
+#: includes/class-health-check-site-status.php:389
+#: includes/class-health-check-site-status.php:404
+#: includes/class-health-check-site-status.php:418
+msgctxt "The link to the Update PHP page, which may be localized."
+msgid "https://wordpress.org/support/upgrade-php/"
+msgstr "https://wordpress.org/support/upgrade-php/"
+
+#. translators: %1$s: Current PHP version. %2$s: Recommended PHP version.
+#: includes/class-health-check-site-status.php:408
+msgid "Your version of PHP, %1$s, is very outdated and no longer receiving security updates. You should contact your host for an upgrade, WordPress recommends using PHP version %2$s."
+msgstr "目前網站主機所使用的 PHP %1$s 版太過老舊，已無法接收安全性更新。請聯絡這個網站的主機服務商進行更新，WordPress 建議使用 PHP %2$s 版。"
+
+#: includes/class-health-check.php:318
+msgid "Tools"
+msgstr "工具"
+
+#: modals/backup-warning.php:4
+msgid "Remember to keep backups"
+msgstr "請記得為網站進行備份"
+
+#: modals/backup-warning.php:8
+msgid "Because of how Troubleshooting Mode functions, unforeseen conflicts with other plugins or themes may in rare cases occur, leading to unexpected behaviors."
+msgstr "疑難排解模式的運作方式，在極少數情況下可能會與其他外掛或佈景主題產生無法預期的衝突，進而導致意外行為。"
+
+#: modals/backup-warning.php:12
+msgid "We therefore strongly recommend <a href=\"https://codex.wordpress.org/WordPress_Backups\">making a backup of your site</a> before you enable troubleshooting mode."
+msgstr "在此強烈建議你在啟用疑難排解模式前，先為<a href=\"https://codex.wordpress.org/WordPress_Backups\" target=\"_blank\">這個網站進行備份</a>。"
+
+#: modals/backup-warning.php:20
+msgid "I understand"
+msgstr "我了解"
+
+#: modals/backup-warning.php:16
+msgid "Additionally, since we really want to make this plugin as safe as possible, if you should have any problems with the troubleshooting mode, please create a new topic in the <a href=\"https://wordpress.org/support/plugin/health-check\">plugins support forum</a> with details about what theme and what plugins you’re using and the steps needed to reproduce the problem. This will help us to analyze and fix such problems."
+msgstr "此外，我們希望這個外掛在使用上能夠盡量安全穩定，如果在疑難排除模式中遇到任何問題，請前往<a href=\"https://wordpress.org/support/plugin/health-check\" target=\"_blank\">外掛技術支援論壇</a>，並建立一個包含使用中的佈景主題/外掛詳細資訊及重現問題所需步驟的新主題，這對於分析及解決問題會產生莫大的幫助。"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:223
+msgid "Disable while troubleshooting"
+msgstr "在疑難排解模式中停用"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:231
+msgid "Enable while troubleshooting"
+msgstr "在疑難排解模式中啟用"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:613
+msgid "Manage active plugins"
+msgstr "管理已安裝的外掛"
+
+#. Translators: %s: Plugin slug.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:644
+msgid "Disable %s"
+msgstr "停用 %s"
+
+#. Translators: %s: Plugin slug.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:657
+msgid "Enable %s"
+msgstr "啟用 %s"
+
+#: includes/class-health-check-debug-data.php:325
+msgid "Imagick Module Version"
+msgstr "Imagick 模組版本"
+
+#: includes/class-health-check.php:233 includes/class-health-check.php:250
+#: includes/class-health-check.php:309
+msgctxt "Menu, Section and Page Title"
+msgid "Health Check"
+msgstr "網站健康度檢查"
+
+#: includes/class-health-check-debug-data.php:139
+msgid "Media handling"
+msgstr "媒體處理"
+
+#: includes/class-health-check-debug-data.php:312
+msgid "Active editor"
+msgstr "網站啟用的編輯器"
+
+#: includes/class-health-check-debug-data.php:329
+msgid "ImageMagick Version"
+msgstr "ImageMagick 版本"
+
+#: includes/class-health-check-debug-data.php:345
+msgid "Imagick Resource Limits"
+msgstr "Imagick 資源限制"
+
+#: includes/class-health-check-debug-data.php:357
+msgid "GD Version"
+msgstr "GD 版本"
+
+#: includes/class-health-check-debug-data.php:366
+msgid "Unable to determine if Ghostscript is installed"
+msgstr "無法確認主機是否安裝了 Ghostscript"
+
+#: includes/class-health-check-debug-data.php:369
+msgid "Ghostscript Version"
+msgstr "Ghostscript 版本"
+
+#: includes/class-health-check-debug-data.php:411
+msgid "Max input time"
+msgstr "輸入時間最大值"
+
+#: includes/class-health-check-debug-data.php:519
+msgid "Database name"
+msgstr "資料庫名稱"
+
+#. translators: %1$d: The HTTP response code. %2$s: The error message returned.
+#: includes/class-health-check-loopback.php:74
+msgid "Error encountered: (%1$d) %2$s"
+msgstr "遇到的錯誤: (%1$d) %2$s"
+
+#: includes/class-health-check.php:215
+msgid "Copied"
+msgstr "已複製"
+
+#: includes/class-health-check.php:287
+msgid "Troubleshoot"
+msgstr "疑難排解"
+
+#: pages/troubleshoot.php:16
+msgid "When troubleshooting issues on your site, you are likely to be told to disable all plugins and switch to the default theme."
+msgstr "一般來說，在為網站進行疑難排解時，都會要求網站管理員停用所有外掛並切換到預設佈景主題。"
+
+#: pages/troubleshoot.php:21
+msgid "By enabling the Troubleshooting Mode, all plugins will appear inactive and your site will switch to the default theme only for you. All other users will see your site as usual."
+msgstr "對啟用 [疑難排解模式] 這項功能的網站管理員來說，網站上所有外掛均會停用，並切換至預設佈景主題，但其他網站訪客檢視網站則一切如常。"
+
+#: pages/troubleshoot.php:25
+msgid "A Troubleshooting Mode menu is added to your admin bar, which will allow you to enable plugins individually, switch back to your current theme, and disable Troubleshooting Mode."
+msgstr "啟用 [疑難排除模式] 後，它會管理列上新增一個選單，啟用該模式的網站管理員可透過這個選單為外掛進行個別啟用、切換至網站目前使用的佈景主題，及停用 [疑難排解模式]。"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:606
+msgid "Troubleshooting Mode"
+msgstr "疑難排解模式"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:620
+msgid "Plugins"
+msgstr "外掛"
+
+#: includes/class-health-check-troubleshoot.php:204
+msgid "We were unable to replace the plugin file required to enable the Troubleshooting Mode."
+msgstr "這個外掛無法取代啟用 [疑難排解模式] 所需的外掛檔案。"
+
+#: includes/class-health-check-troubleshoot.php:231
+msgid "Return to the Dashboard"
+msgstr "返回 [控制台]"
+
+#: includes/class-health-check-troubleshoot.php:309
+msgid "Enable Troubleshooting Mode"
+msgstr "啟用疑難排解模式"
+
+#: includes/class-health-check-loopback.php:71
+msgid "The loopback request to your site failed, this may prevent WP_Cron from working, along with theme and plugin editors."
+msgstr "網站的回送要求發生錯誤，這會造成 WP_Cron 無法與佈景主題編輯器及外掛編輯器協同工作。"
+
+#: includes/class-health-check-troubleshoot.php:145
+msgid "We were unable to create the mu-plugins directory."
+msgstr "這個外掛無法建立 mu-plugins 目錄。"
+
+#: includes/class-health-check-troubleshoot.php:160
+msgid "We were unable to copy the plugin file required to enable the Troubleshooting Mode."
+msgstr "這個外掛無法複製啟用 [疑難排解模式] 所需的外掛檔案。"
+
+#: includes/class-health-check.php:214
+msgid "Please wait..."
+msgstr "請稍候..."
+
+#: includes/class-health-check.php:316
+msgid "Troubleshooting"
+msgstr "疑難排解"
+
+#: pages/troubleshoot.php:17
+msgid "Understandably, you do not wish to do so as it may affect your site visitors, leaving them with lost functionality."
+msgstr "可以理解多數的網站管理員均不希望這樣做，因為這項操作會影響網站訪客，使他們瀏覽沒有原先功能的網站。"
+
+#: pages/troubleshoot.php:29
+msgid "Please note, that due to how Must Use plugins work, any such plugin will not be disabled for the troubleshooting session."
+msgstr "請注意，由於「強制使用外掛」的執行方式不同，在 [疑難排解模式] 中無法停用這類外掛。"
+
+#: includes/class-health-check-debug-data.php:296
+msgid "Create loopback requests"
+msgstr "建立回送要求"
+
+#. translators: %d: The HTTP response code returned.
+#: includes/class-health-check-loopback.php:87
+msgid "The loopback request returned an unexpected status code, %d, this may affect tools such as WP_Cron, or theme and plugin editors."
+msgstr "回送要求傳回未預期的狀態碼 %d，這會影響 WP_Cron、佈景主題編輯器及外掛編輯器之類的工具。"
+
+#: includes/class-health-check-loopback.php:95
+msgid "The loopback request to your site completed successfully."
+msgstr "這個網站的回送要求已成功完成。"
+
+#: pages/site-status.php:109
+msgid "Loopback request"
+msgstr "回送要求"
+
+#. translators: %s: Name of the constant used.
+#: includes/class-health-check-auto-updates.php:81
+#: includes/class-health-check-auto-updates.php:103
+#: includes/class-health-check-auto-updates.php:125
+msgid "The %s constant is defined and enabled."
+msgstr "%s 常數已定義並加以啟用。"
+
+#. translators: %s: Name of the filter used.
+#: includes/class-health-check-auto-updates.php:166
+msgid "A plugin has prevented updates by disabling %s."
+msgstr "停用 %s過濾器便能禁止外掛更新。"
+
+#. translators: %s: Name of the filter used.
+#: includes/class-health-check-auto-updates.php:188
+msgid "The %s filter is enabled."
+msgstr "%s 篩選器已啟用。"
+
+#: includes/class-health-check-auto-updates.php:213
+msgid "A previous automatic background update ended with a critical failure, so updates are now disabled."
+msgstr "前次自動背景更新因嚴重錯誤而停止，因此更新功能目前已停用。"
+
+#: includes/class-health-check-auto-updates.php:214
+#: includes/class-health-check-auto-updates.php:229
+msgid "You would have received an email because of this."
+msgstr "網站管理員會因此而收到一封電子郵件。"
+
+#: includes/class-health-check-auto-updates.php:215
+msgid "When you've been able to update using the \"Update Now\" button on Dashboard > Updates, we'll clear this error for future update attempts."
+msgstr "當網站管理員能在 [控制台] > [更新] 中透過點擊 [立即更新] 按鈕進行更新時，外掛會為將來的更新嘗試清除這項錯誤。"
+
+#. translators: %s: Code of error shown.
+#: includes/class-health-check-auto-updates.php:218
+#: includes/class-health-check-auto-updates.php:235
+msgid "The error code was %s."
+msgstr "錯誤代碼為 %s。"
+
+#: includes/class-health-check-auto-updates.php:227
+msgid "A previous automatic background update could not occur."
+msgstr "前次自動背景更新無法順利執行。"
+
+#: includes/class-health-check-auto-updates.php:232
+msgid "We'll try again with the next release."
+msgstr "外掛會在下個發佈版本再次試著執行更新。"
+
+#. translators: %1$s: Folder name. %2$s: Version control directory. %3$s:
+#. Filter name.
+#: includes/class-health-check-auto-updates.php:294
+msgid "The folder %1$s was detected as being under version control (%2$s), but the %3$s filter is allowing updates."
+msgstr "偵測到 %1$s 資料夾已納入版本控制 (目錄為 %2$s)，而 %3$s 篩選器允許對其進行更新。"
+
+#. translators: %1$s: Folder name. %2$s: Version control directory.
+#: includes/class-health-check-auto-updates.php:307
+msgid "The folder %1$s was detected as being under version control (%2$s)."
+msgstr "偵測到 %1$s 資料夾已納入版本控制 (目錄為 %2$s)。"
+
+#: includes/class-health-check-auto-updates.php:316
+msgid "No version control systems were detected."
+msgstr "在這個網站上並未偵測到任何版本控制系統。"
+
+#: includes/class-health-check-auto-updates.php:347
+msgid "Your installation of WordPress prompts for FTP credentials to perform updates."
+msgstr "這個 WordPress 網站執行更新時會提示須要進行 FTP 認證。"
+
+#: includes/class-health-check-auto-updates.php:348
+msgid "(Your site is performing updates over FTP due to file ownership. Talk to your hosting company.)"
+msgstr "(由於檔案擁有權的因素，這個網站正透過 FTP 方式進行更新。請與網站主機服務商洽詢。)"
+
+#: includes/class-health-check-auto-updates.php:357
+msgid "Your installation of WordPress doesn't require FTP credentials to perform updates."
+msgstr "這個 WordPress 網站執行更新時無須進行 FTP 認證。"
+
+#. translators: %s: WordPress version
+#: includes/class-health-check-auto-updates.php:417
+msgid "Couldn't retrieve a list of the checksums for WordPress %s."
+msgstr "無法擷取 WordPress %s 版的總和檢查碼清單。"
+
+#: includes/class-health-check-auto-updates.php:420
+msgid "This could mean that connections are failing to WordPress.org."
+msgstr "這代表目前無法與 WordPress.org 進行連線。"
+
+#: includes/class-health-check-auto-updates.php:446
+msgid "Some files are not writable by WordPress:"
+msgstr "WordPress 無法寫入的檔案:"
+
+#: includes/class-health-check-auto-updates.php:451
+msgid "All of your WordPress files are writable."
+msgstr "這個 WordPress 網站的檔案均可寫入。"
+
+#. translators: %s: Name of the constant used.
+#: includes/class-health-check-auto-updates.php:479
+msgid "WordPress development updates are blocked by the %s constant."
+msgstr "WordPress 開發版更新已由 %s 常數所封鎖。"
+
+#. translators: %s: Name of the filter used.
+#: includes/class-health-check-auto-updates.php:490
+msgid "WordPress development updates are blocked by the %s filter."
+msgstr "WordPress 開發版更新已由 %s 篩選器所封鎖。"
+
+#. translators: %s: Name of the constant used.
+#: includes/class-health-check-auto-updates.php:513
+msgid "WordPress security and maintenance releases are blocked by %s."
+msgstr "WordPress 安全性維護版本已由 %s 常數所封鎖。"
+
+#. translators: %s: Name of the filter used.
+#: includes/class-health-check-auto-updates.php:524
+msgid "WordPress security and maintenance releases are blocked by the %s filter."
+msgstr "WordPress 安全性維護版本已由 %s 篩選器所封鎖。"
+
+#: includes/class-health-check-debug-data.php:383
+msgid "(Supports 64bit values)"
+msgstr "(支援 64 位元值)"
+
+#: includes/class-health-check-debug-data.php:535
+#: includes/class-health-check-debug-data.php:566
+#: includes/class-health-check-debug-data.php:656
+msgid "No version or author information available"
+msgstr "沒有可用的版本或開發者資訊"
+
+#. translators: %s: Plugin author name.
+#. translators: %s: Theme author name.
+#: includes/class-health-check-debug-data.php:543
+#: includes/class-health-check-debug-data.php:574
+#: includes/class-health-check-debug-data.php:664
+msgid "By %s"
+msgstr "開發者為 %s"
+
+#. translators: %s: Plugin version number.
+#. translators: %s: Theme version number.
+#: includes/class-health-check-debug-data.php:547
+#: includes/class-health-check-debug-data.php:578
+#: includes/class-health-check-debug-data.php:668
+msgid "Version %s"
+msgstr "%s 版"
+
+#. translators: %1$s: The database engine in use (MySQL or MariaDB). %2$s:
+#. Database server minimum version number.
+#: includes/class-health-check-site-status.php:478
+msgid "WordPress 3.2+ requires %1$s version %2$s or higher."
+msgstr "WordPress 3.2 (含) 以上版本須要 %1$s %2$s 版或更新版本。"
+
+#: includes/class-health-check-site-status.php:642
+msgid "Your WordPress install can communicate securely with other services."
+msgstr "這個 WordPress 網站能與其他服務進行安全通訊。"
+
+#: includes/class-health-check-site-status.php:647
+msgid "Your WordPress install cannot communicate securely with other services. Talk to your web host about OpenSSL support for PHP."
+msgstr "這個 WordPress 網站無法與其他服務進行安全通訊。請與網站主機商聯絡，討論關於 PHP 的 OpenSSL 支援。"
+
+#. translators: %s: The name of the failed cron event.
+#: includes/class-health-check-site-status.php:666
+msgid "A scheduled event (%s) has failed to run. Your site still works, but this may indicate that scheduling posts or automated updates may not work as intended."
+msgstr "排程事件 %s 執行失敗。這個網站仍能如常運作，但這也代表文章排程發佈"
+
+#: includes/class-health-check-site-status.php:673
+msgid "No scheduled events have been missed."
+msgstr "目前沒有因故未執行的排程事件。"
+
+#: includes/class-health-check-wp-cron.php:51
+msgid "No scheduled events exist on this site."
+msgstr "這個網站並不包含任何排程事件。"
+
+#: pages/debug-data.php:26
+msgid "Show copy and paste field in English"
+msgstr "以英文顯示複製/貼上欄位"
+
+#: pages/debug-data.php:144
+msgid "Table Of Contents"
+msgstr "目錄"
+
+#: pages/site-status.php:88
+msgid "Secure communication"
+msgstr "安全通訊"
+
+#: pages/site-status.php:95
+msgid "Scheduled events"
+msgstr "排程事件"
+
+#: pages/site-status.php:102
+msgid "Background updates"
+msgstr "背景更新"
+
+#: includes/class-health-check-debug-data.php:63
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/class-health-check-debug-data.php:66
+#: includes/class-health-check-debug-data.php:620
+msgid "Version"
+msgstr "版本"
+
+#: includes/class-health-check-debug-data.php:70
+msgid "Language"
+msgstr "網站介面預設語言"
+
+#: includes/class-health-check-debug-data.php:74
+msgid "Home URL"
+msgstr "首頁網址"
+
+#: includes/class-health-check-debug-data.php:79
+msgid "Site URL"
+msgstr "網站網址"
+
+#: includes/class-health-check-debug-data.php:84
+msgid "Permalink structure"
+msgstr "永久連結結構"
+
+#: includes/class-health-check-debug-data.php:88
+msgid "Is this site using HTTPS?"
+msgstr "這個網站是否使用 HTTPS"
+
+#: includes/class-health-check-debug-data.php:89
+#: includes/class-health-check-debug-data.php:93
+#: includes/class-health-check-debug-data.php:101
+#: includes/class-health-check-debug-data.php:439
+#: includes/class-health-check-debug-data.php:444
+msgid "Yes"
+msgstr "是"
+
+#: includes/class-health-check-debug-data.php:89
+#: includes/class-health-check-debug-data.php:93
+#: includes/class-health-check-debug-data.php:101
+#: includes/class-health-check-debug-data.php:439
+#: includes/class-health-check-debug-data.php:444
+msgid "No"
+msgstr "否"
+
+#: includes/class-health-check-debug-data.php:92
+msgid "Can anyone register on this site?"
+msgstr "這個網站是否開放註冊"
+
+#: includes/class-health-check-debug-data.php:96
+msgid "Default comment status"
+msgstr "預設留言狀態"
+
+#: includes/class-health-check-debug-data.php:100
+msgid "Is this a multisite?"
+msgstr "是否為多站網路"
+
+#: includes/class-health-check-debug-data.php:110
+msgid "Drop-ins"
+msgstr "強化外掛"
+
+#: includes/class-health-check-debug-data.php:111
+msgid "Drop-ins are single files that replace or enhance WordPress features in ways that are not possible for traditional plugins"
+msgstr "強化外掛是用來取代或加強 WordPress 無法透過傳統外掛加入功能的獨立檔案。"
+
+#: includes/class-health-check-debug-data.php:115
+msgid "Active Theme"
+msgstr "使用中的佈景主題"
+
+#: includes/class-health-check-debug-data.php:119
+msgid "Other themes"
+msgstr "其他佈景主題"
+
+#: includes/class-health-check-debug-data.php:124
+msgid "Must Use Plugins"
+msgstr "強制使用的外掛"
+
+#: includes/class-health-check-debug-data.php:129
+msgid "Active Plugins"
+msgstr "已安裝的外掛"
+
+#: includes/class-health-check-debug-data.php:134
+msgid "Inactive Plugins"
+msgstr "停用的外掛"
+
+#: includes/class-health-check-debug-data.php:143
+msgid "Server"
+msgstr "伺服器"
+
+#: includes/class-health-check-debug-data.php:144
+msgid "The options shown below relate to your server setup. If changes are required, you may need your web host's assistance."
+msgstr "這個網站的伺服器設定值已顯示於下方。如需變更，請洽詢網站主機服務商要求提供協助。"
+
+#: includes/class-health-check-debug-data.php:148
+msgid "Database"
+msgstr "資料庫"
+
+#: includes/class-health-check-debug-data.php:152
+msgid "WordPress Constants"
+msgstr "WordPress 常數"
+
+#: includes/class-health-check-debug-data.php:153
+msgid "These values represent values set in your websites code which affect WordPress in various ways that may be of importance when seeking help with your site."
+msgstr "以下為這個網站程式碼中的設定值，這些設定值會在不同方面影響 WordPress 的運作；在為網站尋求協助時，提供這些設定值會相當有幫助。"
+
+#: includes/class-health-check-debug-data.php:157
+#: includes/class-health-check-debug-data.php:161
+#: includes/class-health-check-debug-data.php:165
+#: includes/class-health-check-debug-data.php:169
+#: includes/class-health-check-debug-data.php:173
+#: includes/class-health-check-debug-data.php:177
+#: includes/class-health-check-debug-data.php:181
+#: includes/class-health-check-debug-data.php:185
+#: includes/class-health-check-debug-data.php:189
+#: includes/class-health-check-debug-data.php:193
+#: includes/class-health-check-debug-data.php:197
+#: includes/class-health-check-debug-data.php:201
+#: includes/class-health-check-debug-data.php:205
+#: includes/class-health-check-debug-data.php:631
+msgid "Undefined"
+msgstr "未定義"
+
+#: includes/class-health-check-debug-data.php:169
+#: includes/class-health-check-debug-data.php:177
+#: includes/class-health-check-debug-data.php:181
+#: includes/class-health-check-debug-data.php:185
+#: includes/class-health-check-debug-data.php:189
+#: includes/class-health-check-debug-data.php:193
+#: includes/class-health-check-debug-data.php:197
+#: includes/class-health-check-debug-data.php:201
+#: includes/class-health-check-debug-data.php:205
+msgid "Enabled"
+msgstr "已啟用"
+
+#: includes/class-health-check-debug-data.php:169
+#: includes/class-health-check-debug-data.php:177
+#: includes/class-health-check-debug-data.php:181
+#: includes/class-health-check-debug-data.php:185
+#: includes/class-health-check-debug-data.php:189
+#: includes/class-health-check-debug-data.php:193
+#: includes/class-health-check-debug-data.php:197
+#: includes/class-health-check-debug-data.php:201
+#: includes/class-health-check-debug-data.php:205
+msgid "Disabled"
+msgstr "已停用"
+
+#: includes/class-health-check-debug-data.php:210
+msgid "Filesystem Permissions"
+msgstr "檔案系統權限"
+
+#: includes/class-health-check-debug-data.php:211
+msgid "The status of various locations WordPress needs to write files in various scenarios."
+msgstr "依照不同使用情境，WordPress 須要寫入檔案的各個目錄位置。"
+
+#: includes/class-health-check-debug-data.php:214
+msgid "The main WordPress directory"
+msgstr "WordPress 主目錄"
+
+#: includes/class-health-check-debug-data.php:215
+#: includes/class-health-check-debug-data.php:219
+#: includes/class-health-check-debug-data.php:223
+#: includes/class-health-check-debug-data.php:227
+#: includes/class-health-check-debug-data.php:231
+#: includes/class-health-check-debug-data.php:694
+msgid "Writable"
+msgstr "可寫入"
+
+#: includes/class-health-check-debug-data.php:215
+#: includes/class-health-check-debug-data.php:219
+#: includes/class-health-check-debug-data.php:223
+#: includes/class-health-check-debug-data.php:227
+#: includes/class-health-check-debug-data.php:231
+#: includes/class-health-check-debug-data.php:694
+msgid "Not writable"
+msgstr "不可寫入"
+
+#: includes/class-health-check-debug-data.php:218
+msgid "The wp-content directory"
+msgstr "wp-content 目錄"
+
+#: includes/class-health-check-debug-data.php:222
+msgid "The uploads directory"
+msgstr "uploads 目錄"
+
+#: includes/class-health-check-debug-data.php:226
+msgid "The plugins directory"
+msgstr "plugins 目錄"
+
+#: includes/class-health-check-debug-data.php:230
+msgid "The themes directory"
+msgstr "themes 目錄"
+
+#: includes/class-health-check-debug-data.php:251
+#: includes/class-health-check-debug-data.php:266
+msgid "User Count"
+msgstr "可登入使用者人數"
+
+#: includes/class-health-check-debug-data.php:255
+msgid "Site Count"
+msgstr "網站數量"
+
+#: includes/class-health-check-debug-data.php:259
+msgid "Network Count"
+msgstr "多站網路數量"
+
+#: includes/class-health-check-debug-data.php:277
+#: includes/class-health-check-debug-data.php:284 pages/site-status.php:74
+msgid "Communication with WordPress.org"
+msgstr "與 WordPress.org 間的通訊狀況"
+
+#: includes/class-health-check-debug-data.php:279
+msgid "WordPress.org is reachable"
+msgstr "這個網站可順利連線至 WordPress.org。"
+
+#. translators: %1$s: The IP address WordPress.org resolves to. %2$s: The error
+#. returned by the lookup.
+#: includes/class-health-check-debug-data.php:287
+#: includes/class-health-check-site-status.php:600
+msgid "Unable to reach WordPress.org at %1$s: %2$s"
+msgstr "這個網站無法連線至位於 %1$s 的 WordPress.org (%2$s)"
+
+#: includes/class-health-check-debug-data.php:375
+msgid "Server architecture"
+msgstr "伺服器架構"
+
+#: includes/class-health-check-debug-data.php:376
+msgid "Unable to determine server architecture"
+msgstr "無法確認主機的伺服器架構"
+
+#: includes/class-health-check-debug-data.php:379 pages/site-status.php:44
+msgid "PHP Version"
+msgstr "PHP 版本"
+
+#: includes/class-health-check-debug-data.php:380
+msgid "Unable to determine PHP version"
+msgstr "無法確認主機上的 PHP 版本"
+
+#: includes/class-health-check-debug-data.php:388
+msgid "PHP SAPI"
+msgstr "PHP SAPI"
+
+#: includes/class-health-check-debug-data.php:389
+msgid "Unable to determine PHP SAPI"
+msgstr "無法確認主機上的 PHP SAPI 版本"
+
+#: includes/class-health-check-debug-data.php:394
+msgid "Server settings"
+msgstr "伺服器設定"
+
+#: includes/class-health-check-debug-data.php:395
+msgid "Unable to determine some settings as the ini_get() function has been disabled"
+msgstr "無法確認某些設定 (例如 ini_get() 函式) 是否停用"
+
+#: includes/class-health-check-debug-data.php:399
+msgid "PHP max input variables"
+msgstr "PHP 輸入變數最大值"
+
+#: includes/class-health-check-debug-data.php:403
+msgid "PHP time limit"
+msgstr "PHP 執行時間限制"
+
+#: includes/class-health-check-debug-data.php:407
+msgid "PHP memory limit"
+msgstr "PHP 可存取的記憶體限制"
+
+#: includes/class-health-check-debug-data.php:415
+msgid "Upload max filesize"
+msgstr "單一檔案上傳大小上限"
+
+#: includes/class-health-check-debug-data.php:419
+msgid "PHP post max size"
+msgstr "PHP 個別內容儲存大小限制"
+
+#: includes/class-health-check-debug-data.php:427
+#: includes/class-health-check-debug-data.php:432
+msgid "cURL Version"
+msgstr "cURL 版本"
+
+#: includes/class-health-check-debug-data.php:433
+msgid "Your server does not support cURL"
+msgstr "這台伺服器不支援 cURL"
+
+#: includes/class-health-check-debug-data.php:438
+msgid "SUHOSIN installed"
+msgstr "是否已安裝 SUHOSIN"
+
+#: includes/class-health-check-debug-data.php:443
+msgid "Is the Imagick library available"
+msgstr "是否提供 Imagick 程式庫"
+
+#: includes/class-health-check-debug-data.php:497
+msgid "Extension"
+msgstr "延伸模組"
+
+#: includes/class-health-check-debug-data.php:501
+msgid "Server version"
+msgstr "伺服器版本"
+
+#: includes/class-health-check-debug-data.php:505
+msgid "Client version"
+msgstr "用戶端版本"
+
+#: includes/class-health-check-debug-data.php:509
+msgid "Database user"
+msgstr "資料庫使用者名稱"
+
+#: includes/class-health-check-debug-data.php:514
+msgid "Database host"
+msgstr "資料庫主機"
+
+#: includes/class-health-check-debug-data.php:524
+msgid "Database prefix"
+msgstr "資料庫前綴詞"
+
+#. translators: %1$s: Plugin version number. %2$s: Plugin author name.
+#. translators: %1$s: Theme version number. %2$s: Theme author name.
+#: includes/class-health-check-debug-data.php:539
+#: includes/class-health-check-debug-data.php:570
+#: includes/class-health-check-debug-data.php:660
+msgid "Version %1$s by %2$s"
+msgstr "%1$s 版，開發者為 %2$s"
+
+#: includes/class-health-check-debug-data.php:615
+msgid "Name"
+msgstr "名稱"
+
+#: includes/class-health-check-debug-data.php:625
+msgid "Author"
+msgstr "開發者"
+
+#: includes/class-health-check-debug-data.php:630
+msgid "Author website"
+msgstr "開發者網站"
+
+#: includes/class-health-check-debug-data.php:634
+msgid "Parent theme"
+msgstr "上層佈景主題"
+
+#: includes/class-health-check-debug-data.php:635
+msgid "Not a child theme"
+msgstr "不是子佈景主題"
+
+#: includes/class-health-check-debug-data.php:638
+msgid "Supported theme features"
+msgstr "支援的佈景主題功能"
+
+#. translators: %1$s: Theme name. %2$s: Theme slug.
+#: includes/class-health-check-debug-data.php:681
+msgid "%1$s (%2$s)"
+msgstr "%1$s (代稱: %2$s)"
+
+#: includes/class-health-check-debug-data.php:693
+msgid "The Must Use Plugins directory"
+msgstr "mu-plugins 目錄"
+
+#. translators: %1$s: Current PHP version. %2$s: Recommended PHP version. %3$s:
+#. Minimum PHP version.
+#: includes/class-health-check-site-status.php:393
+msgid "Your version of PHP, %1$s, is very outdated and no longer receiving security updates and is not supported by WordPress. You should contact your host for an upgrade, WordPress recommends using PHP version %2$s, but will work with version %3$s or newer."
+msgstr "目前網站主機所使用的 PHP %1$s 版太過老舊，已無法接收安全性更新且 WordPress 不再支援。請聯絡這個網站的主機服務商進行更新，WordPress 建議使用 PHP %2$s 版，但也可以執行於 PHP %3$s 版或更新版本。"
+
+#: includes/class-health-check-site-status.php:448
+msgid "The PHP install on your server has the JSON extension disabled and is therefore not compatible with WordPress 3.2 or newer."
+msgstr "這個網站主機的 PHP 環境停用了 JSON 延伸模組，因此與 WordPress 3.2 版或更新版本不相容。"
+
+#: includes/class-health-check-site-status.php:453
+msgid "Your PHP install supports JSON."
+msgstr "網站主機上的 PHP 環境支援 JSON。"
+
+#. translators: %1$s: The database engine in use (MySQL or MariaDB). %2$s:
+#. Database server recommended version number.
+#: includes/class-health-check-site-status.php:468
+msgid "For performance and security reasons, we strongly recommend running %1$s version %2$s or higher."
+msgstr "由於效能及安全性因素，強烈建議網站搭配 %1$s %2$s 版或更新版本執行。"
+
+#. translators: %s: The name of the database engine being used.
+#: includes/class-health-check-site-status.php:489
+msgid "You are using a <code>wp-content/db.php</code> drop-in which might mean that a %s database is not being used."
+msgstr "這個網站目前使用了 <code>wp-content/db.php</code> 增強外掛，這代表這個網站可能沒有使用 %s 資料庫。"
+
+#. translators: %s: Number of version.
+#: includes/class-health-check-site-status.php:518
+msgid "WordPress' utf8mb4 support requires MySQL version %s or greater"
+msgstr "WordPress 的 utf8mb4 支援須要 MySQL %s 版或更新版本。"
+
+#: includes/class-health-check-site-status.php:525
+msgid "Your MySQL version supports utf8mb4"
+msgstr "目前執行的 MySQL 版本支援 utf8mb4。"
+
+#. translators: %s: Number of version.
+#: includes/class-health-check-site-status.php:534
+msgid "WordPress' utf8mb4 support requires MariaDB version %s or greater"
+msgstr "WordPress 的 utf8mb4 支援須要 MariaDB %s 版或更新版本。"
+
+#: includes/class-health-check-site-status.php:541
+msgid "Your MariaDB version supports utf8mb4"
+msgstr "目前執行的 MariaDB 版本支援 utf8mb4。"
+
+#. translators: %1$s: Name of the library, %2$s: Number of version.
+#: includes/class-health-check-site-status.php:565
+#: includes/class-health-check-site-status.php:577
+msgid "WordPress' utf8mb4 support requires MySQL client library (%1$s) version %2$s or newer."
+msgstr "WordPress 的 utf8mb4 支援須要 MySQL 的用戶端程式庫 %1$s %2$s 版或更新版本。"
+
+#: includes/class-health-check-site-status.php:593
+msgid "WordPress.org is reachable from your server."
+msgstr "目前的伺服器可順利連線至 WordPress.org。"
+
+#: includes/class-health-check-site-status.php:625
+msgid "You are accessing this website using HTTPS."
+msgstr "目前你正以 HTTPS 存取這個網站。"
+
+#: includes/class-health-check-site-status.php:631
+msgid "You are not using HTTPS to access this website."
+msgstr "目前你不是以 HTTPS 存取這個網站。"
+
+#: includes/class-health-check.php:315
+msgid "Debug Information"
+msgstr "偵錯資訊"
+
+#: includes/class-health-check.php:317
+msgid "PHP Information"
+msgstr "PHP 資訊"
+
+#: pages/debug-data.php:21
+msgid "The system information shown below can also be copied and pasted into support requests such as on the WordPress.org forums, or to your theme and plugin developers."
+msgstr "進行技術支援要求時，可複製顯示於下方的系統資訊並貼上至對應的位置，例如 WordPress.org 技術支援論壇、佈景主題及外掛的開發者。"
+
+#: pages/debug-data.php:24
+msgid "Show copy and paste field"
+msgstr "顯示複製/貼上欄位"
+
+#: pages/debug-data.php:84 pages/debug-data.php:136
+msgid "Some information may be filtered out from the list you are about to copy, this is information that may be considered private, and is not meant to be shared in a public forum."
+msgstr "某些資訊會從複製的內容中加以排除，因為這些資訊視同私密資料，並不適合分享於公開論壇。"
+
+#: pages/debug-data.php:86 pages/debug-data.php:138
+msgid "Mark field for copying"
+msgstr "複製欄位內容"
+
+#: pages/debug-data.php:219
+msgid "Return to table of contents"
+msgstr "返回目錄"
+
+#: pages/phpinfo.php:18
+msgid "The phpinfo() function has been disabled by your host. Please contact the host if you need more information about your setup."
+msgstr "這個網站的主機停用了 phpinfo() 函式。如果需要更多關於這個網站的設定資訊，請聯絡網站主機服務商。"
+
+#: pages/phpinfo.php:26
+msgid "Some scenarios require you to look up more detailed server configurations than what is normally required. This page allows you to view all available configuration options for your PHP setup. Please be advised that WordPress does not guarantee that any information shown on this page may not be considered private."
+msgstr "某些狀況會要求網站管理員提供比一般所需更詳細的伺服器設定資料，而這個頁面能讓網站管理員檢視目前網站主機 PHP 環境中所有可用的設定及其設定值。請注意，WordPress 不保證顯示於這個頁面的資訊，其他第三方不會視為私密資訊。"
+
+#: pages/site-status.php:16
+msgid "The health check shows critical information about your WordPress configuration and items that require your attention."
+msgstr "[網站健康度檢查] 顯示了這個 WordPress 網站的設定及需要注意的項目的關鍵資訊。"
+
+#: pages/site-status.php:60
+msgid "JSON Extension"
+msgstr "JSON 延伸模組"
+
+#: pages/site-status.php:67
+msgid "MySQL utf8mb4 support"
+msgstr "MySQL utf8mb4 支援"
+
+#: pages/site-status.php:81
+msgid "HTTPS status"
+msgstr "HTTPS 狀態"
+
+#. #-#-#-#-#  health-check-code.pot (Health Check & Troubleshooting 1.2.1) 
+#. #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  health-check-code.pot (Health Check & Troubleshooting 1.2.1) 
+#. #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://wordpress.org/plugins/health-check/"
+msgstr "https://wordpress.org/plugins/health-check/"
+
+#. Author of the plugin/theme
+msgid "The WordPress.org community"
+msgstr "The WordPress.org community"
+
+#. Description of the plugin/theme
+msgid "Checks the health of your WordPress install."
+msgstr "為 WordPress 網站進行健康度檢查。"
