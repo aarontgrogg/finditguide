@@ -3,25 +3,42 @@
 Theme Name: PointFinder Child Theme
 Description: PointFinder Child Theme for your Customizations
 Author: Aaron T. Grogg, AdvantiPro GmbH
-Template: pointfinder
+Template: twentyseventeen
+Text Domain:  pointfinder-child
 Version: 1.0
 */
 
 
+$ap_parent_style = 'twentyseventeen';
+
 /**
  * 	Enqueue Parent & Child CSS
  */
-	if ( ! function_exists( 'ap_theme_enqueue_styles' ) ) :
-		function ap_theme_enqueue_styles() {
+	function ap_kill_default_css() {
+		wp_dequeue_style( $ap_parent_style.'-style-css' );
+	}
+	add_action( 'wp_print_styles', 'ap_kill_default_css', 999 );
+	if ( ! function_exists( 'ap_enqueue_theme_styles' ) ) :
+		function ap_enqueue_theme_styles() {
 		    // parent theme Template
-		    $parent_style = 'pointfinder';
 		    // enqueue parent CSS
-		    wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
+		    wp_enqueue_style( $ap_parent_style, get_template_directory_uri() . '/style.css' );
 		    // enqueue child CSS, if any
-		    //wp_enqueue_style( 'pointfinder-child', get_stylesheet_directory_uri() . '/style.css', array( $parent_style ) );
+		    wp_enqueue_style( 'pointfinder-child', get_stylesheet_directory_uri() . '/style.css', array( $ap_parent_style ) );
 		}
 	endif;
-	add_action( 'wp_enqueue_scripts', 'ap_theme_enqueue_styles' );
+	add_action( 'wp_enqueue_scripts', 'ap_enqueue_theme_styles' );
+
+/**
+ * Enqueue custom JS
+ */
+    if ( ! function_exists( 'ap_enqueue_custom_js' )) :
+		function ap_enqueue_custom_js() {
+			wp_register_script('ap_custom_js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), '1.1', true);
+			wp_enqueue_script('ap_custom_js');
+		}
+    endif; // ap_enqueue_custom_js
+	//add_action( 'wp_enqueue_scripts', 'ap_enqueue_custom_js' );
 
 /**
  * 	Remove version info from head and feeds
@@ -192,16 +209,5 @@ Version: 1.0
 		}
 	endif; // ap_modify_post_thumbnail_html
 	add_filter('post_thumbnail_html', 'ap_modify_post_thumbnail_html', 99, 5);
-
-/**
- * Add custom JS
- */
-    if ( ! function_exists( 'ap_add_custom_js' )) :
-		function ap_add_custom_js() {
-			wp_register_script('ap_custom_js', get_stylesheet_directory_uri() . '/scripts.js', array('jquery'), '1.1', true);
-			wp_enqueue_script('ap_custom_js');
-		}
-    endif; // ap_add_custom_js
-	add_action( 'wp_enqueue_scripts', 'ap_add_custom_js' );
 
 ?>
